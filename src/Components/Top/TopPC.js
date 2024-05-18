@@ -6,7 +6,6 @@ const TopPC = () => {
     <div className={styles.entireTop}>
         <div className={styles.topContainer}>
             <div className={styles.topImage}>
-                
             </div>
             <div className={styles.topTextContainer}>
                 <div className={styles.topTextTitle}>
@@ -16,7 +15,7 @@ const TopPC = () => {
                     Software Engineer
                 </div>
                 <div className={styles.topTextSubTitle}>
-                Front-end engineer based in PA, USA
+                    Front-end engineer based in PA, USA
                 </div>
                 <div className={styles.separator}/>
                 <div className={styles.topContactBox}>
