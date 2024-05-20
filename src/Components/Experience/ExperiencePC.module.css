@@ -1,0 +1,137 @@
+.entireExp {
+    display: flex;
+    padding: 120px 160px;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+    background: #F5F5F0;
+}
+
+.expContainer {
+    display: flex;
+    padding: 120px 160px;
+    justify-content: space-between;
+    align-self: stretch;
+    max-width: 1440px;
+    width: 100%;
+    gap: 112px;
+}
+
+.profExp {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.profExpHeader {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%; /* 28px */
+    margin-bottom: 14px;
+}
+
+.profExpItems {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+}
+
+.profExpItem {
+    display: flex;
+    padding: 28px 0px;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+    border-bottom: 1px solid #E4E5DA;
+}
+
+.profExpItemImgContainer1 {
+    display: flex;
+    padding: 12px 11px 9px 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.profExpItemImgContainer2 {
+    display: flex;
+    height: 52px;
+    padding: 0px 6px 0px 9px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background: #FFF;
+}
+
+.profExpItemImgContainer3 {
+    display: flex;
+    height: 52px;
+    padding: 0px 6px 0px 9px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background: #FFF;
+}
+
+.profExpItemImg1 {
+    width: 31px;
+    height: 31px;
+    background: url(../../assets/Images/profExpItemImg1.png) gray 50% / cover no-repeat;
+}
+
+.profExpItemImg2 {
+    width: 37px;
+    height: 13px;
+    background: url(../../assets/Images/profExpItemImg2A.png) rgb(255, 255, 255) -0.337px 0px / 99.256% 100% no-repeat;
+}
+
+.profExpItemImg3 {
+    width: 30px;
+    height: 30px;
+    flex-shrink: 0;
+    background: url(../../assets/Images/profExpItemImg3.png) rgb(255, 255, 255) 50% / cover no-repeat;
+}
+
+
+.profExpText {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    flex: 1 0 0;
+}
+
+.profExpTitle {
+    color: #000;
+    font-family: Verdana;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.profExpDates {
+    color: #707070;
+    font-family: Verdana;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 13px */
+}
+
+
+
+
+.certifications {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: blue
+}

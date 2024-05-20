@@ -51,6 +51,8 @@
 
 .navULliItem:hover {
     cursor: pointer;
+    color: green;
+    transition: 0.25s;
 }
 
 .navULliItemTalkBox {

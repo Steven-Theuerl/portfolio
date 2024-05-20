@@ -1,5 +1,4 @@
 .entireWork {
- 
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -16,12 +15,11 @@
 }
 
 .workTitle {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  max-width: 880px;
-  width: 100%;
-
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    max-width: 880px;
+    width: 100%;
     color: #000;
     font-family: Montserrat;
     font-size: 32px;
@@ -41,23 +39,35 @@
 }
 
 .workContent1Image {
-    background: url(../../assets/Images/workContent1Image.png) rgb(0, 154, 206) 0% / cover no-repeat;
+    background: url(../../assets/Images/workContent1Image.png) rgb(255, 255, 255) 0% / cover no-repeat;
     display: flex;
     padding: 37px 87.464px 0px 167px;
     justify-content: flex-end;
     align-items: center;
     align-self: stretch;
     height: 323px;
+    border-radius: 4px;
+}
+
+.workContent1Image:hover {
+    opacity: .775;
+    cursor: pointer;
 }
 
 .workContent2Image {
-    background: url(../../assets/Images/workContent2Image.png) rgb(0, 154, 206) 0% / cover no-repeat;
+    background: url(../../assets/Images/workContent2Image.png) rgb(255, 255, 255) 0% / cover no-repeat;
     display: flex;
     padding: 37px 87.464px 0px 167px;
     justify-content: flex-end;
     align-items: center;
     align-self: stretch;
     height: 323px;
+    border-radius: 4px;
+}
+
+.workContent2Image:hover {
+    opacity: .775;
+    cursor: pointer;
 }
 
 .workText1 {
@@ -72,7 +82,13 @@
     font-style: normal;
     font-weight: 500;
     line-height: 130%; /* 28.6px */
-  
+    margin-top: 8px;
+}
+
+.workText1Title:hover {
+    cursor: pointer;
+    color: green;
+    transition: 0.25s;
 }
 
 .workText2 {
@@ -82,7 +98,6 @@
     font-style: normal;
     font-weight: 400;
     line-height: 160%; /* 25.6px */
-   
 }
 
 .workText3 {
@@ -101,4 +116,10 @@
     background: #F5F5F0;
     border: none;
     gap: 8px;
+    color: #777;
+    font-family: Verdana;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%; /* 15.6px */
 }
