@@ -1,7 +1,7 @@
 import React from 'react'
-import styles from '../About/AboutPC.module.css'
+import styles from '../About/About.module.css'
 
-const AboutPC = () => {
+const About = () => {
   return (
     <div className={styles.entireAbout}>
         <div className={styles.aboutContainer}>
@@ -81,4 +81,4 @@ const AboutPC = () => {
   )
 }
 
-export default AboutPC
+export default About

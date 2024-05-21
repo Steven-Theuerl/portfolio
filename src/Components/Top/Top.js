@@ -1,11 +1,16 @@
 import React from 'react'
-import styles from './TopPC.module.css'
+import styles from './Top.module.css'
 
-const TopPC = () => {
+import TopAnimation from '../../assets/Animations/TopAnimation.js'
+
+const Top = () => {
+
+
   return (
     <div className={styles.entireTop}>
         <div className={styles.topContainer}>
             <div className={styles.topImage}>
+                <TopAnimation/>
             </div>
             <div className={styles.topTextContainer}>
                 <div className={styles.topTextTitle}>
@@ -45,4 +50,4 @@ const TopPC = () => {
   )
 }
 
-export default TopPC
+export default Top

@@ -1,7 +1,7 @@
 import React from 'react'
-import styles from './NavbarPC.module.css'
+import styles from './Navbar.module.css'
 
-const NavbarPC = () => {
+const Navbar = () => {
   return (
     <div className={styles.entireNavbar}>
         <div className={styles.navContainer}>
@@ -22,4 +22,4 @@ const NavbarPC = () => {
   )
 }
 
-export default NavbarPC
+export default Navbar

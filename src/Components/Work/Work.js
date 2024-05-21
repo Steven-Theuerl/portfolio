@@ -1,7 +1,7 @@
 import React from 'react'
-import styles from '../Work/WorkPC.module.css'
+import styles from '../Work/Work.module.css'
 
-const WorkPC = () => {
+const Work = () => {
   return (
     <div className={styles.entireWork}>
         <div className={styles.workContentContainer}>
@@ -87,4 +87,4 @@ const WorkPC = () => {
   )
 }
 
-export default WorkPC
+export default Work

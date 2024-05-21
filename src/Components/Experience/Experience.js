@@ -1,14 +1,14 @@
 import React from 'react'
 
-import styles from '../Experience/ExperiencePC.module.css'
+import styles from '../Experience/Experience.module.css'
 
-const ExperiencePC = () => {
+const Experience = () => {
   return (
     <div className={styles.entireExp}>
         <div className={styles.expContainer}>
             <div className={styles.profExp}>
                 <div className={styles.profExpHeader}>
-                    Professional Experience
+                    Work Experience
                 </div>
                 <div className={styles.profExpItems}>
                     <div className={styles.profExpItem}>
@@ -81,4 +81,4 @@ const ExperiencePC = () => {
   )
 }
 
-export default ExperiencePC
+export default Experience

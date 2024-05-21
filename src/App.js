@@ -2,12 +2,12 @@ import React from 'react'
 import { useMediaQuery } from 'react-responsive'
 import styles from './App.css'
 
-import NavbarPC from './Components/Navbar/NavbarPC'
-import TopPC from './Components/Top/TopPC'
-import WorkPC from './Components/Work/WorkPC'
-import ExperiencePC from './Components/Experience/ExperiencePC'
-import AboutPC from './Components/About/AboutPC'
-import FooterPC from './Components/Footer/FooterPC'
+import Navbar from './Components/Navbar/Navbar'
+import Top from './Components/Top/Top'
+import Work from './Components/Work/Work'
+import Experience from './Components/Experience/Experience'
+import About from './Components/About/About'
+import Footer from './Components/Footer/Footer'
 
 
 
@@ -17,12 +17,12 @@ const App = () => {
 
   return (
     <>
-      {isPC && <NavbarPC/>}
-      {isPC && <TopPC/>}
-      {isPC && <WorkPC/>}
-      {isPC && <ExperiencePC/>}
-      {isPC && <AboutPC/>}
-      {isPC && <FooterPC/>}
+      <Navbar/>
+      <Top/>
+      <Work/>
+      <Experience/>
+      <About/>
+      <Footer/>
       {isMobile && <p>You are a tablet or mobile phone</p>}
     </>
   )

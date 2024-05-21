@@ -10,7 +10,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    ;
 }
 
 .topContainer{
@@ -21,18 +20,14 @@
     justify-content: space-between;
     align-items: center;
     align-self: stretch;
-    gap: 8px;
+    gap: 40px;
 }
 
 .topImage {
     display: flex;
-    width: 408px;
-    height: 236px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 8px;
-    background: url(../../assets/Images/topImage.png) rgb(255, 255, 255) 50% / cover no-repeat;
 }
 
 .topTextContainer {

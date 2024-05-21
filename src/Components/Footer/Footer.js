@@ -1,7 +1,7 @@
 import React from 'react'
-import styles from '../Footer/FooterPC.module.css'
+import styles from '../Footer/Footer.module.css'
 
-const FooterPC = () => {
+const Footer = () => {
   return (
     <div className={styles.entireFooter}>
         <div className={styles.footerContainer}>
@@ -43,4 +43,4 @@ const FooterPC = () => {
   )
 }
 
-export default FooterPC
+export default Footer
