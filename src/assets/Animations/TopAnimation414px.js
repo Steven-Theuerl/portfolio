@@ -19,9 +19,10 @@ export default class LottieControl extends  React.Component {
             preserveAspectRatio: 'xMidYMid slice'
           }
         };
-return (<div >
+return (
+<div >
     <Lottie options={defaultOptions}
-            height={200}
-            width={400}/>
+            height={120}
+            width={240}/>
 </div>)
       }}
