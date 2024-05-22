@@ -13,7 +13,7 @@
         max-width: 414px;
         align-items: center;
         justify-content: center;
-       gap: 16px;
+    
     }
 
     .workTitle {
@@ -33,9 +33,18 @@
         padding: 32px 0px;
         flex-direction: column;
         align-items: flex-start;
-        gap: 16px;
+        gap: 8px;
         align-self: stretch;
         border-bottom: 1px solid #E4E5DA;
+    }
+    
+    .workContentImageContainer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        width: 100%;
+        background-color: #927336
     }
 
     .workContent1Image {
@@ -59,7 +68,7 @@
         justify-content: center;
         align-items: center;
         align-self: stretch;
-        width: 343px;
+        width: 100%;
         height: 140px;
         border-radius: 4px;
     }
@@ -75,6 +84,7 @@
         align-items: flex-start;
         gap: 8px;
         align-self: stretch;
+        padding-top: 8px;
     }
 
     .workText1Title {
@@ -171,6 +181,7 @@
         border-bottom: 1px solid #E4E5DA;
         padding: 32px 0px;
     }
+
 
     .workContent1Image {
         background: url(../../assets/Images/workContent1ImagePC.png) rgb(255, 255, 255) 0% / cover no-repeat;

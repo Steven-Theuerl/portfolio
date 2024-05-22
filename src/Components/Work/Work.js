@@ -10,7 +10,7 @@ const Work = () => {
             </div>
 
             <div className={styles.workContent1}>
-                <div className={styles.workContent1Image}/>
+                    <div className={styles.workContent1Image}/>
                 <div className={styles.workText1}>
                     <span className={styles.workText1Title}>Unilife <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M8 15L6.93125 13.95L11.1312 9.75H2V8.25H11.1312L6.93125 4.05L8 3L14 9L8 15Z" fill="green"/>
@@ -40,7 +40,8 @@ const Work = () => {
                 </div>
             </div>
             <div className={styles.workContent1}>
-                <div className={styles.workContent1Image}/>
+               
+                    <div className={styles.workContent1Image}/>
                 <div className={styles.workText1}>
                     <span className={styles.workText1Title}>Unilife <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M8 15L6.93125 13.95L11.1312 9.75H2V8.25H11.1312L6.93125 4.05L8 3L14 9L8 15Z" fill="green"/></svg>
