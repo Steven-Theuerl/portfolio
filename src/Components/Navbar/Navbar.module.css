@@ -13,7 +13,8 @@
 
     .navContainer {
         display: flex;
-        width: 375px;
+        width: 100%;
+        max-width: 414px;
         height: 72px;
         padding: 0px 16px;
         flex-direction: row;
@@ -33,10 +34,118 @@
 
 }
 
+@media screen and (min-width: 415px) and (max-width: 847px) {
+    .navUL {
+        display: none;
+    }
 
+    .entireNavbar {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 
+    .navContainer {
+        display: flex;
+        width: 100%;
+        max-width: 846px;
+        height: 72px;
+        padding: 0px 32px;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
 
+    .navSignature {
+        color: #111;
+        font-family: Montserrat;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 120%; /* 16.8px */
+        letter-spacing: 0.42px;
+    }
+}
 
+@media screen and (min-width: 848px) and (max-width: 1279px) {
+
+    .navMenuContainer {
+        display: none;
+    }
+
+    .entireNavbar {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .navContainer {
+        display: flex;
+        padding: 16px 40px;
+        justify-content: space-between;
+        align-items: center;
+        align-self: stretch;
+        background-color: #FFFFFF;
+        height: 44px;
+        width: 1360px;
+    }
+
+    .navSignature {
+        color: #111;
+        font-family: Montserrat;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 100%; /* 18px */
+        letter-spacing: 0.54px;
+    }
+
+    .navUL {
+        display: flex;
+        align-items: center;
+        gap: 32px;
+    }
+
+    .navULContainer {
+        display: flex;
+        align-items: center;
+        gap: 32px;
+        text-decoration: none;
+    }
+
+    .navULliItem {
+        color: #111;
+        font-family: Verdana;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 100%; /* 14px */
+        list-style: none;
+    }
+
+    .navULliItem:hover {
+        cursor: pointer;
+        color: green;
+        transition: 0.25s;
+    }
+
+    .navULliItemTalkBox {
+        display: flex;
+        height: 44px;
+        padding: 15px 17px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        background: #111;
+        color: white;
+        border: none;
+    }
+
+    .navULliItemTalkBox:hover {
+        cursor: pointer;
+    }
+}
 
 @media screen and (min-width: 1280px) {
 
@@ -116,4 +225,5 @@
     .navULliItemTalkBox:hover {
         cursor: pointer;
     }
+
 }

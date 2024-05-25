@@ -4,10 +4,14 @@ import { useMediaQuery } from 'react-responsive'
 
 import TopAnimation1280px from '../../assets/Animations/TopAnimation1280px.js'
 import TopAnimation414px from '../../assets/Animations/TopAnimation414px.js'
+import TopAnimation415px from '../../assets/Animations/TopAnimation415px.js'
+import TopAnimation848px from '../../assets/Animations/TopAnimation848px.js'
 
 const Top = () => {
 
     const is1280 = useMediaQuery({query: '(min-width: 1280px)'})
+    const is848 = useMediaQuery({minWidth: 848, maxWidth: 1279})
+    const is415 = useMediaQuery({minWidth: 415, maxWidth: 847})
     const is414 = useMediaQuery({ query: '(max-width: 414px)' })
 
   return (
@@ -15,6 +19,8 @@ const Top = () => {
         <div className={styles.topContainer}>
             <div className={styles.topImage}>
                 {is1280 && <TopAnimation1280px/>}
+                {is848 && <TopAnimation848px/>}
+                {is415 && <TopAnimation415px/>}
                 {is414 && <TopAnimation414px/>}
             </div>
             <div className={styles.topTextContainer}>

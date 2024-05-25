@@ -11,8 +11,8 @@ const Footer = () => {
                 </div>
                 <div className={styles.footerLinks}>
                     <div className={styles.footerInPageLinks}>
-                      <div className={styles.footerInPageLink}>About</div>
-                      <div className={styles.footerInPageLink}>Work</div>
+                      <div className={styles.footerInPageLink}><span>About</span></div>
+                      <div className={styles.footerInPageLink}><span>Work</span></div>
                       <div></div>
                     </div>
                     <div className={styles.footerExternalLinks}>
