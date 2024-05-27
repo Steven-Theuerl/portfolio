@@ -71,7 +71,7 @@
         width: 22px;
         height: 22px;
         flex-shrink: 0;
-        background: url(../../assets/Images/topContactBox3Logo2.png) rgb(255, 255, 255) 1% / cover no-repeat;
+        background: url(../../../../assets/Images/topContactBox3Logo2.png) rgb(255, 255, 255) 1% / cover no-repeat;
     }
 
     .topContactBox3Logo2 {
@@ -172,7 +172,7 @@
         width: 22px;
         height: 22px;
         flex-shrink: 0;
-        background: url(../../assets/Images/topContactBox3Logo2.png) rgb(255, 255, 255) 1% / cover no-repeat;
+        background: url(../../../../assets/Images/topContactBox3Logo2.png) rgb(255, 255, 255) 1% / cover no-repeat;
     }
 
     .topContactBox3Logo2 {
@@ -219,7 +219,8 @@
 
     .topContainer{
         display: flex;
-        width: 880px;
+        max-width: 780px;
+        width: 100%;
         height: 328px;
         padding: 64px 0px;
         justify-content: space-between;
@@ -318,7 +319,7 @@
         width: 22px;
         height: 22px;
         flex-shrink: 0;
-        background: url(../../assets/Images/topContactBox3Logo2.png) rgb(255, 255, 255) 1% / cover no-repeat;
+        background: url(../../../../assets/Images/topContactBox3Logo2.png) rgb(255, 255, 255) 1% / cover no-repeat;
     }
 
     .topContactBox3Logo2 {
@@ -451,7 +452,7 @@
         width: 22px;
         height: 22px;
         flex-shrink: 0;
-        background: url(../../assets/Images/topContactBox3Logo2.png) rgb(255, 255, 255) 1% / cover no-repeat;
+        background: url(../../../../assets/Images/topContactBox3Logo2.png) rgb(255, 255, 255) 1% / cover no-repeat;
     }
 
     .topContactBox3Logo2 {

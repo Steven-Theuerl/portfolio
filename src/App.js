@@ -2,13 +2,8 @@ import React from 'react'
 import { useMediaQuery } from 'react-responsive'
 import styles from './App.css'
 
-import Navbar from './Components/Navbar/Navbar'
-import Top from './Components/Top/Top'
-import Work from './Components/Work/Work'
-import Experience from './Components/Experience/Experience'
-import About from './Components/About/About'
-import Footer from './Components/Footer/Footer'
-
+import HomeGroup from './Components/Groups/HomeGroup'
+import WorkGroup from './Components/Groups/WorkGroup'
 
 
 const App = () => {
@@ -17,12 +12,7 @@ const App = () => {
 
   return (
     <>
-      <Navbar/>
-      <Top/>
-      <Work/>
-      <Experience/>
-      <About/>
-      <Footer/>
+     <HomeGroup/>
     </>
   )
 }

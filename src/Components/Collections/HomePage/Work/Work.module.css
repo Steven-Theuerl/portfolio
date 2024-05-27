@@ -1,4 +1,3 @@
-
 @media screen and (max-width: 414px) {
     .entireWork {
         display: flex;
@@ -38,7 +37,7 @@
     }
 
     .workContent1Image {
-        background: url(../../assets/Images/workContent1ImageMobile.png) #ffaa00 0% / cover no-repeat;
+        background: url(../../../../assets/Images/workContent1ImageMobile.png) #ffaa00 0% / cover no-repeat;
         display: flex;
         justify-content: center;
         padding-top: 10px;
@@ -54,7 +53,7 @@
     }
 
     .workContent2Image {
-        background: url(../../assets/Images/workContent2ImageMobile.png) #ffaa00 0% / cover no-repeat;
+        background: url(../../../../assets/Images/workContent2ImageMobile.png) #ffaa00 0% / cover no-repeat;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -142,7 +141,7 @@
         flex-direction: column;
         padding: 0px 16px 64px 16px;
         width: 100%;
-        max-width: 414px;
+        max-width: 650px;
         align-items: center;
         justify-content: center;
     }
@@ -167,10 +166,12 @@
         gap: 8px;
         align-self: stretch;
         border-bottom: 1px solid #E4E5DA;
+        width: 100%;
+        max-width: 750px;
     }
 
     .workContent1Image {
-        background: url(../../assets/Images/workContent1ImageMobile.png) #ffaa00 0% / cover no-repeat;
+        background: url(../../../../assets/Images/workContent1ImageMobile.png) #ffaa00 0% / cover no-repeat;
         display: flex;
         justify-content: center;
         padding-top: 10px;
@@ -186,7 +187,7 @@
     }
 
     .workContent2Image {
-        background: url(../../assets/Images/workContent2ImageMobile.png) #ffaa00 0% / cover no-repeat;
+        background: url(../../../../assets/Images/workContent2ImageMobile.png) #ffaa00 0% / cover no-repeat;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -274,9 +275,9 @@
     .workContentContainer {
         display: flex;
         flex-direction: column;
-        padding: 64px 0px 120px 0px;
+        padding: 16px 0px 88px 0px;
         gap: 40px;
-        max-width: 880px;
+        max-width: 780px;
         width: 100%;
         margin-left: 280px;
         margin-right: 280px;
@@ -308,7 +309,7 @@
 
 
     .workContent1Image {
-        background: url(../../assets/Images/workContent1ImagePC.png) rgb(255, 255, 255) 0% / cover no-repeat;
+        background: url(../../../../assets/Images/workContent1ImagePC.png) rgb(255, 255, 255) 0% / cover no-repeat;
         display: flex;
         padding: 37px 87.464px 0px 167px;
         justify-content: flex-end;
@@ -324,7 +325,7 @@
     }
 
     .workContent2Image {
-        background: url(../../assets/Images/workContent2ImagePC.png) rgb(255, 255, 255) 0% / cover no-repeat;
+        background: url(../../../../assets/Images/workContent2ImagePC.png) rgb(255, 255, 255) 0% / cover no-repeat;
         display: flex;
         padding: 37px 87.464px 0px 167px;
         justify-content: flex-end;
@@ -440,7 +441,7 @@
 
 
     .workContent1Image {
-        background: url(../../assets/Images/workContent1ImagePC.png) rgb(255, 255, 255) 0% / cover no-repeat;
+        background: url(../../../../assets/Images/workContent1ImagePC.png) rgb(255, 255, 255) 0% / cover no-repeat;
         display: flex;
         padding: 37px 87.464px 0px 167px;
         justify-content: flex-end;
@@ -456,7 +457,7 @@
     }
 
     .workContent2Image {
-        background: url(../../assets/Images/workContent2ImagePC.png) rgb(255, 255, 255) 0% / cover no-repeat;
+        background: url(../../../../assets/Images/workContent2ImagePC.png) rgb(255, 255, 255) 0% / cover no-repeat;
         display: flex;
         padding: 37px 87.464px 0px 167px;
         justify-content: flex-end;

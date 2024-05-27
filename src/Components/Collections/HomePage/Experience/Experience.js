@@ -9,7 +9,7 @@ const Experience = () => {
         <div className={styles.expContainer}>
             <div className={styles.profExp}>
                 <div className={styles.profExpHeader}>
-                    Work Experience
+                    Experience
                 </div>
                 <div className={styles.profExpItems}>
                     <div className={styles.profExpItem}>

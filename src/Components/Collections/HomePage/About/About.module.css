@@ -25,7 +25,7 @@
     }
 
     .aboutImgContainer {
-        background: url(../../assets/Images/topImage.png) rgb(255, 255, 255) 50% / cover no-repeat;
+        background: url(../../../../assets/Images/topImage.png) rgb(255, 255, 255) 50% / cover no-repeat;
         display: flex;
         padding: 64px 16px;
         flex-direction: column;
@@ -216,7 +216,7 @@
     }
 
     .aboutImgContainer {
-        background: url(../../assets/Images/topImage.png) rgb(255, 255, 255) 50% / cover no-repeat;
+        background: url(../../../../assets/Images/topImage.png) rgb(255, 255, 255) 50% / cover no-repeat;
         display: flex;
         padding: 64px 16px;
         flex-direction: column;
@@ -408,7 +408,7 @@
     }
     
     .aboutImgContainer {
-        background: url(../../assets/Images/topImage.png) rgb(255, 255, 255) 50% / cover no-repeat;
+        background: url(../../../../assets/Images/topImage.png) rgb(255, 255, 255) 50% / cover no-repeat;
         display: flex;
         width: 236px;
         height: 224px;
@@ -595,7 +595,7 @@
     }
     
     .aboutImgContainer {
-        background: url(../../assets/Images/topImage.png) rgb(255, 255, 255) 50% / cover no-repeat;
+        background: url(../../../../assets/Images/topImage.png) rgb(255, 255, 255) 50% / cover no-repeat;
         display: flex;
         width: 236px;
         height: 224px;

@@ -1,11 +1,11 @@
 import React from 'react'
-import styles from './Top.module.css'
+import styles from '../Top/Top.module.css'
 import { useMediaQuery } from 'react-responsive'
 
-import TopAnimation1280px from '../../assets/Animations/TopAnimation1280px.js'
-import TopAnimation414px from '../../assets/Animations/TopAnimation414px.js'
-import TopAnimation415px from '../../assets/Animations/TopAnimation415px.js'
-import TopAnimation848px from '../../assets/Animations/TopAnimation848px.js'
+import TopAnimation1280px from '../../../../assets/Animations/TopAnimation1280px.js'
+import TopAnimation414px from '../../../../assets/Animations/TopAnimation414px.js'
+import TopAnimation415px from '../../../../assets/Animations/TopAnimation415px.js'
+import TopAnimation848px from '../../../../assets/Animations/TopAnimation848px.js'
 
 const Top = () => {
 
@@ -25,7 +25,7 @@ const Top = () => {
             </div>
             <div className={styles.topTextContainer}>
                 <div className={styles.topTextTitle}>
-                    Steven Theuerl <br></br>Software Engineer
+                    Steven Theuerl<br/>Software Engineer
                 </div>
                 <div className={styles.topTextSubTitle}>
                     Front-end engineer based in PA, USA

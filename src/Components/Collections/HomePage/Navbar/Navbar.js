@@ -1,11 +1,8 @@
 import React from 'react'
 import { useState } from 'react'
-import styles from './Navbar.module.css'
+import styles from '../Navbar/Navbar.module.css'
 
 const Navbar = () => {
-    
-
-
 
     const [nav,setNav] = useState(false)
 
