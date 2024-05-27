@@ -23,7 +23,6 @@ const App = () => {
       <Experience/>
       <About/>
       <Footer/>
-      {isMobile && <p>You are a tablet or mobile phone</p>}
     </>
   )
 }

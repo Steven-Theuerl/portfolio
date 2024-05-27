@@ -274,10 +274,12 @@
     .workContentContainer {
         display: flex;
         flex-direction: column;
-        padding: 64px 280px 120px 280px;
+        padding: 64px 0px 120px 0px;
         gap: 40px;
-        width: 100%;
         max-width: 880px;
+        width: 100%;
+        margin-left: 280px;
+        margin-right: 280px;
     }
 
     .workTitle {
@@ -404,11 +406,13 @@
     .workContentContainer {
         display: flex;
         flex-direction: column;
-        padding: 64px 280px 120px 280px;
+        padding: 64px 0px 120px 0px;
         gap: 40px;
         width: 100%;
         max-width: 880px;
-    }
+        margin-left: 280px;
+        margin-right: 280px;
+}
 
     .workTitle {
         display: flex;
