@@ -1,0 +1,36 @@
+@media screen and (max-width: 414px) {
+    
+}
+
+@media screen and (min-width: 415px) and (max-width: 847px) {
+    
+}
+
+@media screen and (min-width: 848px) and (max-width: 1279px) {
+    
+}
+
+@media screen and (min-width: 1280px) {
+    .entireHero {
+        margin-top: 76px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 64px 200px 0px 200px;
+    }
+
+    .heroContainer {
+
+    }
+
+    .heroImageContainer {
+
+    }
+
+    .heroImage {
+        background-color: #C9CBB5;
+        width: 1040px;
+        height: 480px;
+        align-self: stretch;
+    }
+}
