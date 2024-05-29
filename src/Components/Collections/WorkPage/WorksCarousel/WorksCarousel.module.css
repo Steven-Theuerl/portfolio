@@ -29,7 +29,6 @@
         align-self: stretch;
         width: 1040px;
         height: 469px;
-        
     }
 
     .worksCarouselTopBar {
@@ -58,6 +57,14 @@
     .worksCarouselSlider {
         border: none;
         background-color: transparent;
+        border-radius: 100px;
+        transition: 0.25s;
+    }
+
+    .worksCarouselSlider:hover {
+        background-color: rgb(250, 250, 250);
+        cursor: pointer;
+        transition: 0.5s;
     }
 
     .mediaScroller {
@@ -70,10 +77,11 @@
         scroll-snap-type: inline mandatory;
     }
 
+    /* needs attention, snapping not working */
+
     .mediaScoller > * {
         scroll-snap-align: middle;
     }
-
 
     .worksCarouselCard {
         display: flex;
@@ -146,7 +154,7 @@
 
     .worksCarouselLeaveButtonContainer {
         display: flex;
-        padding: 120px 600px;
+        padding: 120px 1000px;
         flex-direction: column;
         align-items: center;
         gap: 64px;

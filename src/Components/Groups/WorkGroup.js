@@ -7,6 +7,8 @@ import WorksCarousel from '../Collections/WorkPage/WorksCarousel/WorksCarousel'
 import Footer from '../Collections/HomePage/Footer/Footer'
 
 const WorkGroup = () => {
+
+
   return (
     <>
         <Navbar/>
