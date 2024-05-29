@@ -7,6 +7,9 @@ const WorksBody = () => {
         <div className={styles.worksBodyContainer}>
             Hey
         </div>
+        <div className={styles.otherWorksCarousel}>
+
+        </div>
     </div>
   )
 }
