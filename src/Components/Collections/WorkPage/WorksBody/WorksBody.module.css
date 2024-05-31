@@ -16,7 +16,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-       
+        font-family: verdana;
     }
 
     .worksBodyContainer {
@@ -25,8 +25,152 @@
         flex-direction: column;
         align-items: flex-start;
         gap: 64px;
+        max-width: 800px;
+        width: 100%;
         align-self: stretch;
-        background-color: red;
     }
 
+    .worksBodyKeyPointsContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 24px;
+        align-self: stretch;
+    }
+
+    .worksBodyKeyPointsHeader {
+        color: #111;
+        font-family: Montserrat;
+        font-size: 26px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 160%; /* 41.6px */
+        align-self: stretch;
+    }
+
+    .worksBodyKeyPointsDescription {
+        color: #111;
+        font-family: "Verdana";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%; /* 28.8px */
+        align-self: stretch;
+    }
+
+    .worksBodyKeyPointsDetailContainer {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        align-self: stretch;
+    }
+
+    .worksBodyKeyPointsDetailBulletContainer {
+        display: flex;
+        padding-top: 16px;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        align-self: stretch;
+    }
+
+    .worksBodyKeyPointsDetailBullet {
+        width: 8px;
+        height: 1px;
+        background: #8D8D8D;
+    }
+
+    .worksBodyKeyPointsDetailAndAnchorContainer {
+        gap: 4px;
+    }
+
+    .worksBodyKeyPointsDetail {
+        flex: 1 0 0;
+        color: #111;
+        font-family: "Verdana";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%; /* 28.8px */
+    }
+
+    .worksBodyAnchor {
+        color: #279070;
+        font-family: Verdana;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%; /* 28.8px */
+        text-decoration: none;
+        align-self: stretch;
+    }
+
+    .worksBodyCodeWindow {
+        display: flex;
+        flex-direction: row;
+        width: 801px;
+        height: 442px;
+        border: solid 1px #E4E5DA;;
+        border-radius: 4px;
+        font-size: 18px;
+    }
+
+   .worksBodyCodeWindow1Image {
+        background-image: url(../../../../assets/Images/WorksBodyCodeWindow1Image.png);
+        height: 100%;
+        width: 100%;
+        border-radius: 4px;
+   }
+
+   .worksBodyCodeWindow2Image {
+        background-image: url(../../../../assets/Images/WorksBodyCodeWindow2Image.png);
+        height: 100%;
+        width: 100%;
+        border-radius: 4px;
+    }
+
+    .worksBodyDesignImageBox {
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       gap: 16px;
+    }
+
+    .worksBodyDesignImageContainer1 {
+        width: 838px;
+        height: 638px;
+    }
+
+    .worksBodyDesignImage1 {
+        background: url(../../../../assets/Images/worksBodyDesignImage1.png) lightgray 50% / cover no-repeat;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100%;
+        border-radius: 4px;
+    }
+
+    .worksBodyDesignImageBoxSubtext {
+        color: #4B4B4B;
+        text-align: center;
+        font-family: "Verdana";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%; /* 25.6px */
+    }
+
+    .worksBodyDesignImageContainer2 {
+        width: 800px;
+        height: 577px;
+        margin-top: -16px;
+    }
+
+    .worksBodyDesignImage2 {
+        background: url(../../../../assets/Images/worksBodyDesignImage2.png) lightgray 50% / cover no-repeat;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100%;
+        border-radius: 4px;
+    }
 }

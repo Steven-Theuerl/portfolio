@@ -17,7 +17,7 @@ const WorksCarousel = () => {
                                     })}}>
                             <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <rect x="0.5" y="0.5" width="43" height="43" rx="21.5" stroke="#E4E5DA"/>
-                            <path d="M25 17L22 19.5L19 22L25 27" stroke="#111111" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M25 17L22 19.5L19 22L25 27" stroke="#111111" strokeLinecap="round" strokeLinejoin="round"/>
                             </svg>
                         </button>
                         <button className={styles.worksCarouselSlider} id='slideRight'
@@ -27,7 +27,7 @@ const WorksCarousel = () => {
                                 })}>
                             <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <rect x="-0.5" y="0.5" width="43" height="43" rx="21.5" transform="matrix(-1 0 0 1 43 0)" stroke="#E4E5DA"/>
-                            <path d="M19 17L22 19.5L25 22L19 27" stroke="#111111" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M19 17L22 19.5L25 22L19 27" stroke="#111111" strokeLinecap="round" strokeLinejoin="round"/>
                             </svg>
                         </button>
                     </div>
