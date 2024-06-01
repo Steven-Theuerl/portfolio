@@ -8,7 +8,9 @@ const About = () => {
             <div className={styles.aboutTitleText}>
                 <span>About</span>
             </div>
-            <div className={styles.aboutImgContainer}/>
+            <div className={styles.aboutImgContainer}>
+                <div className={styles.aboutImg}/>
+            </div>
             <div className={styles.aboutHeaderText}>
                 <span>Hello! I’m Steven. </span>
             </div>

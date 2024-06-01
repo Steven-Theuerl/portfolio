@@ -6,17 +6,21 @@ const WorksHeader = () => {
     <div className={styles.entireWorksAbout}>
         <div className={styles.worksHeaderContainer}>
             <div className={styles.worksHeaderTopContainer}>
-                <span className={styles.tag}>Website</span>
-                <span className={styles.projectTitle}>My Portfolio</span>
-                <span className={styles.projectDescription}>
+                <div className={styles.tag}><span>Website</span></div>
+                <div className={styles.projectTitle}><span >My Portfolio</span></div>
+                <div  className={styles.projectDescription}>
+                    <span>
                     Thank you, you're looking at my portfolio right now. Not only is it simple and the content is easy to read, but it also shows what makes me unique.
-                </span>
-                <button className={styles.projectVisitButton}>
+                    </span>
+                </div>
+                <div className={styles.projectVisitButtonContainer}>
+                    <button className={styles.projectVisitButton}>
                     Visit this website
                     <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M2.64645 10.6464C2.45118 10.8417 2.45118 11.1583 2.64645 11.3536C2.84171 11.5488 3.15829 11.5488 3.35355 11.3536L2.64645 10.6464ZM9.86396 4.63604C9.86396 4.3599 9.6401 4.13604 9.36396 4.13604L4.86396 4.13604C4.58782 4.13604 4.36396 4.3599 4.36396 4.63604C4.36396 4.91218 4.58782 5.13604 4.86396 5.13604L8.86396 5.13604L8.86396 9.13604C8.86396 9.41218 9.08782 9.63604 9.36396 9.63604C9.6401 9.63604 9.86396 9.41218 9.86396 9.13604L9.86396 4.63604ZM3.35355 11.3536L9.71751 4.98959L9.01041 4.28249L2.64645 10.6464L3.35355 11.3536Z" fill="green"/>
                     </svg>
-                 </button>
+                    </button>
+                </div>
             </div>
             <div className={styles.worksHeaderBottomContainer}>
                <div className={styles.workHeaderDetailsContainer}>
@@ -36,7 +40,8 @@ const WorksHeader = () => {
                     </div>
                     <div className={styles.workDetailsType}>Duration</div>
                     <span className={styles.workDetailsDetails}>May 2024 - June 2024</span>
-               </div> <div className={styles.workHeaderDetailsContainer}>
+               </div>
+               <div className={styles.workHeaderDetailsContainer}>
                     <div className={styles.workDetailsImagesContainer}>
                     <svg className={styles.workDetailsImages}width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M15 7.125V5.625C15 4.8 14.325 4.125 13.5 4.125H11.25C11.25 2.88 10.245 1.875 9 1.875C7.755 1.875 6.75 2.88 6.75 4.125H4.5C3.675 4.125 3 4.8 3 5.625V7.125C1.755 7.125 0.75 8.13 0.75 9.375C0.75 10.62 1.755 11.625 3 11.625V14.625C3 15.45 3.675 16.125 4.5 16.125H13.5C14.325 16.125 15 15.45 15 14.625V11.625C16.245 11.625 17.25 10.62 17.25 9.375C17.25 8.13 16.245 7.125 15 7.125ZM13.5 14.625H4.5V5.625H13.5V14.625ZM6.75 10.125C6.1275 10.125 5.625 9.6225 5.625 9C5.625 8.3775 6.1275 7.875 6.75 7.875C7.3725 7.875 7.875 8.3775 7.875 9C7.875 9.6225 7.3725 10.125 6.75 10.125ZM12.375 9C12.375 9.6225 11.8725 10.125 11.25 10.125C10.6275 10.125 10.125 9.6225 10.125 9C10.125 8.3775 10.6275 7.875 11.25 7.875C11.8725 7.875 12.375 8.3775 12.375 9ZM6 11.625H12V13.125H6V11.625Z" fill="#8D8D8D"/>
