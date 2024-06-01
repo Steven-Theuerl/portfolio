@@ -1,4 +1,167 @@
 @media screen and (max-width: 414px) {
+    .entireWorksCarousel {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-top: 1px solid #E4E5DA;
+        border-bottom: 1px solid #E4E5DA;
+    }
+
+    .worksCarouselContainer {
+        display: grid;
+        margin: 40px 0px;
+        justify-content: center;
+        align-items: center;
+        gap: 24px;
+        align-self: stretch;
+    }
+
+    .worksCarouselTopBar {
+        display: flex;
+        width: 343px;
+        padding: 0px 16px;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .worksCarouselTitle {
+        color: #111;
+        font-family: Montserrat;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 160%; /* 28.8px */
+    }
+
+    .worksCarouselButtons {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        padding-right: 4px;
+    }
+
+    .worksCarouselSlider {
+        width: 44px;
+        height: 44px;
+        stroke-width: 1px;
+        stroke: #E4E5DA;
+        border: none;
+        background-color: transparent;
+    }
+
+    .mediaScroller {
+        display: grid;
+        padding-left: 16px;
+        margin-right: 16px;
+        gap: 224px;
+        grid-auto-flow: column;
+        grid-auto-columns: 20%;
+        overflow: hidden;
+        overscroll-behavior-inline: contain;
+        scroll-snap-type: inline mandatory;
+    }
+
+    /* needs attention, snapping not working */
+
+    .worksCarouselCard {
+        display: flex;
+        width: 280px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+    }
+
+    .worksCarouselCardImage1 {
+        background: url(../../../../assets/Images/workContent1ImagePC.png);
+        width: 280px;
+        height: 152px;
+        background-size: contain;
+        border-radius: 4px;
+    }
+
+    .worksCarouselCardImage2 {
+        background: url(../../../../assets/Images/workContent2ImagePC.png);
+        width: 280px;
+        height: 152px;
+        background-size: contain;
+        border-radius: 4px;
+    }
+
+    .worksTextHeader {
+        display: flex;
+        align-items: center;
+        gap: 4px;
+        align-self: stretch;
+        color: #111;
+        font-family: Montserrat;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 130%; /* 28.6px */
+    }
+
+    .worksTextHeader:hover {
+        cursor: pointer;
+        color: #279070;
+        transition: 0.25s;
+    }
+
+    .worksTextDescription {
+        color: #777;
+        font-family: Verdana;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%; /* 25.6px */
+    }
+
+    .worksTextTagsContainer {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .worksTextTags {
+        display: flex;
+        padding: 6px 10px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        border-radius: 10px;
+        background: #F5F5F0;
+        color: #777;
+        font-family: Verdana;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 130%; /* 15.6px */
+    }
+
+    .worksCarouselLeaveButtonContainer {
+        display: flex;
+        padding: 64px 16px;
+        flex-direction: column;
+        align-items: center;
+        gap: 32px;
+        align-self: stretch;
+    }
+
+    .backToHomeButton {
+        display: flex;
+        height: 44px;
+        padding: 15px 43.5px 15px 37.5px;
+        align-items: center;
+        border-radius: 10px;
+        border: 1px solid #E4E5DA;
+        background-color: transparent;
+        color: #111;
+        font-family: "Noto Sans";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 100%; /* 14px */
+    }
 
 }
 
