@@ -61,6 +61,88 @@ const WorksCarousel = () => {
                 </div>
                 <div id="mediaScroller" className={styles.mediaScroller}>
                     <div className={styles.worksCarouselCard}>
+                        <div className={styles.worksCarouselCardImageContainer}>
+                            <div className={styles.worksCarouselCardImage1}/>
+                        </div>
+                        <div className={styles.worksTextHeader}>
+                            <span>Portfolio</span>
+                            <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M8 15L6.93125 13.95L11.1312 9.75H2V8.25H11.1312L6.93125 4.05L8 3L14 9L8 15Z" fill="green"/>
+                            </svg>
+                        </div>
+                        <div className={styles.worksTextDescription}>
+                        Not only is it simple and the content is easy to read, but it also shows what makes me unique. The design was designed by my wife :)
+                        </div>
+                        <div className={styles.worksTextTagsContainer}>
+                            <div className={styles.worksTextTags}>
+                                React
+                            </div>
+                            <div className={styles.worksTextTags}>
+                                JavaScript
+                            </div>
+                        </div> 
+                    </div>
+                    <div className={styles.worksCarouselCard}>
+                        <div className={styles.worksCarouselCardImage2}/>
+                        <div className={styles.worksTextHeader}>
+                            <span>Portfolio</span>
+                            <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M8 15L6.93125 13.95L11.1312 9.75H2V8.25H11.1312L6.93125 4.05L8 3L14 9L8 15Z" fill="green"/>
+                            </svg>
+                        </div>
+                        <div className={styles.worksTextDescription}>
+                        Not only is it simple and the content is easy to read, but it also shows what makes me unique. The design was designed by my wife :)
+                        </div>
+                        <div className={styles.worksTextTagsContainer}>
+                            <div className={styles.worksTextTags}>
+                                React
+                            </div>
+                            <div className={styles.worksTextTags}>
+                                JavaScript
+                            </div>
+                        </div> 
+                    </div>
+                    <div className={styles.worksCarouselCard}>
+                        <div className={styles.worksCarouselCardImage1}/>
+                        <div className={styles.worksTextHeader}>
+                            <span>Portfolio</span>
+                            <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M8 15L6.93125 13.95L11.1312 9.75H2V8.25H11.1312L6.93125 4.05L8 3L14 9L8 15Z" fill="green"/>
+                            </svg>
+                        </div>
+                        <div className={styles.worksTextDescription}>
+                        Not only is it simple and the content is easy to read, but it also shows what makes me unique. The design was designed by my wife :)
+                        </div>
+                        <div className={styles.worksTextTagsContainer}>
+                            <div className={styles.worksTextTags}>
+                                React
+                            </div>
+                            <div className={styles.worksTextTags}>
+                                JavaScript
+                            </div>
+                        </div> 
+                    </div>
+                    <div className={styles.worksCarouselCard}>
+                        <div className={styles.worksCarouselCardImage2}/>
+                        <div className={styles.worksTextHeader}>
+                            <span>Portfolio</span>
+                            <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M8 15L6.93125 13.95L11.1312 9.75H2V8.25H11.1312L6.93125 4.05L8 3L14 9L8 15Z" fill="green"/>
+                            </svg>
+                        </div>
+                        <div className={styles.worksTextDescription}>
+                        Not only is it simple and the content is easy to read, but it also shows what makes me unique. The design was designed by my wife :)
+                        </div>
+                        <div className={styles.worksTextTagsContainer}>
+                            <div className={styles.worksTextTags}>
+                                React
+                            </div>
+                            <div className={styles.worksTextTags}>
+                                JavaScript
+                            </div>
+                        </div> 
+                    </div>
+                    <div className={styles.worksCarouselCard}>
                         <div className={styles.worksCarouselCardImage1}/>
                         <div className={styles.worksTextHeader}>
                             <span>Portfolio</span>
@@ -140,91 +222,6 @@ const WorksCarousel = () => {
                             </div>
                         </div> 
                     </div>
-
-                    <div className={styles.worksCarouselCard}>
-                        <div className={styles.worksCarouselCardImage1}/>
-                        <div className={styles.worksTextHeader}>
-                            <span>Portfolio</span>
-                            <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M8 15L6.93125 13.95L11.1312 9.75H2V8.25H11.1312L6.93125 4.05L8 3L14 9L8 15Z" fill="green"/>
-                            </svg>
-                        </div>
-                        <div className={styles.worksTextDescription}>
-                        Not only is it simple and the content is easy to read, but it also shows what makes me unique. The design was designed by my wife :)
-                        </div>
-                        <div className={styles.worksTextTagsContainer}>
-                            <div className={styles.worksTextTags}>
-                                React
-                            </div>
-                            <div className={styles.worksTextTags}>
-                                JavaScript
-                            </div>
-                        </div> 
-                    </div>
-
-                    <div className={styles.worksCarouselCard}>
-                        <div className={styles.worksCarouselCardImage2}/>
-                        <div className={styles.worksTextHeader}>
-                            <span>Portfolio</span>
-                            <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M8 15L6.93125 13.95L11.1312 9.75H2V8.25H11.1312L6.93125 4.05L8 3L14 9L8 15Z" fill="green"/>
-                            </svg>
-                        </div>
-                        <div className={styles.worksTextDescription}>
-                        Not only is it simple and the content is easy to read, but it also shows what makes me unique. The design was designed by my wife :)
-                        </div>
-                        <div className={styles.worksTextTagsContainer}>
-                            <div className={styles.worksTextTags}>
-                                React
-                            </div>
-                            <div className={styles.worksTextTags}>
-                                JavaScript
-                            </div>
-                        </div> 
-                    </div>
-
-                    <div className={styles.worksCarouselCard}>
-                        <div className={styles.worksCarouselCardImage1}/>
-                        <div className={styles.worksTextHeader}>
-                            <span>Portfolio</span>
-                            <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M8 15L6.93125 13.95L11.1312 9.75H2V8.25H11.1312L6.93125 4.05L8 3L14 9L8 15Z" fill="green"/>
-                            </svg>
-                        </div>
-                        <div className={styles.worksTextDescription}>
-                        Not only is it simple and the content is easy to read, but it also shows what makes me unique. The design was designed by my wife :)
-                        </div>
-                        <div className={styles.worksTextTagsContainer}>
-                            <div className={styles.worksTextTags}>
-                                React
-                            </div>
-                            <div className={styles.worksTextTags}>
-                                JavaScript
-                            </div>
-                        </div> 
-                    </div>
-
-                    <div className={styles.worksCarouselCard}>
-                        <div className={styles.worksCarouselCardImage2}/>
-                        <div className={styles.worksTextHeader}>
-                            <span>Portfolio</span>
-                            <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M8 15L6.93125 13.95L11.1312 9.75H2V8.25H11.1312L6.93125 4.05L8 3L14 9L8 15Z" fill="green"/>
-                            </svg>
-                        </div>
-                        <div className={styles.worksTextDescription}>
-                        Not only is it simple and the content is easy to read, but it also shows what makes me unique. The design was designed by my wife :)
-                        </div>
-                        <div className={styles.worksTextTagsContainer}>
-                            <div className={styles.worksTextTags}>
-                                React
-                            </div>
-                            <div className={styles.worksTextTags}>
-                                JavaScript
-                            </div>
-                        </div> 
-                    </div>
-
                     <div className={styles.worksCarouselCard}>
                         <div className={styles.worksCarouselCardImage1}/>
                         <div className={styles.worksTextHeader}>

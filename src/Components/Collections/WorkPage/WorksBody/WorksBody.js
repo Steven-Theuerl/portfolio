@@ -137,7 +137,7 @@ const WorksBody = () => {
                         <div className={styles.worksBodyKeyPointsDetailBullet}/>
                     </div>
                     <span className={styles.worksBodyKeyPointsDetail}>
-                    Gathered research and information about other Front end dev portfolios
+                    <b>Gathered research</b> and information about other Front end dev portfolios
                     </span>
                 </div>
                 <div className={styles.worksBodyKeyPointsDetailContainer}>
@@ -145,7 +145,7 @@ const WorksBody = () => {
                         <div className={styles.worksBodyKeyPointsDetailBullet}/>
                     </div>
                     <span className={styles.worksBodyKeyPointsDetail}>
-                        Ensured the project was of a responsive design and styled with influence from trends in modern web development.
+                        Ensured the project was of a <b>responsive design</b> and styled with influence from trends in <br/><b>modern web development</b>.
                     </span>
                 </div>
                 <div className={styles.worksBodyKeyPointsDetailContainer}>
@@ -153,7 +153,7 @@ const WorksBody = () => {
                         <div className={styles.worksBodyKeyPointsDetailBullet}/>
                     </div>
                     <span className={styles.worksBodyKeyPointsDetail}>
-                        Became familiar with collaboration technologies such as Vercel, Figma, and Docker.
+                        Became familiar with <b>collaboration</b> technologies such as <b>Vercel</b>, <b>Figma</b>, and <b>Docker</b>.
                     </span>
                 </div>
                 <div className={styles.worksBodyKeyPointsDetailContainer}>
@@ -161,11 +161,11 @@ const WorksBody = () => {
                         <div className={styles.worksBodyKeyPointsDetailBullet}/>
                     </div>
                     <span className={styles.worksBodyKeyPointsDetail}>
-                        Created an original character based on my personal qualities and characteristics. 
+                        Created an <b>original character</b> inspired by my personal qualities and characteristics. 
                     </span>
                 </div>
             </div>
-            <div className={styles.worksBodyDesignImageBox}>
+            <div className={styles.worksBodyDesignImageBox1}>
                     <div className={styles.worksBodyDesignImageContainer1}>
                         <div className={styles.worksBodyDesignImage1}/>
                     </div>
@@ -173,7 +173,7 @@ const WorksBody = () => {
                         <span>Figma - Design files and Design System</span>
                     </div>
                 </div>
-            <div className={styles.worksBodyDesignImageBox}>
+            <div className={styles.worksBodyDesignImageBox2}>
                     <div className={styles.worksBodyDesignImageContainer2}>
                         <div className={styles.worksBodyDesignImage2}/>
                     </div>

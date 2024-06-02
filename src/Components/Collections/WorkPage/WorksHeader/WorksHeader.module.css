@@ -138,11 +138,11 @@
         justify-content: center;
         align-items: center;
         border-bottom: 1px solid #E4E5DA;
+        padding: 40px 320px 64px 320px;
     }
 
     .worksHeaderContainer {
         display: flex;
-        margin: 40px 320px 64px 320px;
         flex-direction: column;
         gap: 32px;
         align-self: stretch;
