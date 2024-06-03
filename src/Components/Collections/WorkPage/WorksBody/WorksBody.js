@@ -102,7 +102,7 @@ const WorksBody = () => {
                     </div>
                     <div className={styles.worksBodyKeyPointsDetailAndAnchorContainer}>
                     <span className={styles.worksBodyKeyPointsDetail}>
-                    <b>react-lottie</b> : for JSON animation data being displayed on page <br/>
+                        <b>react-lottie</b> : for JSON animation data being displayed on page <br/>
                         <a className={styles.worksBodyAnchor} href='https://www.npmjs.com/package/react-lottie'>https://www.npmjs.com/package/react-lottie</a>
                     </span>
                     </div>

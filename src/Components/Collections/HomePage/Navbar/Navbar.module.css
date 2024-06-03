@@ -445,6 +445,7 @@
         align-items: center;
         justify-content: center;
         width: 100%;
+        max-width: 1440px;
         background-color: white;
         z-index: 100;
         top: 0;
@@ -453,13 +454,12 @@
 
     .navContainer {
         display: flex;
-        padding: 16px 40px;
         justify-content: space-between;
         align-items: center;
-        align-self: stretch;
         height: 44px;
         width: 100%;
-        max-width: 1280px;
+        max-width: 1440px;
+        padding: 16px 40px;
     }
 
     .navSignature {
