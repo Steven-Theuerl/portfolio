@@ -161,7 +161,7 @@ const WorksBody = () => {
                         <div className={styles.worksBodyKeyPointsDetailBullet}/>
                     </div>
                     <span className={styles.worksBodyKeyPointsDetail}>
-                        Created an <b>original character</b> inspired by my personal qualities and characteristics. 
+                        Created an <b>original character</b> inspired by my personal qualities and characteristics.
                     </span>
                 </div>
             </div>

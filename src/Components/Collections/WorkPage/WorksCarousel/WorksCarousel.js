@@ -80,7 +80,7 @@ const WorksCarousel = () => {
                             <div className={styles.worksTextTags}>
                                 JavaScript
                             </div>
-                        </div> 
+                        </div>
                     </div>
                     <div className={styles.worksCarouselCard}>
                         <div className={styles.worksCarouselCardImage2}/>

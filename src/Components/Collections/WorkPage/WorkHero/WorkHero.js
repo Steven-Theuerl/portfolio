@@ -8,7 +8,6 @@ const WorkHero = () => {
 
   return (
     <>
-    {}
     <div className={styles.entireHero}>
         <div className={styles.heroContainer}>
             <div className={styles.heroVideoStyleBar}>

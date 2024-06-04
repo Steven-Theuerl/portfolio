@@ -12,6 +12,7 @@ const App = () => {
 
   return (
     <>
+        <HomeGroup/>
         <WorkGroup/>
     </>
   )
