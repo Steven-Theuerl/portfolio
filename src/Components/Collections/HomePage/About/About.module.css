@@ -201,7 +201,7 @@
 
     .aboutContainer {
         display: flex;
-        padding: 64px 16px;
+        padding: 64px 40px;
         flex-direction: column;
         align-items: center;
         gap: 40px;
@@ -221,12 +221,11 @@
     .aboutImgContainer {
         background: url(../../../../assets/Images/topImage.png) rgb(255, 255, 255) 50% / cover no-repeat;
         display: flex;
-        padding: 64px 16px;
         flex-direction: column;
         align-items: center;
         gap: 40px;
-        width: 210.363px;
-        height: 48.22px;
+        width: 320px;
+        height: 160px;
     }
 
     .aboutHeaderText {
@@ -386,7 +385,7 @@
 @media screen and (min-width: 848px) and (max-width: 1279px) {
     .entireAbout {
         display: flex;
-        padding: 64px 280px 120px 280px;
+        padding: 64px 140px 120px 140px;
         align-items: center;
         justify-content: center;
     }
@@ -413,13 +412,12 @@
     .aboutImgContainer {
         background: url(../../../../assets/Images/topImage.png) rgb(255, 255, 255) 50% / cover no-repeat;
         display: flex;
-        width: 236px;
+        width: 380px;
         height: 224px;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         gap: 8px;
-        border-radius: 400px 400px 0px 0px;
     }
     
     .aboutHeaderText {

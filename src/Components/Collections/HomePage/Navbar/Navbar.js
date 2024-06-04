@@ -4,7 +4,7 @@ import styles from '../Navbar/Navbar.module.css'
 
 const Navbar = () => {
 
-    const [nav,setNav] = useState(false)
+    const [nav,setNav] = useState(false);
 
   return (
     <div className={styles.navAndMenu}>
