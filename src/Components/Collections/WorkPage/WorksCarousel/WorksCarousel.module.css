@@ -76,20 +76,28 @@
     }
 
     .worksCarouselCardImage1 {
-        background: url(../../../../assets/Images/workContent1ImagePC.png);
-        width: 100%;
-        height: 100%;
+        background: url(../../../../assets/Images/topImage.png);
         background-size: contain;
-        background-position-x: center;
+        background-position: 8px;
+        background-repeat: no-repeat;
         align-self: stretch;
+        background-color: rgb(245, 245, 245);
+        height: 100%;
+        width: 100%;
+        margin-bottom: 8px;
         border-radius: 4px;
     }
 
     .worksCarouselCardImage2 {
-        background: url(../../../../assets/Images/workContent2ImagePC.png);
-        width: 280px;
-        height: 152px;
+        background: url(../../../../assets/Images/topImage.png);
         background-size: contain;
+        background-position: 8px;
+        background-repeat: no-repeat;
+        align-self: stretch;
+        background-color: rgb(153, 153, 153);
+        height: 100%;
+        width: 100%;
+        margin-bottom: 8px;
         border-radius: 4px;
     }
 
@@ -408,7 +416,7 @@
 
     .mediaScroller {
         display: grid;
-        gap: 176px;
+        gap: 146px;
         grid-auto-flow: column;
         grid-auto-columns: 24%;
         overflow: hidden;
@@ -427,32 +435,42 @@
         flex-direction: column;
         align-items: flex-start;
         gap: 8px;
-        width: 320px;
-        height: 385px;
-        scroll-snap-align: middle;
+        width: 310px;
+        height: 355px;
         border-radius: 4px;
     }
 
     .worksCarouselCardImageContainer {
         display: flex;
-        width: 100%;
-        height: 240px;
+        justify-content: center;
+        align-items: center;
+        height: 192px;
+        width: 300px;
+        border-radius: 4px;
     }
 
     .worksCarouselCardImage1 {
-        background: url(../../../../assets/Images/workContent1ImagePC.png);
-        height: 192px;
+        background: url(../../../../assets/Images/topImage.png);
+        background-size: contain;
+        background-position: 8px;
+        background-repeat: no-repeat;
+        align-self: stretch;
+        background-color: rgb(245, 245, 245);
+        height: 100%;
         width: 100%;
-        max-width: 420px;
         margin-bottom: 8px;
         border-radius: 4px;
     }
 
     .worksCarouselCardImage2 {
-        background: url(../../../../assets/Images/workContent2ImagePC.png);
-        height: 230px;
+        background: url(../../../../assets/Images/topImage.png);
+        background-size: contain;
+        background-position: 8px;
+        background-repeat: no-repeat;
+        align-self: stretch;
+        background-color: rgb(153, 153, 153);
+        height: 100%;
         width: 100%;
-        max-width: 420px;
         margin-bottom: 8px;
         border-radius: 4px;
     }
@@ -602,7 +620,7 @@
 
     .mediaScroller {
         display: grid;
-        gap: 160px;
+        gap: 152px;
         grid-auto-flow: column;
         grid-auto-columns: 21%;
         overflow: hidden;
@@ -623,22 +641,41 @@
         gap: 8px;
         width: 343px;
         height: 385px;
-        scroll-snap-align: middle;
+        border-radius: 4px;
+    }
+
+    .worksCarouselCardImageContainer {
+        display: flex;
+        flex-grow: 1;
+        justify-content: center;
+        align-items: center;
+        height: 192px;
+        width: 343px;
         border-radius: 4px;
     }
 
     .worksCarouselCardImage1 {
-        background: url(../../../../assets/Images/workContent1ImagePC.png);
-        height: 192px;
-        width: 343px;
+        background: url(../../../../assets/Images/topImage.png);
+        background-size: contain;
+        background-position: 8px;
+        background-repeat: no-repeat;
+        align-self: stretch;
+        background-color: rgb(245, 245, 245);
+        height: 100%;
+        width: 100%;
         margin-bottom: 8px;
         border-radius: 4px;
     }
 
     .worksCarouselCardImage2 {
-        background: url(../../../../assets/Images/workContent2ImagePC.png);
-        height: 192px;
-        width: 343px;
+        background: url(../../../../assets/Images/topImage.png);
+        background-size: contain;
+        background-position: 8px;
+        background-repeat: no-repeat;
+        align-self: stretch;
+        background-color: rgb(153, 153, 153);
+        height: 100%;
+        width: 100%;
         margin-bottom: 8px;
         border-radius: 4px;
     }

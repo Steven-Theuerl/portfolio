@@ -83,7 +83,9 @@ const WorksCarousel = () => {
                         </div>
                     </div>
                     <div className={styles.worksCarouselCard}>
-                        <div className={styles.worksCarouselCardImage2}/>
+                    <div className={styles.worksCarouselCardImageContainer}>
+                            <div className={styles.worksCarouselCardImage2}/>
+                        </div>
                         <div className={styles.worksTextHeader}>
                             <span>Portfolio</span>
                             <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -103,7 +105,9 @@ const WorksCarousel = () => {
                         </div> 
                     </div>
                     <div className={styles.worksCarouselCard}>
-                        <div className={styles.worksCarouselCardImage1}/>
+                        <div className={styles.worksCarouselCardImageContainer}>
+                            <div className={styles.worksCarouselCardImage1}/>
+                        </div>
                         <div className={styles.worksTextHeader}>
                             <span>Portfolio</span>
                             <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -123,7 +127,9 @@ const WorksCarousel = () => {
                         </div> 
                     </div>
                     <div className={styles.worksCarouselCard}>
-                        <div className={styles.worksCarouselCardImage2}/>
+                        <div className={styles.worksCarouselCardImageContainer}>
+                            <div className={styles.worksCarouselCardImage2}/>
+                        </div>
                         <div className={styles.worksTextHeader}>
                             <span>Portfolio</span>
                             <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -143,7 +149,9 @@ const WorksCarousel = () => {
                         </div> 
                     </div>
                     <div className={styles.worksCarouselCard}>
-                        <div className={styles.worksCarouselCardImage1}/>
+                        <div className={styles.worksCarouselCardImageContainer}>
+                            <div className={styles.worksCarouselCardImage1}/>
+                        </div>
                         <div className={styles.worksTextHeader}>
                             <span>Portfolio</span>
                             <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -163,7 +171,9 @@ const WorksCarousel = () => {
                         </div> 
                     </div>
                     <div className={styles.worksCarouselCard}>
-                        <div className={styles.worksCarouselCardImage2}/>
+                        <div className={styles.worksCarouselCardImageContainer}>
+                            <div className={styles.worksCarouselCardImage2}/>
+                        </div>
                         <div className={styles.worksTextHeader}>
                             <span>Portfolio</span>
                             <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -183,7 +193,9 @@ const WorksCarousel = () => {
                         </div> 
                     </div>
                     <div className={styles.worksCarouselCard}>
-                        <div className={styles.worksCarouselCardImage1}/>
+                        <div className={styles.worksCarouselCardImageContainer}>
+                            <div className={styles.worksCarouselCardImage1}/>
+                        </div>
                         <div className={styles.worksTextHeader}>
                             <span>Portfolio</span>
                             <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -203,7 +215,9 @@ const WorksCarousel = () => {
                         </div> 
                     </div>
                     <div className={styles.worksCarouselCard}>
-                        <div className={styles.worksCarouselCardImage2}/>
+                        <div className={styles.worksCarouselCardImageContainer}>
+                            <div className={styles.worksCarouselCardImage2}/>
+                        </div>
                         <div className={styles.worksTextHeader}>
                             <span>Portfolio</span>
                             <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -223,7 +237,9 @@ const WorksCarousel = () => {
                         </div> 
                     </div>
                     <div className={styles.worksCarouselCard}>
-                        <div className={styles.worksCarouselCardImage1}/>
+                        <div className={styles.worksCarouselCardImageContainer}>
+                            <div className={styles.worksCarouselCardImage1}/>
+                        </div>
                         <div className={styles.worksTextHeader}>
                             <span>Portfolio</span>
                             <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
