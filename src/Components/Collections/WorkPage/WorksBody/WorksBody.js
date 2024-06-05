@@ -39,7 +39,7 @@ const WorksBody = () => {
                     </span>
                 </div>
             </div>
-            <div className={styles.worksBodyCodeWindow}>
+            <div className={styles.worksBodyCodeWindow1}>
                 <div className={styles.worksBodyCodeWindow1Image}/>
             {/*
                <pre>
@@ -108,7 +108,7 @@ const WorksBody = () => {
                     </div>
                 </div>
             </div>
-            <div className={styles.worksBodyCodeWindow}>
+            <div className={styles.worksBodyCodeWindow2}>
                 <div className={styles.worksBodyCodeWindow2Image}/>
             {/*
                <pre>

@@ -87,7 +87,17 @@
         margin-top: 4px;
     }
 
-    .worksBodyCodeWindow {
+    .worksBodyCodeWindow1 {
+        display: flex;
+        height: 190px;
+        justify-content: center;
+        align-items: center;
+        align-self: stretch;
+        border-radius: 4px;
+        background: #FCFCFB;
+    }
+
+    .worksBodyCodeWindow2 {
         display: flex;
         height: 190px;
         justify-content: center;
@@ -255,25 +265,35 @@
         margin-top: 4px;
     }
 
-    .worksBodyCodeWindow {
+    .worksBodyCodeWindow1 {
         display: flex;
-        height: 190px;
+        height: 228px;
         width: 100%;
-        
+        max-width: 420px;
         justify-content: center;
         align-items: center;
-        align-self: stretch;
         border-radius: 4px;
-        background: #FCFCFB;
+        background: #1b1b1b;
+    }
+
+    .worksBodyCodeWindow2 {
+        display: flex;
+        height: 228px;
+        width: 100%;
+        max-width: 420px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 4px;
+        background: #1b1b1b;
     }
 
     .worksBodyCodeWindow1Image {
         background: url(../../../../assets/Images/WorksBodyCodeWindow1Image.png);
-        background-size: cover;
+        background-size: contain;
         background-repeat: no-repeat;
         background-position: center;
+        align-self: stretch;
         width: 100%;
-        max-width: 476px;
         height: 100%;
         border-radius: 4px;
     }
@@ -294,7 +314,7 @@
         justify-content: center;
         align-items: center;
         width: 100%;
-        height: 275px;
+        height: 350px;
     }
 
     .worksBodyDesignImageBox2 {
@@ -303,25 +323,25 @@
         justify-content: center;
         align-items: center;
         width: 100%;
-        height: 252px;
+        height: 280px;
     }
 
     .worksBodyDesignImageContainer1 {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      width: 100%;
-      height: 272px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
     }
 
     .worksBodyDesignImage1 {
         background: url(../../../../assets/Images/worksBodyDesignImage1.png);
         width: 100%;
-        max-width: 476px;
+        max-width: 420px;
         height: 100%;
         background-size: cover;
         background-repeat: no-repeat;
-        align-self: stretch;
+        background-color: aqua;
         border-radius: 4px;
     }
 
@@ -342,17 +362,19 @@
         justify-content: center;
         align-items: center;
         width: 100%;
-        height: 254px;
+        height: 280px;
       }
 
     .worksBodyDesignImage2 {
         background: url(../../../../assets/Images/worksBodyDesignImage2.png);
         width: 100%;
-        max-width: 476px;
+        max-width: 420px;
         height: 100%;
-        background-size: cover;
+        background-size: contain;
+        background-position: center;
         background-repeat: no-repeat;
         border-radius: 4px;
+        background-color: #fcfcfc;
     }
 }
 
@@ -363,7 +385,7 @@
         justify-content: center;
         align-items: center;
         font-family: verdana;
-        padding: 64px 160px;
+        padding: 64px 90px;
     }
 
     .worksBodyContainer {
@@ -452,12 +474,23 @@
         align-self: stretch;
     }
 
-    .worksBodyCodeWindow {
+    .worksBodyCodeWindow1 {
         display: flex;
         flex-direction: row;
         width: 100%;
         max-width: 801px;
-        height: 442px;
+        height: 366px;
+        border: solid 1px #E4E5DA;;
+        border-radius: 4px;
+        font-size: 18px;
+    }
+
+    .worksBodyCodeWindow2 {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        max-width: 801px;
+        height: 444px;
         border: solid 1px #E4E5DA;;
         border-radius: 4px;
         font-size: 18px;
@@ -469,6 +502,8 @@
         width: 100%;
         border-radius: 4px;
         background-size: cover;
+        background-repeat: no-repeat;
+
    }
 
    .worksBodyCodeWindow2Image {
@@ -476,7 +511,7 @@
         height: 100%;
         width: 100%;
         border-radius: 4px;
-        background-size: cover;
+        background-size: contain;
         background-repeat: no-repeat;
     }
 
@@ -506,7 +541,7 @@
         flex-direction: row;
         width: 100%;
         max-width: 801px;
-        height: 442px;
+        height: 522px;
         border: solid 1px #E4E5DA;;
         border-radius: 4px;
 
@@ -649,11 +684,21 @@
         align-self: stretch;
     }
 
-    .worksBodyCodeWindow {
+    .worksBodyCodeWindow1 {
         display: flex;
         flex-direction: row;
         width: 801px;
         height: 442px;
+        border: solid 1px #E4E5DA;;
+        border-radius: 4px;
+        font-size: 18px;
+    }
+
+    .worksBodyCodeWindow2 {
+        display: flex;
+        flex-direction: row;
+        width: 801px;
+        height: 536px;
         border: solid 1px #E4E5DA;;
         border-radius: 4px;
         font-size: 18px;
@@ -672,7 +717,8 @@
         height: 100%;
         width: 100%;
         border-radius: 4px;
-        background-size: cover;
+        object-fit: cetn ;
+        align-self: stretch;
         background-repeat: no-repeat;
     }
 
@@ -701,7 +747,7 @@
         display: flex;
         flex-direction: row;
         width: 801px;
-        height: 442px;
+        height: 638px;
         border: solid 1px #E4E5DA;;
         border-radius: 4px;
 
@@ -731,8 +777,7 @@
         display: flex;
         flex-direction: row;
         width: 801px;
-        height: 442px;
-        
+        height: 535px;
         border-radius: 4px;
     }
 
