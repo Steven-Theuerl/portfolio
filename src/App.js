@@ -4,6 +4,7 @@ import styles from './App.css'
 
 import HomeGroup from './Components/Groups/HomeGroup'
 import WorkGroup from './Components/Groups/WorkGroup'
+import ContactGroup from './Components/Groups/ContactGroup'
 
 
 const App = () => {
@@ -12,7 +13,7 @@ const App = () => {
 
   return (
     <>
-        <WorkGroup/>
+        <ContactGroup/>
     </>
   )
 }
