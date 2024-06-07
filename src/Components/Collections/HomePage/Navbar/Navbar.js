@@ -1,6 +1,10 @@
 import React from 'react'
 import { useState } from 'react'
 import styles from '../Navbar/Navbar.module.css'
+import { Link } from 'react-router-dom'
+import HomeGroup from '../../../Groups/HomeGroup'
+import WorkGroup from '../../../Groups/WorkGroup'
+import ContactGroup from '../../../Groups/ContactGroup'
 
 const Navbar = () => {
 
@@ -10,9 +14,11 @@ const Navbar = () => {
     <div className={styles.navAndMenu}>
         <nav className={styles.entireNavbar}>
             <div className={styles.navContainer}>
-                <div className={styles.navSignature}>
-                    Steven Theuerl
-                </div>
+                <Link to='/' reloadDocument>
+                    <div className={styles.navSignature}>
+                        Steven Theuerl
+                    </div>
+                </Link>
                 <div className={styles.navULContainer}>
                 <div className={styles.navMenuContainer}
                     onClick={() => setNav(!nav)}>
@@ -27,11 +33,17 @@ const Navbar = () => {
                         </svg>}
                     </div>
                     <ul className={styles.navUL}>
-                        <li className={styles.navULliItem}>About</li>
-                        <li className={styles.navULliItem}>Work</li>
-                        <li className={styles.navULliItem}>
-                            <button className={styles.navULliItemTalkBox}>Talk with me</button>
-                        </li>
+                        <Link to='/' reloadDocument>
+                            <li className={styles.navULliItem}>Home</li>
+                        </Link>
+                        <Link to='/Work1' reloadDocument>
+                            <li className={styles.navULliItem}>Works</li>
+                        </Link>
+                        <Link to='/Contact' reloadDocument>
+                            <li className={styles.navULliItem}>
+                                <button className={styles.navULliItemTalkBox}>Talk with me</button>
+                            </li>
+                        </Link>
                     </ul>
                 </div>
             </div>
@@ -39,10 +51,15 @@ const Navbar = () => {
         <div className={nav ? [styles.slideMenuActive] : [styles.slideMenuInactive]}>
           <div className={styles.slideMenuContainer}>
                 <div className={styles.slideMenuTopBox}>
-                    <li className={styles.navULliItem}>Home</li>
-                    <li className={styles.navULliItem}>About</li>
-                    <li className={styles.navULliItem}>Work</li>
-                    <button className={styles.navULliItemTalkBox}>Talk with me</button>
+                    <Link to='/' reloadDocument>
+                        <li className={styles.navULliItem}>Home</li>
+                    </Link>
+                    <Link to='/Work1' reloadDocument>
+                        <li className={styles.navULliItem}>Work</li>
+                    </Link>
+                    <Link to='/Contact' reloadDocument>
+                        <button className={styles.navULliItemTalkBox}>Talk with me</button>
+                    </Link>
                 </div>
                 <div className={styles.slideMenuBottomBox}>
                     <div className={styles.slideMenuExternalLinks}>

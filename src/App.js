@@ -6,14 +6,16 @@ import HomeGroup from './Components/Groups/HomeGroup'
 import WorkGroup from './Components/Groups/WorkGroup'
 import ContactGroup from './Components/Groups/ContactGroup'
 
+import { Route, Routes } from 'react-router-dom'
 
 const App = () => {
-  const isPC = useMediaQuery({query: '(min-width: 801px)'})
-  const isMobile = useMediaQuery({ query: '(max-width: 800px)' })
-
   return (
     <>
-        <ContactGroup/>
+        <Routes>
+            <Route path='/' element={<HomeGroup/>}/>
+            <Route path='/Work1' element={<WorkGroup/>}/>
+            <Route path='/Contact' element={<ContactGroup/>}/>
+        </Routes>
     </>
   )
 }
