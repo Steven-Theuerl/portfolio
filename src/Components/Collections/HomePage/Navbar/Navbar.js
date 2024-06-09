@@ -2,9 +2,7 @@ import React from 'react'
 import { useState } from 'react'
 import styles from '../Navbar/Navbar.module.css'
 import { Link } from 'react-router-dom'
-import HomeGroup from '../../../Groups/HomeGroup'
-import WorkGroup from '../../../Groups/WorkGroup'
-import ContactGroup from '../../../Groups/ContactGroup'
+
 
 const Navbar = () => {
 
@@ -36,7 +34,7 @@ const Navbar = () => {
                         <Link to='/' reloadDocument>
                             <li className={styles.navULliItem}>Home</li>
                         </Link>
-                        <Link to='/Work1' reloadDocument>
+                        <Link to='/Work-Portfolio' reloadDocument>
                             <li className={styles.navULliItem}>Works</li>
                         </Link>
                         <Link to='/Contact' reloadDocument>
@@ -54,7 +52,7 @@ const Navbar = () => {
                     <Link to='/' reloadDocument>
                         <li className={styles.navULliItem}>Home</li>
                     </Link>
-                    <Link to='/Work1' reloadDocument>
+                    <Link to='/Work-Portfolio' reloadDocument>
                         <li className={styles.navULliItem}>Work</li>
                     </Link>
                     <Link to='/Contact' reloadDocument>

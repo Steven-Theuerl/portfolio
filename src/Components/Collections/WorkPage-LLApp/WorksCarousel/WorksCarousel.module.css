@@ -1,0 +1,776 @@
+@media screen and (max-width: 414px) {
+    .entireWorksCarousel {
+        display: flex;
+        align-items: center;
+        border-top: 1px solid #E4E5DA;
+        border-bottom: 1px solid #E4E5DA;
+    }
+
+    .worksCarouselContainer {
+        display: grid;
+        margin: 40px 0px;
+        justify-content: center;
+        align-items: center;
+        gap: 24px;
+        align-self: stretch;
+    }
+
+    .worksCarouselTopBar {
+        display: flex;
+        flex: 1 0 0;
+        padding: 0px 18px;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .worksCarouselTitle {
+        color: #111;
+        font-family: Montserrat;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 160%; /* 28.8px */
+    }
+
+    .worksCarouselButtons {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+
+    .worksCarouselSlider {
+        width: 44px;
+        height: 44px;
+        stroke-width: 1px;
+        stroke: #E4E5DA;
+        border: none;
+        background-color: transparent;
+    }
+
+    .mediaScroller {
+        display: grid;
+        padding-left: 16px;
+        gap: 224px;
+        grid-auto-flow: column;
+        grid-auto-columns: 20%;
+        overflow: hidden;
+        overscroll-behavior-inline: contain;
+        scroll-snap-type: inline mandatory;
+    }
+
+    /* needs attention, snapping not working */
+
+    .worksCarouselCard {
+        display: flex;
+        width: 280px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+        padding-right:16px;
+    }
+
+    .worksCarouselCardImageContainer {
+        display: flex;
+        width: 280px;
+        height: 152px;
+    }
+
+    .worksCarouselCardImage1 {
+        background: url(../../../../assets/Images/topImage.png);
+        background-size: contain;
+        background-position: 8px;
+        background-repeat: no-repeat;
+        align-self: stretch;
+        background-color: rgb(245, 245, 245);
+        height: 100%;
+        width: 100%;
+        margin-bottom: 8px;
+        border-radius: 4px;
+    }
+
+    .worksCarouselCardImage2 {
+        background: url(../../../../assets/Images/topImage.png);
+        background-size: contain;
+        background-position: 8px;
+        background-repeat: no-repeat;
+        align-self: stretch;
+        background-color: rgb(153, 153, 153);
+        height: 100%;
+        width: 100%;
+        margin-bottom: 8px;
+        border-radius: 4px;
+    }
+
+    .worksTextHeader {
+        display: flex;
+        align-items: center;
+        gap: 4px;
+        align-self: stretch;
+        color: #111;
+        font-family: Montserrat;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 130%; /* 28.6px */
+        margin-bottom: -8px;
+    }
+
+    .worksTextHeader:hover {
+        cursor: pointer;
+        color: #279070;
+        transition: 0.25s;
+    }
+
+    .worksTextDescription {
+        color: #777;
+        font-family: Verdana;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%; /* 25.6px */
+    }
+
+    .worksTextTagsContainer {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .worksTextTags {
+        display: flex;
+        padding: 6px 10px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        border-radius: 10px;
+        background: #F5F5F0;
+        color: #777;
+        font-family: Verdana;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 130%; /* 15.6px */
+    }
+
+    .worksCarouselLeaveButtonContainer {
+        display: flex;
+        padding: 64px 16px;
+        flex-direction: column;
+        align-items: center;
+        gap: 32px;
+        align-self: stretch;
+    }
+
+    .backToHomeButton {
+        display: flex;
+        height: 44px;
+        padding: 15px 43.5px 15px 37.5px;
+        align-items: center;
+        border-radius: 10px;
+        border: 1px solid #E4E5DA;
+        background-color: transparent;
+        color: #111;
+        font-family: "Verdana";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 100%; /* 14px */
+    }
+
+}
+
+@media screen and (min-width: 415px) and (max-width: 847px) {
+
+    .entireWorksCarousel {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-top: 1px solid #E4E5DA;
+        border-bottom: 1px solid #E4E5DA;
+    }
+
+    .worksCarouselContainer {
+        display: grid;
+        margin: 40px 0px;
+        width: 100%;
+        max-width: 720px;
+        justify-content: center;
+        align-items: center;
+        gap: 24px;
+        align-self: stretch;
+    }
+
+    .worksCarouselTopBar {
+        display: flex;
+        flex: 1 0 0;
+        padding: 0px 18px;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .worksCarouselTitle {
+        color: #111;
+        font-family: Montserrat;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 160%; /* 28.8px */
+    }
+
+    .worksCarouselButtons {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+
+    .worksCarouselSlider {
+        width: 44px;
+        height: 44px;
+        stroke-width: 1px;
+        stroke: #E4E5DA;
+        border: none;
+        background-color: transparent;
+    }
+
+    .mediaScroller {
+        display: grid;
+        padding-left: 16px;
+        gap: 164px;
+        grid-auto-flow: column;
+        grid-auto-columns: 100px;
+        overflow: hidden;
+        overscroll-behavior-inline: contain;
+        scroll-snap-type: inline mandatory;
+    }
+
+    /* needs attention, snapping not working */
+
+    .worksCarouselCard {
+        display: flex;
+        width: 240px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+        padding-right:16px;
+    }
+
+    .worksCarouselCardImageContainer {
+        display: flex;
+        width: 240px;
+        height: 152px;
+    }
+
+    .worksCarouselCardImage1 {
+        background: url(../../../../assets/Images/topImage.png);
+        background-size: contain;
+        background-position: 8px;
+        background-repeat: no-repeat;
+        align-self: stretch;
+        background-color: rgb(245, 245, 245);
+        height: 100%;
+        width: 100%;
+        margin-bottom: 8px;
+        border-radius: 4px;
+    }
+
+    .worksCarouselCardImage2 {
+        background: url(../../../../assets/Images/topImage.png);
+        background-size: contain;
+        background-position: 8px;
+        background-repeat: no-repeat;
+        align-self: stretch;
+        background-color: rgb(153, 153, 153);
+        height: 100%;
+        width: 100%;
+        margin-bottom: 8px;
+        border-radius: 4px;
+    }
+
+    .worksTextHeader {
+        display: flex;
+        align-items: center;
+        gap: 4px;
+        align-self: stretch;
+        color: #111;
+        font-family: Montserrat;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 130%; /* 28.6px */
+        margin-bottom: -8px;
+    }
+
+    .worksTextHeader:hover {
+        cursor: pointer;
+        color: #279070;
+        transition: 0.25s;
+    }
+
+    .worksTextDescription {
+        color: #777;
+        font-family: Verdana;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%; /* 25.6px */
+    }
+
+    .worksTextTagsContainer {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .worksTextTags {
+        display: flex;
+        padding: 6px 10px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        border-radius: 10px;
+        background: #F5F5F0;
+        color: #777;
+        font-family: Verdana;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 130%; /* 15.6px */
+    }
+
+    .worksCarouselLeaveButtonContainer {
+        display: flex;
+        padding: 64px 16px;
+        flex-direction: column;
+        align-items: center;
+        gap: 32px;
+        align-self: stretch;
+    }
+
+    .backToHomeButton {
+        display: flex;
+        height: 44px;
+        padding: 15px 43.5px 15px 37.5px;
+        align-items: center;
+        border-radius: 10px;
+        border: 1px solid #E4E5DA;
+        background-color: transparent;
+        color: #111;
+        font-family: "Verdana";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 100%; /* 14px */
+    }
+}
+
+@media screen and (min-width: 848px) and (max-width: 1279px) {
+
+    .entireWorksCarousel {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-top: 1px solid #E4E5DA;
+        border-bottom: 1px solid #E4E5DA;
+    }
+
+    .worksCarouselContainer {
+        display: flex;
+        margin: 64px 160px 80px 160px;
+        flex-direction: column;
+        justify-content: center;
+        gap: 40px;
+        align-self: stretch;
+        width: 100%;
+        max-width: 720px;
+        height: 469px;
+    }
+
+    .worksCarouselTopBar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        align-self: stretch;
+        background-color: white
+    }
+
+    .worksCarouselTitle {
+        color: #111;
+        font-family: Montserrat;
+        font-size: 26px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 160%; /* 41.6px */
+    }
+
+    .worksCarouselButtons {
+        display: flex;
+        align-items: center;
+        gap: 4px;
+    }
+
+    .worksCarouselSlider {
+        border: none;
+        background-color: transparent;
+        border-radius: 100px;
+        transition: 0.25s;
+    }
+
+    .worksCarouselSlider:hover {
+        background-color: rgb(250, 250, 250);
+        cursor: pointer;
+        transition: 0.5s;
+    }
+
+    .mediaScroller {
+        display: grid;
+        gap: 146px;
+        grid-auto-flow: column;
+        grid-auto-columns: 24%;
+        overflow: hidden;
+        overscroll-behavior-inline: contain;
+        scroll-snap-type: inline mandatory;
+    }
+
+    /* needs attention, snapping not working */
+
+    .mediaScoller > * {
+        scroll-snap-align: middle;
+    }
+
+    .worksCarouselCard {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+        width: 310px;
+        height: 355px;
+        border-radius: 4px;
+    }
+
+    .worksCarouselCardImageContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 192px;
+        width: 300px;
+        border-radius: 4px;
+    }
+
+    .worksCarouselCardImage1 {
+        background: url(../../../../assets/Images/topImage.png);
+        background-size: contain;
+        background-position: 8px;
+        background-repeat: no-repeat;
+        align-self: stretch;
+        background-color: rgb(245, 245, 245);
+        height: 100%;
+        width: 100%;
+        margin-bottom: 8px;
+        border-radius: 4px;
+    }
+
+    .worksCarouselCardImage2 {
+        background: url(../../../../assets/Images/topImage.png);
+        background-size: contain;
+        background-position: 8px;
+        background-repeat: no-repeat;
+        align-self: stretch;
+        background-color: rgb(153, 153, 153);
+        height: 100%;
+        width: 100%;
+        margin-bottom: 8px;
+        border-radius: 4px;
+    }
+
+    .worksTextHeader {
+        display: flex;
+        align-items: center;
+        gap: 4px;
+        align-self: stretch;
+        color: #111;
+        font-family: Montserrat;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 130%; /* 28.6px */
+    }
+
+    .worksTextHeader:hover {
+        cursor: pointer;
+        color: #279070;
+        transition: 0.25s;
+    }
+
+    .worksTextDescription {
+        color: #777;
+        font-family: Verdana;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%; /* 25.6px */
+    }
+
+    .worksTextTagsContainer {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .worksTextTags {
+        display: flex;
+        padding: 6px 10px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        border-radius: 10px;
+        background: #F5F5F0;
+        color: #777;
+        font-family: Verdana;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 130%; /* 15.6px */
+    }
+
+    .worksCarouselLeaveButtonContainer {
+        display: flex;
+        padding: 120px 300px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 64px;
+        align-self: stretch;
+    }
+
+    .backToHomeButton {
+        display: flex;
+        height: 44px;
+        padding: 15px 23px 15px 22px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        border: 1px solid #E4E5DA;
+        color: #111;
+        font-family: Verdana;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 100%; /* 14px */
+        background-color: white;
+        width: 160px;
+    }
+
+    .backToHomeButton:hover {
+        background-color: rgb(226, 226, 226);
+        transition: 0.25s;
+        cursor: pointer;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+
+    .entireWorksCarousel {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-top: 1px solid #E4E5DA;
+        border-bottom: 1px solid #E4E5DA;
+    }
+
+    .worksCarouselContainer {
+        display: flex;
+        margin: 64px 200px 80px 200px;
+        flex-direction: column;
+        justify-content: center;
+        gap: 40px;
+        align-self: stretch;
+        width: 1040px;
+        height: 469px;
+    }
+
+    .worksCarouselTopBar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        align-self: stretch;
+        background-color: white
+    }
+
+    .worksCarouselTitle {
+        color: #111;
+        font-family: Montserrat;
+        font-size: 26px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 160%; /* 41.6px */
+    }
+
+    .worksCarouselButtons {
+        display: flex;
+        align-items: center;
+        gap: 4px;
+    }
+
+    .worksCarouselSlider {
+        border: none;
+        background-color: transparent;
+        border-radius: 100px;
+        transition: 0.25s;
+    }
+
+    .worksCarouselSlider:hover {
+        background-color: rgb(250, 250, 250);
+        cursor: pointer;
+        transition: 0.5s;
+    }
+
+    .mediaScroller {
+        display: grid;
+        gap: 152px;
+        grid-auto-flow: column;
+        grid-auto-columns: 21%;
+        overflow: hidden;
+        overscroll-behavior-inline: contain;
+        scroll-snap-type: inline mandatory;
+    }
+
+    /* needs attention, snapping not working */
+
+    .mediaScoller > * {
+        scroll-snap-align: middle;
+    }
+
+    .worksCarouselCard {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+        width: 343px;
+        height: 385px;
+        border-radius: 4px;
+    }
+
+    .worksCarouselCardImageContainer {
+        display: flex;
+        flex-grow: 1;
+        justify-content: center;
+        align-items: center;
+        height: 192px;
+        width: 343px;
+        border-radius: 4px;
+    }
+
+    .worksCarouselCardImage1 {
+        background: url(../../../../assets/Images/topImage.png);
+        background-size: contain;
+        background-position: 8px;
+        background-repeat: no-repeat;
+        align-self: stretch;
+        background-color: rgb(245, 245, 245);
+        height: 100%;
+        width: 100%;
+        margin-bottom: 8px;
+        border-radius: 4px;
+    }
+
+    .worksCarouselCardImage2 {
+        background: url(../../../../assets/Images/topImage.png);
+        background-size: contain;
+        background-position: 8px;
+        background-repeat: no-repeat;
+        align-self: stretch;
+        background-color: rgb(153, 153, 153);
+        height: 100%;
+        width: 100%;
+        margin-bottom: 8px;
+        border-radius: 4px;
+    }
+
+    .worksTextHeader {
+        display: flex;
+        align-items: center;
+        gap: 4px;
+        align-self: stretch;
+        color: #111;
+        font-family: Montserrat;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 130%; /* 28.6px */
+    }
+
+    .worksTextHeader:hover {
+        cursor: pointer;
+        color: #279070;
+        transition: 0.25s;
+    }
+
+    .worksTextDescription {
+        color: #777;
+        font-family: Verdana;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%; /* 25.6px */
+    }
+
+    .worksTextTagsContainer {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .worksTextTags {
+        display: flex;
+        padding: 6px 10px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        border-radius: 10px;
+        background: #F5F5F0;
+        color: #777;
+        font-family: Verdana;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 130%; /* 15.6px */
+    }
+
+    .worksCarouselLeaveButtonContainer {
+        display: flex;
+        padding: 120px 600px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 64px;
+        align-self: stretch;
+    }
+
+    .backToHomeButton {
+        display: flex;
+        height: 44px;
+        padding: 15px 23px 15px 22px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        border: 1px solid #E4E5DA;
+        color: #111;
+        font-family: Verdana;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 100%; /* 14px */
+        background-color: white;
+        width: 160px;
+    }
+
+    .backToHomeButton:hover {
+        background-color: rgb(226, 226, 226);
+        transition: 0.25s;
+        cursor: pointer;
+    }
+}

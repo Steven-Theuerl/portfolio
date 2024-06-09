@@ -9,6 +9,7 @@
         flex-direction: column;
         padding: 0px 16px 64px 16px;
         width: 100%;
+        gap: 40px;
         max-width: 414px;
         align-items: center;
         justify-content: center;
@@ -158,7 +159,7 @@
         padding-top: 40px;
     }
 
-    .workContent1 {
+    .workContent {
         display: flex;
         padding: 32px 0px;
         flex-direction: column;
@@ -171,11 +172,11 @@
     }
 
     .workContent1Image {
-        background: url(../../../../assets/Images/workContent1ImageMobile.png);
-        background-position: center;
+        background: url(../../../../assets/Images/topImage.png);
+        background-color: rgb(163, 163, 163);
+        background-position: 6px;
         background-size: contain;
         display: flex;
-        justify-content: flex-end;
         align-self: stretch;
         height: 196px;
         border-radius: 4px;
@@ -187,11 +188,10 @@
     }
 
     .workContent2Image {
-        background: url(../../../../assets/Images/workContent1ImageMobile.png);
+        background: url(../../../../assets/Images/topLLAppLinkDisplayMobile.png);
         background-position: center;
-        background-size: contain;
+        background-size: cover;
         display: flex;
-        justify-content: flex-end;
         align-self: stretch;
         height: 196px;
         border-radius: 4px;
@@ -276,7 +276,6 @@
         display: flex;
         flex-direction: column;
         padding: 16px 0px 88px 0px;
-        gap: 40px;
         max-width: 672px;
         width: 100%;
         margin-left: 280px;
@@ -295,9 +294,10 @@
         font-style: normal;
         font-weight: 500;
         line-height: 100%; /* 32px */
+        margin-bottom: 40px;
     }
 
-    .workContent1 {
+    .workContent {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
@@ -309,9 +309,11 @@
 
 
     .workContent1Image {
-        background: url(../../../../assets/Images/workContent1ImagePC.png);
+        background: url(../../../../assets/Images/topImage.png);
+        background-color: rgb(163, 163, 163);
         background-position: center;
-        background-size: cover;
+        background-size: contain;
+        background-repeat: no-repeat;
         display: flex;
         justify-content: flex-end;
         align-self: stretch;
@@ -325,7 +327,7 @@
     }
 
     .workContent2Image {
-        background: url(../../../../assets/Images/workContent1ImagePC.png);
+        background: url(../../../../assets/Images/topLLAppLinkDisplay.png);
         background-position: center;
         background-size: cover;
         display: flex;
@@ -408,7 +410,6 @@
         display: flex;
         flex-direction: column;
         padding: 64px 0px 120px 0px;
-        gap: 40px;
         width: 100%;
         max-width: 880px;
         margin-left: 280px;
@@ -427,9 +428,10 @@
         font-style: normal;
         font-weight: 500;
         line-height: 100%; /* 32px */
+        margin-bottom: 40px;
     }
 
-    .workContent1 {
+    .workContent {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
@@ -439,9 +441,9 @@
         padding: 32px 0px;
     }
 
-
     .workContent1Image {
-        background: url(../../../../assets/Images/workContent1ImagePC.png) rgb(255, 255, 255) 0% / cover no-repeat;
+        background: url(../../../../assets/Images/topImage.png) rgb(163, 163, 163) 0% / contain no-repeat;
+        background-position: center;
         display: flex;
         padding: 37px 87.464px 0px 167px;
         justify-content: flex-end;
@@ -456,7 +458,9 @@
     }
 
     .workContent2Image {
-        background: url(../../../../assets/Images/workContent1ImagePC.png) rgb(255, 255, 255) 0% / cover no-repeat;
+        background: url(../../../../assets/Images/topLLAppLinkDisplay.png);
+        background-size: cover;
+        background-position: center;
         display: flex;
         padding: 37px 87.464px 0px 167px;
         justify-content: flex-end;
