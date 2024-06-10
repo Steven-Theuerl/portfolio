@@ -10,6 +10,7 @@ a {
     .navAndMenu {
         display: flex;
         flex-direction: column;
+        gap: 0px;
     }
 
     .entireNavbar {
@@ -58,8 +59,7 @@ a {
 
    .slideMenuActive {
         background-color: white;
-        height: 100vh;
-        position: absolute;
+        height: 95vh;
         position: fixed;
         width: 100vw;
         z-index: 10000;
@@ -70,7 +70,7 @@ a {
 
    .slideMenuInactive {
         background-color: white;
-        height: 100vh;
+        height: 90vh;
         position: fixed;
         width: 100vw;
         z-index: 100;
@@ -180,6 +180,12 @@ a {
         display: none;
     }
 
+    .navAndMenu {
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    }
+
     .entireNavbar {
         display: flex;
         align-items: center;
@@ -216,26 +222,24 @@ a {
 
    .slideMenuActive {
         background-color: white;
-        height: 100vh;
-        position: absolute;
+        height: 95vh;
         position: fixed;
-        width: 100%;
+        width: 100vw;
         z-index: 10;
         transition: 0.25s;
         left: 0%;
-        margin-top: -3px;
+        margin-top: 72px;
    }
 
    .slideMenuInactive {
         background-color: white;
         height: 100vh;
-        position: absolute;
         position: fixed;
         width: 100%;
         z-index: 10;
         transition: 0.25s;
         left: 100%;
-        margin-top: -3px;
+        margin-top: 72px;
    }
 
    .slideMenuContainer {
