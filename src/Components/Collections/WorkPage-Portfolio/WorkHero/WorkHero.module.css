@@ -1,6 +1,8 @@
 @media screen and (max-width: 414px) {
     .entireHero {
         margin-top: 72px;
+        display: flex;
+        justify-content: center;
     }
 
     .heroContainer {
@@ -9,8 +11,9 @@
         align-items: center;
         justify-content: center;
         margin: 0px 16px;
+        width: 100%;
+        max-width: 384px;
         height: 239px;
-        flex: 1 0 0;
         background-color: red;
         border-radius: 4px;
         border: 1px solid #E4E5DA;
