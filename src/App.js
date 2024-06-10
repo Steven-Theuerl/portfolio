@@ -14,15 +14,12 @@ import { Route, Routes } from 'react-router-dom'
 const App = () => {
   return (
     <>
-    <Navbar/>
-    {/*
         <Routes>
             <Route path='/' element={<HomeGroup/>}/>
             <Route path='/Work-Portfolio' element={<WorkGroupPortfolio/>}/>
             <Route path='/Contact' element={<ContactGroup/>}/>
             <Route path='/Work-LLApp' element={<WorkGroupLLApp/>}/>
         </Routes>
-        */}
     </>
   )
 }
