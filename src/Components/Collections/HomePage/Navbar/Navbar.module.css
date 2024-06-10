@@ -59,13 +59,13 @@ a {
    .slideMenuActive {
         background-color: white;
         height: 100vh;
-       
+        position: absolute;
         position: fixed;
         width: 100vw;
-        z-index: 10;
+        z-index: 10000;
         transition: 0.25s;
+        margin-top: 72px;
         left: 0%;
-       
    }
 
    .slideMenuInactive {
@@ -73,15 +73,15 @@ a {
         height: 100vh;
         position: fixed;
         width: 100vw;
-        z-index: 10;
+        z-index: 100;
         transition: 0.25s;
-        left: 60%;
-      
+        margin-top: 72px;
+        left: 100%;
    }
 
    .slideMenuContainer {
         display: flex;
-        height: 582px;
+        height: 568px;
         padding: 120px 40px 40px 40px;
         flex-direction: column;
         justify-content: space-between;
@@ -217,29 +217,30 @@ a {
    .slideMenuActive {
         background-color: white;
         height: 100vh;
-       
+        position: absolute;
         position: fixed;
         width: 100%;
         z-index: 10;
         transition: 0.25s;
         left: 0%;
+        margin-top: -3px;
    }
 
    .slideMenuInactive {
         background-color: white;
         height: 100vh;
-      
+        position: absolute;
         position: fixed;
         width: 100%;
         z-index: 10;
         transition: 0.25s;
         left: 100%;
-        
+        margin-top: -3px;
    }
 
    .slideMenuContainer {
         display: flex;
-        height: 528px;
+        height: 568px;
         padding: 120px 40px 40px 40px;
         flex-direction: column;
         justify-content: space-between;
@@ -355,6 +356,7 @@ a {
         align-items: center;
         justify-content: center;
         width: 100%;
+        max-width: 1280px;
         background-color: white;
         z-index: 100;
         top: 0;
