@@ -147,14 +147,13 @@
         justify-content: center;
         align-items: center;
         gap: 24px;
-       
     }
 
     .contactMessgageInputField {
         display: flex;
         height: 100px;
         width: 100%;
-        max-width: 352px;
+        max-width: 360px;
         color: #000000;
         font-family: "Verdana";
         font-size: 15px;
@@ -172,7 +171,7 @@
     }
 
     .contactMessageSeperator {
-        width: 343px;
+        width: 360px;
         height: 1px;
         background: #111;
         margin-top: -20px;
