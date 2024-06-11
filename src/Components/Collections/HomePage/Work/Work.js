@@ -2,6 +2,8 @@ import React from 'react'
 import styles from '../Work/Work.module.css'
 import { Link } from 'react-router-dom'
 
+import '../../../../assets/Fonts/Montserrat/static'
+
 const Work = () => {
   return (
     <div className={styles.entireWork}>
