@@ -6,8 +6,6 @@ import WorkGroupPortfolio from './Components/Groups/WorkGroup-Portfolio'
 import WorkGroupLLApp from './Components/Groups/WorkGroup-LLApp'
 import ContactGroup from './Components/Groups/ContactGroup'
 
-import Navbar from './Components/Collections/HomePage/Navbar/Navbar'
-
 
 import { Route, Routes } from 'react-router-dom'
 

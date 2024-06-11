@@ -12,7 +12,7 @@ const WorksBody = () => {
                     Used Simple Logic to Implement QoL Features
                 </span>
                 <span className={styles.worksBodyKeyPointsDescription}>
-                     Utilized basic logic to implement custom features that are simple but effective. In doing so, fewer dependency libraries were needed and my codebase is leaner.
+                     Utilized basic logic to implement some custom features that are simple but effective. In doing so, fewer dependency libraries were needed and my codebase is leaner.
                 </span>
                 <div className={styles.worksBodyKeyPointsDetailContainer}>
                     <div className={styles.worksBodyKeyPointsDetailBulletContainer}>
@@ -27,7 +27,7 @@ const WorksBody = () => {
                         <div className={styles.worksBodyKeyPointsDetailBullet}/>
                     </div>
                     <span className={styles.worksBodyKeyPointsDetail}>
-                        <b>React screens and Routing</b> : code snippit here
+                       <b>Created custom buttons</b> with <b>onClick()</b> attributes that manipulate a custom carousel element specified with an id attribute through the <b>scrollBy()</b> method.
                     </span>
                 </div>
                 <div className={styles.worksBodyKeyPointsDetailContainer}>
@@ -35,26 +35,16 @@ const WorksBody = () => {
                         <div className={styles.worksBodyKeyPointsDetailBullet}/>
                     </div>
                     <span className={styles.worksBodyKeyPointsDetail}>
-                       <b>Created custom buttons</b> with <b>onClick()</b> attributes that manipulate a custom carousel element specified with an id attribute through the <b>scrollBy()</b> method.
+                       <b>Created a working contact page</b> with <b>validation and email</b> functionalities. I did use a few libraries for this feature though. <br/>
+                       &#9900; <a href='https://www.npmjs.com/package/@emailjs/browser'><b>Emailjs/browser </b></a>
+                       helps you send emails directly from code with one command. No server is required – just connect EmailJS to one of the supported email services, create an email template, and use our SDK to trigger an email. <br/>
+                         &#9900; <a href='https://www.npmjs.com/package/react-hook-form'><b>React-Hook-Form </b></a>
+                         helps in setting up forms easliy and reliably. <br/>
                     </span>
                 </div>
             </div>
             <div className={styles.worksBodyCodeWindow1}>
                 <div className={styles.worksBodyCodeWindow1Image}/>
-            {/*
-               <pre>
-                    <code>  const [nav,setNav] = useState(false)</code><br/>
-                    <code>      &#60;div className=&#123;styles.navBar&#125;&#62; </code> <br/>
-                    <code>          &#60;button className=&#123;styles.button&#125;</code> <br/>
-                    <code>                  onClick=&#123;() =&#62; setNav(!nav)&#125;&#62;</code> <br/>
-                    <code>          &#60;/button&#62;</code> <br/>
-                    <code>      &#60;/div&#62;</code> <br/>
-                    <code>      &#60;div className=&#123;nav? [styles.slidingMenu] : [styles.slidingMenuOffset]&#125;&#62;</code> <br/>
-                    <code>           ...   <br/>      &#60;/div&#62;</code> <br/>
-                    <code><br/></code>
-                    <code>  //Setting the useState as false initially, and tying its value to a "set"  <br/>  function that changes it's value to the opposite Boolean when the button <br/>  is clicked. </code>
-                </pre>
-            */}
             </div>
             <div className={styles.worksBodyKeyPointsContainer}>
                 <span className={styles.worksBodyKeyPointsHeader}>
@@ -71,17 +61,6 @@ const WorksBody = () => {
                     <span className={styles.worksBodyKeyPointsDetail}>
                         <b>react-responsive</b> : to use conditional hooks and component displays based on a query for the screen size <br/>
                         <a className={styles.worksBodyAnchor} href='https://www.npmjs.com/package/react-responsive'>https://www.npmjs.com/package/react-responsive</a>
-                    </span>
-                    </div>
-                </div>
-                <div className={styles.worksBodyKeyPointsDetailContainer}>
-                    <div className={styles.worksBodyKeyPointsDetailBulletContainer}>
-                        <div className={styles.worksBodyKeyPointsDetailBullet}/>
-                    </div>
-                    <div className={styles.worksBodyKeyPointsDetailAndAnchorContainer}>
-                    <span className={styles.worksBodyKeyPointsDetail}>
-                    <b>react-anchor-link-smooth-scroll</b> : to have in-page scrolling <br/>
-                        <a className={styles.worksBodyAnchor} href='https://www.npmjs.com/package/react-anchor-link-smooth-scroll'>https://www.npmjs.com/package/react-anchor-link-smooth-scroll</a>
                     </span>
                     </div>
                 </div>
@@ -110,20 +89,6 @@ const WorksBody = () => {
             </div>
             <div className={styles.worksBodyCodeWindow2}>
                 <div className={styles.worksBodyCodeWindow2Image}/>
-            {/*
-               <pre>
-                    <code>  const [nav,setNav] = useState(false)</code><br/>
-                    <code>      &#60;div className=&#123;styles.navBar&#125;&#62; </code> <br/>
-                    <code>          &#60;button className=&#123;styles.button&#125;</code> <br/>
-                    <code>                  onClick=&#123;() =&#62; setNav(!nav)&#125;&#62;</code> <br/>
-                    <code>          &#60;/button&#62;</code> <br/>
-                    <code>      &#60;/div&#62;</code> <br/>
-                    <code>      &#60;div className=&#123;nav? [styles.slidingMenu] : [styles.slidingMenuOffset]&#125;&#62;</code> <br/>
-                    <code>           ...   <br/>      &#60;/div&#62;</code> <br/>
-                    <code><br/></code>
-                    <code>  //Setting the useState as false initially, and tying its value to a "set"  <br/>  function that changes it's value to the opposite Boolean when the button <br/>  is clicked. </code>
-                </pre>
-            */}
             </div>
             <div className={styles.worksBodyKeyPointsContainer}>
                 <span className={styles.worksBodyKeyPointsHeader}>
