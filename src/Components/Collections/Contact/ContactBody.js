@@ -41,7 +41,7 @@ const [contacted, setContacted] = useState(false);
     }
 
   return (
-    <>
+    <div id='entireForm'>
     {contacted ? [
         <div className={styles.entireContactedBody}>
             <div className={styles.contactedBodyContainer}>
@@ -137,13 +137,15 @@ const [contacted, setContacted] = useState(false);
                 </div>
                  <button className={styles.sendButton}
                     type='submit'
-                    >
+                    onClick={() => document.getElementById('entireForm').scrollBy({
+                       up: 4000
+                    })}>
                     Send Message
                 </button>
             </form>
         </div>
     </div>] }
-    </>
+    </div>
   )
 }
 
