@@ -133,11 +133,12 @@ const [contacted, setContacted] = useState(false);
                         <div className={styles.contactMessageSeperator}/>
                         {errors.message && <span className={styles.errorMessage}>Please enter a message</span>}
                 </div>
-            </form>
-            <button className={styles.sendButton}
+                 <button className={styles.sendButton}
                     type='submit'>
                     Send Message
                 </button>
+            </form>
+           
         </div>
     </div>] }
     </>
