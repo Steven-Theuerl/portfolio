@@ -12,6 +12,8 @@ import '../../../../assets/Fonts/Montserrat/static/Montserrat-ExtraBold.ttf'
 import '../../../../assets/Fonts/Montserrat/static/Montserrat-Bold.ttf'
 import '../../../../assets/Fonts/Montserrat/static/Montserrat-Black.ttf'
 
+import '../../../../assets/Fonts/Montserrat/Monteserrat-VariableFont_wght.tff'
+
 
 const Work = () => {
   return (
