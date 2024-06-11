@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from '../Work/Work.module.css'
 import { Link } from 'react-router-dom'
-
+{/*
 import '../../../../assets/Fonts/Montserrat/static/Montserrat-Medium.ttf'
 import '../../../../assets/Fonts/Montserrat/static/Montserrat-Thin.ttf'
 import '../../../../assets/Fonts/Montserrat/static/Montserrat-SemiBold.ttf'
@@ -12,7 +12,7 @@ import '../../../../assets/Fonts/Montserrat/static/Montserrat-ExtraBold.ttf'
 import '../../../../assets/Fonts/Montserrat/static/Montserrat-Bold.ttf'
 import '../../../../assets/Fonts/Montserrat/static/Montserrat-Black.ttf'
 
-import '../../../../assets/Fonts/Montserrat/Monteserrat-VariableFont_wght.tff'
+import '../../../../assets/Fonts/Montserrat/Monteserrat-VariableFont_wght.tff'*/}
 
 
 const Work = () => {
