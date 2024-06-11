@@ -213,7 +213,7 @@ a {
     .worksBodyKeyPointsHeader {
         flex: 1 0 0;
         color: #111;
-        font-family: Montserrat;
+        font-family: 'Montserrat';
         font-size: 18px;
         font-style: normal;
         font-weight: 700;
@@ -416,7 +416,7 @@ a {
 
     .worksBodyKeyPointsHeader {
         color: #111;
-        font-family: Montserrat;
+        font-family: 'Montserrat';
         font-size: 26px;
         font-style: normal;
         font-weight: 700;
@@ -624,7 +624,7 @@ a {
 
     .worksBodyKeyPointsHeader {
         color: #111;
-        font-family: Montserrat;
+        font-family: 'Montserrat';
         font-size: 26px;
         font-style: normal;
         font-weight: 700;
