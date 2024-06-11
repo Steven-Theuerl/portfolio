@@ -219,7 +219,7 @@
         margin-top: 72px;
         display: flex;
         justify-content: center;
-        align-items: center;
+      
     }
 
     .contactedBodyContainer {
@@ -229,7 +229,7 @@
         align-items: center;
         gap: 40px;
         align-self: stretch;
-        height: 726px;
+        height: 50vh;
     }
 
     .contactedHeader {

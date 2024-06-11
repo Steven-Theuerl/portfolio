@@ -137,7 +137,7 @@ const [contacted, setContacted] = useState(false);
                 </div>
                  <button className={styles.sendButton}
                     type='submit'
-                    onClick={() => document.scrollBy(0, 3200)}>
+                    >
                     Send Message
                 </button>
             </form>
