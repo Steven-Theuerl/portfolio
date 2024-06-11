@@ -2,13 +2,15 @@ import React from 'react'
 import { useForm } from 'react-hook-form';
 import { useState } from 'react'
 import  emailjs  from '@emailjs/browser'
-import { Link } from 'react-router-dom'
+import { Link, ScrollRestoration } from 'react-router-dom'
 
 import styles from './ContactBody.module.css'
 
 const ContactBody = () => {
 
 const [contacted, setContacted] = useState(false);
+
+
 
     const {
         register,
@@ -51,7 +53,7 @@ const [contacted, setContacted] = useState(false);
                     I will reply to the email address you provided.
                 </div>
                 <div className={styles.contactedHomeButtonContainer}>
-                    <Link to='/'>
+                    <Link to='/' reloadDocument>
                         <button className={styles.contactedHomeButton}>
                             Home
                         </button>
@@ -134,11 +136,11 @@ const [contacted, setContacted] = useState(false);
                         {errors.message && <span className={styles.errorMessage}>Please enter a message</span>}
                 </div>
                  <button className={styles.sendButton}
-                    type='submit'>
+                    type='submit'
+                    onClick={() => document.scrollBy(0, 3200)}>
                     Send Message
                 </button>
             </form>
-           
         </div>
     </div>] }
     </>
