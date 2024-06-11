@@ -2,7 +2,8 @@ import React from 'react'
 import styles from '../Work/Work.module.css'
 import { Link } from 'react-router-dom'
 
-import '../../../../assets/Fonts/Montserrat/static'
+import '../../../../assets/Fonts/Montserrat/static/Montserrat-Medium.ttf'
+
 
 const Work = () => {
   return (
