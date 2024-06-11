@@ -17,10 +17,8 @@
     .workTitle {
         align-self: stretch;
         color: #000;
-        font-family: Montserrat;
+        font-family: 'Montserrat-Regular';
         font-size: 24px;
-        font-style: normal;
-        font-weight: 400;
         line-height: 100%; /* 24px */
         border-top: 1px solid #E4E5DA;
         padding-top: 40px;
@@ -83,7 +81,7 @@
         gap: 4px;
         align-self: stretch;
         color: #111;
-        font-family: Montserrat;
+        font-family: 'Montserrat';
         font-size: 20px;
         font-style: normal;
         font-weight: 500;
@@ -149,10 +147,8 @@
     .workTitle {
         align-self: stretch;
         color: #000;
-        font-family: Montserrat;
+        font-family: 'Montserrat-Regular';
         font-size: 24px;
-        font-style: normal;
-        font-weight: 500;
         line-height: 100%; /* 24px */
         border-top: 1px solid #E4E5DA;
         padding-top: 40px;
@@ -216,7 +212,7 @@
         gap: 4px;
         align-self: stretch;
         color: #111;
-        font-family: Montserrat;
+        font-family: 'Montserrat';
         font-size: 20px;
         font-style: normal;
         font-weight: 500;
@@ -288,7 +284,7 @@
         max-width: 880px;
         width: 100%;
         color: #000;
-        font-family: Montserrat;
+        font-family: 'Montserrat';
         font-size: 32px;
         font-style: normal;
         font-weight: 500;
@@ -348,7 +344,7 @@
         gap: 16px;
         align-self: stretch;
         color: #111;
-        font-family: Montserrat;
+        font-family: 'Montserrat';
         font-size: 22px;
         font-style: normal;
         font-weight: 500;
@@ -480,7 +476,7 @@
         gap: 16px;
         align-self: stretch;
         color: #111;
-        font-family: Montserrat;
+        font-family: 'Montserrat';
         font-size: 22px;
         font-style: normal;
         font-weight: 500;
