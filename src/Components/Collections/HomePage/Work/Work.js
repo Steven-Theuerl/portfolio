@@ -3,6 +3,14 @@ import styles from '../Work/Work.module.css'
 import { Link } from 'react-router-dom'
 
 import '../../../../assets/Fonts/Montserrat/static/Montserrat-Medium.ttf'
+import '../../../../assets/Fonts/Montserrat/static/Montserrat-Thin.ttf'
+import '../../../../assets/Fonts/Montserrat/static/Montserrat-SemiBold.ttf'
+import '../../../../assets/Fonts/Montserrat/static/Montserrat-Regular.ttf'
+import '../../../../assets/Fonts/Montserrat/static/Montserrat-Light.ttf'
+import '../../../../assets/Fonts/Montserrat/static/Montserrat-ExtraLight.ttf'
+import '../../../../assets/Fonts/Montserrat/static/Montserrat-ExtraBold.ttf'
+import '../../../../assets/Fonts/Montserrat/static/Montserrat-Bold.ttf'
+import '../../../../assets/Fonts/Montserrat/static/Montserrat-Black.ttf'
 
 
 const Work = () => {
