@@ -138,7 +138,7 @@ const [contacted, setContacted] = useState(false);
                  <button className={styles.sendButton}
                     type='submit'
                     onClick={() => document.getElementById('entireForm').scrollBy({
-                       up: 4000
+                       top: 4000
                     })}>
                     Send Message
                 </button>
