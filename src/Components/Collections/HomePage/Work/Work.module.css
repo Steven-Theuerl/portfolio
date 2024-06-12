@@ -307,10 +307,10 @@
 
 
     .workContent1Image {
-        background: url(../../../../assets/Images/topImage.png);
+        background: url(../../../../assets/Images/topPortfolioLinkDisplay.png);
         background-color: rgb(163, 163, 163);
         background-position: center;
-        background-size: contain;
+        background-size: cover;
         background-repeat: no-repeat;
         display: flex;
         justify-content: flex-end;
@@ -440,7 +440,7 @@
     }
 
     .workContent1Image {
-        background: url(../../../../assets/Images/topImage.png) rgb(163, 163, 163) 0% / contain no-repeat;
+        background: url(../../../../assets/Images/topPortfolioLinkDisplay.png) rgb(163, 163, 163) 0% / cover no-repeat;
         background-position: center;
         display: flex;
         padding: 37px 87.464px 0px 167px;
