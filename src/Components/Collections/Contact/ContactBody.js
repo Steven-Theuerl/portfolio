@@ -136,8 +136,7 @@ const [contacted, setContacted] = useState(false);
                         {errors.message && <span className={styles.errorMessage}>Please enter a message</span>}
                 </div>
                  <button className={styles.sendButton}
-                    type='submit'
-                    onClick={() => document.getElementById('entireForm').screenTop}>
+                    type='submit'>
                     Send Message
                 </button>
             </form>
