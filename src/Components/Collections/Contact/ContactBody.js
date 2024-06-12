@@ -2,7 +2,7 @@ import React from 'react'
 import { useForm } from 'react-hook-form';
 import { useState } from 'react'
 import  emailjs  from '@emailjs/browser'
-import { Link, ScrollRestoration } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 import styles from './ContactBody.module.css'
 
@@ -137,7 +137,7 @@ const [contacted, setContacted] = useState(false);
                 </div>
                  <button className={styles.sendButton}
                     type='submit'
-                    onClick={() => document.getElementById('entireForm').scrollTo(0, 0)}>
+                    onClick={() => document.getElementById('entireForm').scrollBy(0, -650)}>
                     Send Message
                 </button>
             </form>
