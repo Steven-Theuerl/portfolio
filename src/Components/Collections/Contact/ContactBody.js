@@ -15,7 +15,6 @@ const [contacted, setContacted] = useState(false);
     const {
         register,
         handleSubmit,
-        reset,
         formState: { errors },
     } = useForm()
 
@@ -137,9 +136,7 @@ const [contacted, setContacted] = useState(false);
                 </div>
                  <button className={styles.sendButton}
                     type='submit'
-                    onClick={() => document.getElementById('entireForm').scrollBy({
-                       top: 4000
-                    })}>
+                    onClick={() => document.getElementById('entireForm').scrollTo(0, 0)}>
                     Send Message
                 </button>
             </form>
