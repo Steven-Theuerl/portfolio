@@ -40,7 +40,8 @@ const [contacted, setContacted] = useState(false);
     }
 
   return (
-    <div id='entireForm'>
+    <div className={styles.entireForm}
+         id="entireForm">
     {contacted ? [
         <div className={styles.entireContactedBody}>
             <div className={styles.contactedBodyContainer}>
