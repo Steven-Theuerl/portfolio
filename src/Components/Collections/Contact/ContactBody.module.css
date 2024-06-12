@@ -14,17 +14,18 @@
     line-height: 160%; /* 22.4px */
 }
 
-.entireForm {
-    height: 90vh;
-}
 
 @media screen and (max-width: 847px) {
+
+    .entireForm {
+        height: 1225px;
+    }
 
     .entireContactBody {
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 100vw;
+        width: 98vw;
     }
 
     .contactBodyContainer {
@@ -281,11 +282,16 @@
 
 @media screen and (min-width: 848px) and (max-width: 1279px) {
 
+    .entireForm {
+        height: 1020px;
+    }
+    
+
     .entireContactBody {
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 100vw;
+        width: 98%;
         height: 982px;
     }
 
@@ -534,7 +540,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 100vw;
+        width: 98vw;
         height: 982px;
     }
 
