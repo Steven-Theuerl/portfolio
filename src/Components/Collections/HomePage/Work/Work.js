@@ -54,10 +54,11 @@ const Work = () => {
                     </div>
                 </div>
             </Link>
+            <Link to='/Work-LLWebsite' reloadDocument>
             <div className={styles.workContent}>
-                    <div className={styles.workContent1Image}/>
+                    <div className={styles.workContent3Image}/>
                 <div className={styles.workText1}>
-                    <span className={styles.workText1Title}>Unilife <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <span className={styles.workText1Title}>First Website <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M8 15L6.93125 13.95L11.1312 9.75H2V8.25H11.1312L6.93125 4.05L8 3L14 9L8 15Z" fill="green"/></svg>
                     </span>
                 </div>
@@ -68,10 +69,11 @@ const Work = () => {
                     <div className={styles.workContentTags}>React</div> <div className={styles.workContentTags}>JavaScript</div>
                 </div>
             </div>
+            </Link>
             <div className={styles.workContent}>
-                <div className={styles.workContent1Image}/>
+                <div className={styles.workContent4Image}/>
                 <div className={styles.workText1}>
-                    <span className={styles.workText1Title}>Unilife <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <span className={styles.workText1Title}>Currently in Development <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M8 15L6.93125 13.95L11.1312 9.75H2V8.25H11.1312L6.93125 4.05L8 3L14 9L8 15Z" fill="green"/></svg>
                     </span>
                 </div>

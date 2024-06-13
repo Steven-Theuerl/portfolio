@@ -67,6 +67,22 @@
         cursor: pointer;
     }
 
+    .workContent3Image {
+        background: url(../../../../assets/Images/topLLAppLinkDisplayMobile.png);
+        background-position: right;
+        background-size: cover;
+        display: flex;
+        justify-content: flex-end;
+        align-self: stretch;
+        height: 190px;
+        border-radius: 4px;
+    }
+
+    .workContent3Image:hover {
+        opacity: .775;
+        cursor: pointer;
+    }
+
     .workText1 {
         display: flex;
         flex-direction: column;
@@ -196,6 +212,21 @@
     }
 
     .workContent2Image:hover {
+        opacity: .775;
+        cursor: pointer;
+    }
+
+    .workContent3Image {
+        background: url(../../../../assets/Images/topLLAppLinkDisplayMobile.png);
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        align-self: stretch;
+        height: 196px;
+        border-radius: 4px;
+    }
+
+    .workContent3Image:hover {
         opacity: .775;
         cursor: pointer;
     }
@@ -340,6 +371,22 @@
         cursor: pointer;
     }
 
+    .workContent3Image {
+        background: url(../../../../assets/Images/topLLAppLinkDisplay.png);
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        justify-content: flex-end;
+        align-self: stretch;
+        height: 280px;
+        border-radius: 4px;
+    }
+
+    .workContent3Image:hover {
+        opacity: .775;
+        cursor: pointer;
+    }
+
     .workText1 {
         display: flex;
         flex-direction: column;
@@ -468,6 +515,40 @@
     }
 
     .workContent2Image:hover {
+        opacity: .775;
+        cursor: pointer;
+    }
+
+    .workContent3Image {
+        background: url(../../../../assets/Images/LLWebsite/LLWebsiteHero.png);
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        padding: 37px 87.464px 0px 167px;
+        justify-content: flex-end;
+        align-self: stretch;
+        height: 323px;
+        border-radius: 4px;
+    }
+
+    .workContent3Image:hover {
+        opacity: .775;
+        cursor: pointer;
+    }
+
+    .workContent4Image {
+        background: url(../../../../assets/Images/topImage.png);
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        padding: 37px 87.464px 0px 167px;
+        justify-content: flex-end;
+        align-self: stretch;
+        height: 323px;
+        border-radius: 4px;
+    }
+
+    .workContent4Image:hover {
         opacity: .775;
         cursor: pointer;
     }
