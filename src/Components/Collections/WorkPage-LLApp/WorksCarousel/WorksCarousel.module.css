@@ -76,12 +76,10 @@
     }
 
     .worksCarouselCardImage1 {
-        background: url(../../../../assets/Images/topImage.png);
-        background-size: contain;
-        background-position: 8px;
-        background-repeat: no-repeat;
+        background: url(../../../../assets/Images/Portfolio/portfolioHeroMobile.png);
+        background-size: cover;
+        background-position: center;
         align-self: stretch;
-        background-color: rgb(245, 245, 245);
         height: 100%;
         width: 100%;
         margin-bottom: 8px;
@@ -89,17 +87,27 @@
     }
 
     .worksCarouselCardImage2 {
-        background: url(../../../../assets/Images/topImage.png);
-        background-size: contain;
-        background-position: 8px;
-        background-repeat: no-repeat;
+        background: url(../../../../assets/Images/LLWebsite/LLWebsiteHeroMobile.png);
+        background-size: cover;
+        background-position: center;
         align-self: stretch;
-        background-color: rgb(153, 153, 153);
         height: 100%;
         width: 100%;
         margin-bottom: 8px;
         border-radius: 4px;
     }
+
+    .worksCarouselCardImage3 {
+        background: url(../../../../assets/Images/GFNav/GFNavHeroMobile.png);
+        background-size: cover;
+        background-position: center;
+        align-self: stretch;
+        height: 100%;
+        width: 100%;
+        margin-bottom: 8px;
+        border-radius: 4px;
+    }
+
 
     .worksTextHeader {
         display: flex;
@@ -238,7 +246,7 @@
         padding-left: 16px;
         gap: 164px;
         grid-auto-flow: column;
-        grid-auto-columns: 100px;
+        grid-auto-columns: 112px;
         overflow: hidden;
         overscroll-behavior-inline: contain;
         scroll-snap-type: inline mandatory;
@@ -248,7 +256,7 @@
 
     .worksCarouselCard {
         display: flex;
-        width: 240px;
+        width: 256px;
         flex-direction: column;
         align-items: flex-start;
         gap: 16px;
@@ -257,33 +265,43 @@
 
     .worksCarouselCardImageContainer {
         display: flex;
-        width: 240px;
-        height: 152px;
+        width: 256px;
+        height: 148px;
     }
 
     .worksCarouselCardImage1 {
-        background: url(../../../../assets/Images/topImage.png);
-        background-size: contain;
-        background-position: 8px;
+        background: url(../../../../assets/Images/Portfolio/portfolioHeroMobile.png);
+        background-size: cover;
+        background-position: center;
         background-repeat: no-repeat;
         align-self: stretch;
         background-color: rgb(245, 245, 245);
         height: 100%;
         width: 100%;
-        margin-bottom: 8px;
         border-radius: 4px;
     }
 
     .worksCarouselCardImage2 {
-        background: url(../../../../assets/Images/topImage.png);
-        background-size: contain;
-        background-position: 8px;
+        background: url(../../../../assets/Images/LLWebsite/LLWebsiteHeroMobile.png);
+        background-size: cover;
+        background-position: center;
         background-repeat: no-repeat;
         align-self: stretch;
         background-color: rgb(153, 153, 153);
         height: 100%;
         width: 100%;
-        margin-bottom: 8px;
+        border-radius: 4px;
+    }
+
+    .worksCarouselCardImage3 {
+        background: url(../../../../assets/Images/GFNav/GFNavHeroMobile.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        align-self: stretch;
+        background-color: rgb(153, 153, 153);
+        height: 100%;
+        width: 100%;
         border-radius: 4px;
     }
 
@@ -314,6 +332,7 @@
         font-style: normal;
         font-weight: 400;
         line-height: 160%; /* 25.6px */
+        margin-bottom: -8px;
     }
 
     .worksTextTagsContainer {
@@ -384,7 +403,7 @@
         align-self: stretch;
         width: 100%;
         max-width: 720px;
-        height: 469px;
+        height: 475px;
     }
 
     .worksCarouselTopBar {
@@ -427,7 +446,7 @@
         display: grid;
         gap: 146px;
         grid-auto-flow: column;
-        grid-auto-columns: 24%;
+        grid-auto-columns: 27.9%;
         overflow: hidden;
         overscroll-behavior-inline: contain;
         scroll-snap-type: inline mandatory;
@@ -443,9 +462,9 @@
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        gap: 8px;
-        width: 310px;
-        height: 355px;
+        gap: 16px;
+        width: 323px;
+        height: 364px;
         border-radius: 4px;
     }
 
@@ -454,17 +473,15 @@
         justify-content: center;
         align-items: center;
         height: 192px;
-        width: 300px;
+        width: 323px;
         border-radius: 4px;
     }
 
     .worksCarouselCardImage1 {
         background: url(../../../../assets/Images/Portfolio/portfolioHeroMobile.png);
-        background-size: contain;
-        background-position: 8px;
-        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
         align-self: stretch;
-        background-color: rgb(245, 245, 245);
         height: 100%;
         width: 100%;
         margin-bottom: 8px;
@@ -473,11 +490,9 @@
 
     .worksCarouselCardImage2 {
         background: url(../../../../assets/Images/LLWebsite/LLWebsiteHeroMobile.png);
-        background-size: contain;
-        background-position: 8px;
-        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
         align-self: stretch;
-        background-color: rgb(153, 153, 153);
         height: 100%;
         width: 100%;
         margin-bottom: 8px;
@@ -486,11 +501,9 @@
 
     .worksCarouselCardImage3 {
         background: url(../../../../assets/Images/GFNav/GFNavHeroMobile.png);
-        background-size: contain;
-        background-position: 8px;
-        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
         align-self: stretch;
-        background-color: rgb(153, 153, 153);
         height: 100%;
         width: 100%;
         margin-bottom: 8px;
@@ -508,6 +521,7 @@
         font-style: normal;
         font-weight: 600;
         line-height: 130%; /* 28.6px */
+        margin-bottom: -8px;
     }
 
     .worksTextHeader:hover {
@@ -523,6 +537,7 @@
         font-style: normal;
         font-weight: 400;
         line-height: 160%; /* 25.6px */
+        margin-bottom: -8px;
     }
 
     .worksTextTagsContainer {
@@ -660,7 +675,7 @@
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        gap: 8px;
+        gap: 16px;
         width: 343px;
         height: 380px;
         border-radius: 4px;
@@ -676,7 +691,7 @@
     }
 
     .worksCarouselCardImage1 {
-        background: url(../../../../assets/Images/Portfolio/portfolioHeroMobile.png);
+        background: url(../../../../assets/Images/LLApp/LLAppHeroMobile.png);
         background-size: cover;
         align-self: stretch;
         height: 100%;
@@ -716,6 +731,7 @@
         font-style: normal;
         font-weight: 600;
         line-height: 130%; /* 28.6px */
+        margin-bottom: -8px;
     }
 
     .worksTextHeader:hover {
@@ -731,6 +747,7 @@
         font-style: normal;
         font-weight: 400;
         line-height: 160%; /* 25.6px */
+        margin-bottom: -8px;
     }
 
     .worksTextTagsContainer {
@@ -738,6 +755,7 @@
         justify-content: flex-start;
         align-items: center;
         gap: 10px;
+        margin-bottom: -4px;
     }
 
     .worksTextTags {

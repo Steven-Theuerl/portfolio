@@ -73,7 +73,79 @@ const WorksCarousel = () => {
                                 </svg>
                             </div>
                             <div className={styles.worksTextDescription}>
-                                My Portfolio Site that you are currently viewing. If you want to know more about what I leanred while making it, feel free to click here!
+                                My Portfolio Site that you are currently viewing. If you want to know more about what I leanred while making it, click anywhere on this card!
+                            </div>
+                            <div className={styles.worksTextTagsContainer}>
+                                <div className={styles.worksTextTags}>
+                                    React
+                                </div>
+                                <div className={styles.worksTextTags}>
+                                    JavaScript
+                                </div>
+                            </div>
+                        </div>
+                    </Link>
+                    <Link to='/Work-LLWebsite' reloadDocument>
+                        <div className={styles.worksCarouselCard}>
+                            <div className={styles.worksCarouselCardImageContainer}>
+                                <div className={styles.worksCarouselCardImage2}/>
+                            </div>
+                            <div className={styles.worksTextHeader}>
+                                <span>First Website</span>
+                                <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8 15L6.93125 13.95L11.1312 9.75H2V8.25H11.1312L6.93125 4.05L8 3L14 9L8 15Z" fill="green"/>
+                                </svg>
+                            </div>
+                            <div className={styles.worksTextDescription}>
+                                The first website that I created. This was done through the capstone project offered by Meta through the Coursera Front End Developer Certification.
+                            </div>
+                            <div className={styles.worksTextTagsContainer}>
+                                <div className={styles.worksTextTags}>
+                                    React
+                                </div>
+                                <div className={styles.worksTextTags}>
+                                    JavaScript
+                                </div>
+                            </div>
+                        </div>
+                    </Link>
+                    <Link to='/' reloadDocument>
+                        <div className={styles.worksCarouselCard}>
+                            <div className={styles.worksCarouselCardImageContainer}>
+                                <div className={styles.worksCarouselCardImage3}/>
+                            </div>
+                            <div className={styles.worksTextHeader}>
+                                <span>Work in Progress</span>
+                                <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8 15L6.93125 13.95L11.1312 9.75H2V8.25H11.1312L6.93125 4.05L8 3L14 9L8 15Z" fill="green"/>
+                                </svg>
+                            </div>
+                            <div className={styles.worksTextDescription}>
+                                This project is currently under construction, but is useful to fill this carousel :) Clicking here will take you back to the top page.
+                            </div>
+                            <div className={styles.worksTextTagsContainer}>
+                                <div className={styles.worksTextTags}>
+                                    React
+                                </div>
+                                <div className={styles.worksTextTags}>
+                                    JavaScript
+                                </div>
+                            </div>
+                        </div>
+                    </Link>
+                    <Link to='/Work-Portfolio' reloadDocument>
+                        <div className={styles.worksCarouselCard}>
+                            <div className={styles.worksCarouselCardImageContainer}>
+                                <div className={styles.worksCarouselCardImage1}/>
+                            </div>
+                            <div className={styles.worksTextHeader}>
+                                <span>Portfolio</span>
+                                <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8 15L6.93125 13.95L11.1312 9.75H2V8.25H11.1312L6.93125 4.05L8 3L14 9L8 15Z" fill="green"/>
+                                </svg>
+                            </div>
+                            <div className={styles.worksTextDescription}>
+                                My Portfolio Site that you are currently viewing. If you want to know more about what I leanred while making it, click anywhere on this card!
                             </div>
                             <div className={styles.worksTextTagsContainer}>
                                 <div className={styles.worksTextTags}>
@@ -145,7 +217,7 @@ const WorksCarousel = () => {
                                 </svg>
                             </div>
                             <div className={styles.worksTextDescription}>
-                                My Portfolio Site that you are currently viewing. If you want to know more about what I leanred while making it, feel free to click here!
+                                My Portfolio Site that you are currently viewing. If you want to know more about what I leanred while making it, click anywhere on this card!
                             </div>
                             <div className={styles.worksTextTagsContainer}>
                                 <div className={styles.worksTextTags}>
@@ -169,78 +241,7 @@ const WorksCarousel = () => {
                                 </svg>
                             </div>
                             <div className={styles.worksTextDescription}>
-                            The first website that I created. This was done through the capstone project offered by Meta through the Coursera Front End Developer Certification.
-                            </div>
-                            <div className={styles.worksTextTagsContainer}>
-                                <div className={styles.worksTextTags}>
-                                    React
-                                </div>
-                                <div className={styles.worksTextTags}>
-                                    JavaScript
-                                </div>
-                            </div>
-                        </div>
-                    </Link>
-                    <Link to='/' reloadDocument>
-                        <div className={styles.worksCarouselCard}>
-                            <div className={styles.worksCarouselCardImageContainer}>
-                                <div className={styles.worksCarouselCardImage3}/>
-                            </div>
-                            <div className={styles.worksTextHeader}>
-                                <span>Work in Progress</span>
-                                <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M8 15L6.93125 13.95L11.1312 9.75H2V8.25H11.1312L6.93125 4.05L8 3L14 9L8 15Z" fill="green"/>
-                                </svg>
-                            </div>
-                            <div className={styles.worksTextDescription}>
-                                This project is currently under construction, but is useful to fill this carousel :) Clicking here will take you back to the top page.
-                            </div>
-                            <div className={styles.worksTextTagsContainer}>
-                                <div className={styles.worksTextTags}>
-                                    React
-                                </div>
-                                <div className={styles.worksTextTags}>
-                                    JavaScript
-                                </div>
-                            </div>
-                        </div>
-                    </Link>
-                    <Link to='/Work-Portfolio' reloadDocument>
-                        <div className={styles.worksCarouselCard}>
-                            <div className={styles.worksCarouselCardImageContainer}>
-                                <div className={styles.worksCarouselCardImage1}/>
-                            </div>
-                            <div className={styles.worksTextHeader}>
-                                <span>Portfolio</span>
-                                <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M8 15L6.93125 13.95L11.1312 9.75H2V8.25H11.1312L6.93125 4.05L8 3L14 9L8 15Z" fill="green"/>
-                                </svg>
-                            </div>
-                            <div className={styles.worksTextDescription}>
-                                My Portfolio Site that you are currently viewing. If you want to know more about what I leanred while making it, feel free to click here!                            </div>
-                            <div className={styles.worksTextTagsContainer}>
-                                <div className={styles.worksTextTags}>
-                                    React
-                                </div>
-                                <div className={styles.worksTextTags}>
-                                    JavaScript
-                                </div>
-                            </div>
-                        </div>
-                    </Link>
-                    <Link to='/Work-LLWebsite' reloadDocument>
-                        <div className={styles.worksCarouselCard}>
-                            <div className={styles.worksCarouselCardImageContainer}>
-                                <div className={styles.worksCarouselCardImage2}/>
-                            </div>
-                            <div className={styles.worksTextHeader}>
-                                <span>First Website</span>
-                                <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M8 15L6.93125 13.95L11.1312 9.75H2V8.25H11.1312L6.93125 4.05L8 3L14 9L8 15Z" fill="green"/>
-                                </svg>
-                            </div>
-                            <div className={styles.worksTextDescription}>
-                            The first website that I created. This was done through the capstone project offered by Meta through the Coursera Front End Developer Certification.
+                                The first website that I created. This was done through the capstone project offered by Meta through the Coursera Front End Developer Certification.
                             </div>
                             <div className={styles.worksTextTagsContainer}>
                                 <div className={styles.worksTextTags}>

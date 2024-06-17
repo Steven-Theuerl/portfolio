@@ -77,9 +77,8 @@
 
     .worksCarouselCardImage1 {
         background: url(../../../../assets/Images/LLApp/LLAppHeroMobile.png);
-        background-size: contain;
+        background-size: cover;
         background-position: center;
-        background-color: #F4CE15;
         align-self: stretch;
         height: 100%;
         width: 100%;
@@ -89,9 +88,8 @@
 
     .worksCarouselCardImage2 {
         background: url(../../../../assets/Images/LLWebsite/LLWebsiteHeroMobile.png);
-        background-size: contain;
+        background-size: cover;
         background-position: center;
-        background-color: #F4CE15;
         align-self: stretch;
         height: 100%;
         width: 100%;
@@ -101,10 +99,9 @@
 
     .worksCarouselCardImage3 {
         background: url(../../../../assets/Images/GFNav/GFNavHeroMobile.png);
-        background-size: contain;
+        background-size: cover;
         background-position: center;
         align-self: stretch;
-        background-color: #EC6945;
         height: 100%;
         width: 100%;
         margin-bottom: 8px;
@@ -276,7 +273,6 @@
         background: url(../../../../assets/Images/LLApp/LLAppHeroMobile.png);
         background-size: cover;
         background-position: center;
-        background-repeat: no-repeat;
         align-self: stretch;
         background-color: rgb(245, 245, 245);
         height: 100%;
@@ -288,7 +284,6 @@
         background: url(../../../../assets/Images/LLWebsite/LLWebsiteHeroMobile.png);
         background-size: cover;
         background-position: center;
-        background-repeat: no-repeat;
         align-self: stretch;
         background-color: rgb(153, 153, 153);
         height: 100%;
@@ -300,7 +295,6 @@
         background: url(../../../../assets/Images/GFNav/GFNavHeroMobile.png);
         background-size: cover;
         background-position: center;
-        background-repeat: no-repeat;
         align-self: stretch;
         background-color: rgb(153, 153, 153);
         height: 100%;
@@ -482,10 +476,9 @@
 
     .worksCarouselCardImage1 {
         background: url(../../../../assets/Images/LLApp/LLAppHeroMobile.png);
-        background-size: contain;
+        background-size: cover;
         background-position: center;
         align-self: stretch;
-        background-color: #F4CE15;
         height: 100%;
         width: 100%;
         margin-bottom: 8px;
@@ -494,10 +487,9 @@
 
     .worksCarouselCardImage2 {
         background: url(../../../../assets/Images/LLWebsite/LLWebsiteHeroMobile.png);
-        background-size: contain;
+        background-size: cover;
         background-position: center;
         align-self: stretch;
-        background-color: #F4CE15;
         height: 100%;
         width: 100%;
         margin-bottom: 8px;
@@ -506,10 +498,9 @@
 
     .worksCarouselCardImage3 {
         background: url(../../../../assets/Images/GFNav/GFNavHeroMobile.png);
-        background-size: contain;
+        background-size: cover;
         background-position: center;
         align-self: stretch;
-        background-color: #F4CE15;
         height: 100%;
         width: 100%;
         margin-bottom: 8px;
