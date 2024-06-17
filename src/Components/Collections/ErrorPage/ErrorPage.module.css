@@ -4,13 +4,14 @@
         margin: 0;
         padding: 0;
     }
+
     .entireErrorContainer {
         display: flex;
         align-items: center;
         justify-content: center;
         margin-top: 72px;
     }
-    
+
     .errorContentContainer {
         display: flex;
         padding: 24px 16px 64px 16px;
@@ -34,7 +35,7 @@
     .errorPageHeader {
         color: #CED1BC;
         text-align: center;
-        font-family: Montserrat;
+        font-family: 'Montserrat';
         font-size: 64px;
         font-style: normal;
         font-weight: 700;
@@ -149,7 +150,7 @@
     .errorPageHeader {
         color: #CED1BC;
         text-align: center;
-        font-family: Montserrat;
+        font-family: 'Montserrat';
         font-size: 64px;
         font-style: normal;
         font-weight: 700;
@@ -281,7 +282,7 @@
     .errorPageMessage > h2 {
         color: var(--Text-Normal, #111);
         text-align: center;
-        font-family: Montserrat;
+        font-family: 'Montserrat';
         font-size: 32px;
         font-style: normal;
         font-weight: 500;
@@ -395,7 +396,7 @@
     .errorPageMessage > h2 {
         color: var(--Text-Normal, #111);
         text-align: center;
-        font-family: Montserrat;
+        font-family: 'Montserrat';
         font-size: 32px;
         font-style: normal;
         font-weight: 500;
