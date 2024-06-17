@@ -17,7 +17,7 @@
         width: 343px;
         color: #111;
         text-align: center;
-        font-family: Montserrat;
+        font-family: 'Montserrat';
         font-size: 24px;
         font-style: normal;
         font-weight: 500;
@@ -41,7 +41,7 @@
         align-self: stretch;
         color: #111;
         text-align: center;
-        font-family: Montserrat;
+        font-family: 'Montserrat';
         font-size: 22px;
         font-style: normal;
         font-weight: 500;
@@ -81,7 +81,7 @@
 
     .aboutQualificationsTitle {
         color: #111;
-        font-family: Montserrat;
+        font-family: 'Montserrat';
         font-size: 20px;
         font-style: normal;
         font-weight: 500;
@@ -216,7 +216,7 @@
         width: 343px;
         color: #111;
         text-align: center;
-        font-family: Montserrat;
+        font-family: 'Montserrat';
         font-size: 24px;
         font-style: normal;
         font-weight: 500;
@@ -237,7 +237,7 @@
         align-self: stretch;
         color: #111;
         text-align: center;
-        font-family: Montserrat;
+        font-family: 'Montserrat';
         font-size: 22px;
         font-style: normal;
         font-weight: 500;
@@ -276,7 +276,7 @@
 
     .aboutQualificationsTitle {
         color: #111;
-        font-family: Montserrat;
+        font-family: 'Montserrat';
         font-size: 20px;
         font-style: normal;
         font-weight: 500;
@@ -412,7 +412,7 @@
     
     .aboutTitleText {
         color: #000;
-        font-family: Montserrat;
+        font-family: 'Montserrat';
         font-size: 32px;
         font-style: normal;
         font-weight: 500;
@@ -433,7 +433,7 @@
     .aboutHeaderText {
         color: #111;
         text-align: center;
-        font-family: Montserrat;
+        font-family: 'Montserrat';
         font-size: 28px;
         font-style: normal;
         font-weight: 500;
@@ -474,7 +474,7 @@
         justify-content: flex-start;
         align-items: flex-start;
         color: #000;
-        font-family: Montserrat;
+        font-family: 'Montserrat';
         font-size: 20px;
         font-style: normal;
         font-weight: 500;
@@ -604,7 +604,7 @@
     
     .aboutTitleText {
         color: #000;
-        font-family: Montserrat;
+        font-family: 'Montserrat';
         font-size: 32px;
         font-style: normal;
         font-weight: 500;
@@ -625,7 +625,7 @@
     .aboutHeaderText {
         color: #111;
         text-align: center;
-        font-family: Montserrat;
+        font-family: 'Montserrat';
         font-size: 28px;
         font-style: normal;
         font-weight: 500;
@@ -668,7 +668,7 @@
         justify-content: flex-start;
         align-items: flex-start;
         color: #000;
-        font-family: Montserrat;
+        font-family: 'Montserrat';
         font-size: 20px;
         font-style: normal;
         font-weight: 500;
