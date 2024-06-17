@@ -25,7 +25,7 @@
     }
 
     .heroImage {
-        background: url(../../../../assets/Images/LLApp/LLHero.png);
+        background: url(../../../../assets/Images/LLApp/LLAppHeroKV.png);
         background-color: #F4CE15;
         background-position: center;
         background-size: contain;
@@ -65,7 +65,7 @@
     }
 
     .heroImage {
-        background: url(../../../../assets/Images/LLApp/LLHero.png);
+        background: url(../../../../assets/Images/LLApp/LLAppHeroKV.png);
         background-size: contain;
         background-position: center;
         background-repeat: no-repeat;
@@ -101,7 +101,7 @@
     }
 
     .heroImage {
-        background: url(../../../../assets/Images/LLApp/LLHero.png);
+        background: url(../../../../assets/Images/LLApp/LLAppHeroKV.png);
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -140,7 +140,7 @@
     }
 
     .heroImage {
-        background: url(../../../../assets/Images/LLApp/LLHero.png);
+        background: url(../../../../assets/Images/LLApp/LLAppHeroKV.png);
         background-size: cover;
         background-position: center;
         border-radius: 4px;

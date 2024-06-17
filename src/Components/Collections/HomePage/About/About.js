@@ -1,6 +1,8 @@
 import React from 'react'
 import styles from '../About/About.module.css'
 
+import { Link } from 'react-router-dom'
+
 const About = () => {
   return (
     <div className={styles.entireAbout}>
@@ -55,7 +57,7 @@ const About = () => {
                     </div>
                     <div className={styles.aboutQualificationsHobbiesDescription}>
                             <span>
-                                Gardening, cooking, games, DIY, learning Japanese 
+                                Gardening, cooking, video games but really just Elden Ring, DIY projects, and learning!
                             </span>
                         </div>
                 </div>
@@ -79,7 +81,9 @@ const About = () => {
                         </svg></a>
                     </div>
             </div>
-            <button className={styles.aboutTalkButton}>Talk with me</button>
+            <Link to='/Contact' reloadDocument>
+                <button className={styles.aboutTalkButton}>Talk with me</button>
+            </Link>
         </div>
     </div>
   )

@@ -1,6 +1,8 @@
 import React from 'react'
 import styles from '../Footer/Footer.module.css'
 
+import { Link } from 'react-router-dom'
+
 const Footer = () => {
   return (
     <div className={styles.entireFooter}>
@@ -11,9 +13,17 @@ const Footer = () => {
                 </div>
                 <div className={styles.footerLinks}>
                     <div className={styles.footerInPageLinks}>
-                      <div className={styles.footerInPageLink}><span>About</span></div>
-                      <div className={styles.footerInPageLink}><span>Work</span></div>
-                      <div></div>
+                      <Link to='/' reloadDocument>
+                        <div className={styles.footerInPageLink}>
+                            <span>Home</span>
+                        </div>
+                      </Link>
+                      <Link to='/Work-Portfolio' reloadDocument>
+                        <div className={styles.footerInPageLink}>
+                            <span>Work</span>
+                        </div>
+                      </Link>
+                
                     </div>
                     <div className={styles.footerExternalLinks}>
                         <div className={styles.footerExternalLinksItem}>

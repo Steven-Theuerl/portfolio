@@ -174,10 +174,12 @@ a {
 
     .worksBodyDesignImageContainer2 {
         background: url(../../../../assets/Images/LLApp/Design_display.png);
+        background-color: #F5F5F5;
         width: 100%;
         height: 100%;
-        background-size: contain;
+        background-size: cover;
         background-repeat: no-repeat;
+        background-position: -4px;;
         border-radius: 4px;
     }
 }
@@ -381,7 +383,7 @@ a {
         background-position: center;
         background-repeat: no-repeat;
         border-radius: 4px;
-        background-color: #fcfcfc;
+        background-color: #F5F5F5
     }
 }
 

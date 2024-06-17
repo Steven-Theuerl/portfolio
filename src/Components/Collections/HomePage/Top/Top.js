@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from '../Top/Top.module.css'
 import { useMediaQuery } from 'react-responsive'
+import { Link } from 'react-router-dom'
 
 import TopAnimation1280px from '../../../../assets/Animations/TopAnimation1280px.js'
 import TopAnimation414px from '../../../../assets/Animations/TopAnimation414px.js'
@@ -36,11 +37,14 @@ const Top = () => {
                         Contact
                     </div>
                     <div className={styles.topContactBox2}>
-                        <span>
-                            feel free to <a className={styles.anchor}> Get in touch with me<svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M3.14645 10.6464C2.95118 10.8417 2.95118 11.1583 3.14645 11.3536C3.34171 11.5488 3.65829 11.5488 3.85355 11.3536L3.14645 10.6464ZM12 3C12 2.72386 11.7761 2.5 11.5 2.5L7 2.5C6.72386 2.5 6.5 2.72386 6.5 3C6.5 3.27614 6.72386 3.5 7 3.5L11 3.5L11 7.5C11 7.77614 11.2239 8 11.5 8C11.7761 8 12 7.77614 12 7.5L12 3ZM3.85355 11.3536L11.8536 3.35355L11.1464 2.64645L3.14645 10.6464L3.85355 11.3536Z" fill="green"/>
-                            </svg></a>
-                        </span>
+                        
+                            <span>
+                                feel free to <Link to='/Contact' reloadDocument><a className={styles.anchor}> Get in touch with me<svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M3.14645 10.6464C2.95118 10.8417 2.95118 11.1583 3.14645 11.3536C3.34171 11.5488 3.65829 11.5488 3.85355 11.3536L3.14645 10.6464ZM12 3C12 2.72386 11.7761 2.5 11.5 2.5L7 2.5C6.72386 2.5 6.5 2.72386 6.5 3C6.5 3.27614 6.72386 3.5 7 3.5L11 3.5L11 7.5C11 7.77614 11.2239 8 11.5 8C11.7761 8 12 7.77614 12 7.5L12 3ZM3.85355 11.3536L11.8536 3.35355L11.1464 2.64645L3.14645 10.6464L3.85355 11.3536Z" fill="green"/>
+                                </svg></a>
+                                </Link>
+                            </span>
+                        
                     </div>
                     <div className={styles.topContactBox3}>
                         <div className={styles.topContactBox3Logo1}>
@@ -55,10 +59,12 @@ const Top = () => {
                         href='https://github.com/Steven-Theuerl'/>
                     </div>
                 </div>
+                <Link to='/Contact' reloadDocument>
                 <button
                     className={styles.aboutTalkButton}>
                         Talk with me
                 </button>
+                </Link>
             </div>
         </div>
     </div>

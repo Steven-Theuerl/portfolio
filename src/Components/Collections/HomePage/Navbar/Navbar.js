@@ -35,7 +35,7 @@ const Navbar = () => {
                             <li className={styles.navULliItem}>Home</li>
                         </Link>
                         <Link to='/Work-Portfolio' reloadDocument>
-                            <li className={styles.navULliItem}>Works</li>
+                            <li className={styles.navULliItem}>Work</li>
                         </Link>
                         <Link to='/Contact' reloadDocument>
                             <li className={styles.navULliItem}>

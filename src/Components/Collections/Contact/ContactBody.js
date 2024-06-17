@@ -10,34 +10,32 @@ const ContactBody = () => {
 
 const [contacted, setContacted] = useState(false);
 
-
-
     const {
         register,
         handleSubmit,
         formState: { errors },
-    } = useForm()
+        } = useForm()
 
     const onSubmit = async (data) => {
-        const { name, email, message } = data
-        try {
-            const templateParams = {
-                name,
-                email,
-                message
-            };
-        await emailjs.send(
-            'service_5ewbxth',
-            'template_4c1eiib',
-            templateParams,
-            {
-                publicKey: 'E7LD0XMGxvSZZ0bDA',
-            },
-        ).then(setContacted(!contacted));
-        } catch(e) {
-            console.log(e)
-            }
-    }
+            const { name, email, message } = data
+            try {
+                const templateParams = {
+                    name,
+                    email,
+                    message
+                };
+            await emailjs.send(
+                'service_5ewbxth',
+                'template_4c1eiib',
+                templateParams,
+                {
+                    publicKey: 'E7LD0XMGxvSZZ0bDA',
+                },
+            ).then(setContacted(!contacted));
+            } catch(e) {
+                console.log(e)
+                }
+        }
 
   return (
     <div className={styles.entireForm}
@@ -61,10 +59,7 @@ const [contacted, setContacted] = useState(false);
                 </div>
             </div>
         </div>
-
-
-
-    ] : [<div className={styles.entireContactBody}>
+        ] : [<div className={styles.entireContactBody}>
         <div className={styles.contactBodyContainer}>
            <div className={styles.contactHeader}>
                 Contact
@@ -111,7 +106,8 @@ const [contacted, setContacted] = useState(false);
                                 name='email'
                                 {...register('email', {
                                     required: {value: true, message: 'Please enter your email address.'},
-                                    pattern: /^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/,
+                                    pattern: 
+                                        /^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/,
                                     minLength: {
                                         value: 10,
                                         message: 'Please enter a valid email address.'

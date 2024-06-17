@@ -1,3 +1,8 @@
+.footerInPageLink {
+    color: white;
+}
+
+
 @media screen and (max-width: 414px) {
         .entireFooter {
             display: flex;
@@ -253,7 +258,7 @@
         justify-content: space-between;
         gap: 40px;
         align-self: stretch;
-        width: 224px;
+        width: 154px;
         color: #FFF;
         font-family: Verdana;
         font-size: 16px;
@@ -360,7 +365,7 @@
         justify-content: space-between;
         gap: 40px;
         align-self: stretch;
-        width: 224px;
+        width: 154px;
         color: #FFF;
         font-family: Verdana;
         font-size: 16px;

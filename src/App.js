@@ -12,7 +12,6 @@ import { Route, Routes } from 'react-router-dom'
 const App = () => {
   return (
     <>
-    
         <Routes>
             <Route path='/' element={<HomeGroup/>}/>
             <Route path='/Work-Portfolio' element={<WorkGroupPortfolio/>}/>

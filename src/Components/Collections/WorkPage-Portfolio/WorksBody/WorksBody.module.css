@@ -108,7 +108,7 @@
     }
 
     .worksBodyCodeWindow1Image {
-        background: url(../../../../assets/Images/WorksBodyCodeWindow1Image.png);
+        background: url(../../../../assets/Images/Portfolio/WorksBodyCodeWindow1Image.png);
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
@@ -118,7 +118,7 @@
     }
 
     .worksBodyCodeWindow2Image {
-        background: url(../../../../assets/Images/WorksBodyCodeWindow2Image.png);
+        background: url(../../../../assets/Images/Portfolio/WorksBodyCodeWindow2Image.png);
         background-size: cover;
         background-repeat: no-repeat;
         width: 100%;
@@ -145,7 +145,7 @@
     }
 
     .worksBodyDesignImageContainer1 {
-        background: url(../../../../assets/Images/worksBodyDesignImage1.png);
+        background: url(../../../../assets/Images/Portfolio/worksBodyDesignImage1.png);
         width: 100%;
         height: 100%;
         background-size: cover;
@@ -167,7 +167,7 @@
     }
 
     .worksBodyDesignImageContainer2 {
-        background: url(../../../../assets/Images/worksBodyDesignImage2.png);
+        background: url(../../../../assets/Images/Portfolio/worksBodyDesignImage2.png);
         width: 100%;
         height: 100%;
         background-size: cover;
@@ -290,7 +290,7 @@
     }
 
     .worksBodyCodeWindow1Image {
-        background: url(../../../../assets/Images/WorksBodyCodeWindow1Image.png);
+        background: url(../../../../assets/Images/Portfolio/WorksBodyCodeWindow1Image.png);
         background-size: contain;
         background-repeat: no-repeat;
         background-position: center;
@@ -301,7 +301,7 @@
     }
 
     .worksBodyCodeWindow2Image {
-        background: url(../../../../assets/Images/WorksBodyCodeWindow2Image.png);
+        background: url(../../../../assets/Images/Portfolio/WorksBodyCodeWindow2Image.png);
         background-size: cover;
         background-repeat: no-repeat;
         width: 100%;
@@ -337,7 +337,7 @@
     }
 
     .worksBodyDesignImage1 {
-        background: url(../../../../assets/Images/worksBodyDesignImage1.png);
+        background: url(../../../../assets/Images/Portfolio/worksBodyDesignImage1.png);
         width: 100%;
         max-width: 420px;
         height: 100%;
@@ -368,7 +368,7 @@
       }
 
     .worksBodyDesignImage2 {
-        background: url(../../../../assets/Images/worksBodyDesignImage2.png);
+        background: url(../../../../assets/Images/Portfolio/worksBodyDesignImage2.png);
         width: 100%;
         max-width: 420px;
         height: 100%;
@@ -499,7 +499,7 @@
     }
 
    .worksBodyCodeWindow1Image {
-        background-image: url(../../../../assets/Images/WorksBodyCodeWindow1Image.png);
+        background-image: url(../../../../assets/Images/Portfolio/WorksBodyCodeWindow1Image.png);
         height: 100%;
         width: 100%;
         border-radius: 4px;
@@ -509,7 +509,7 @@
    }
 
    .worksBodyCodeWindow2Image {
-        background-image: url(../../../../assets/Images/WorksBodyCodeWindow2Image.png);
+        background-image: url(../../../../assets/Images/Portfolio/WorksBodyCodeWindow2Image.png);
         height: 100%;
         width: 100%;
         border-radius: 4px;
@@ -550,7 +550,7 @@
     }
 
     .worksBodyDesignImage1 {
-        background-image: url(../../../../assets/Images/worksBodyDesignImage1.png);
+        background-image: url(../../../../assets/Images/Portfolio/worksBodyDesignImage1.png);
         height: 100%;
         width: 100%;
         border-radius: 4px;
@@ -579,7 +579,7 @@
     }
 
        .worksBodyDesignImage2 {
-        background-image: url(../../../../assets/Images/worksBodyDesignImage2.png);
+        background-image: url(../../../../assets/Images/Portfolio/worksBodyDesignImage2.png);
         height: 100%;
         width: 100%;
         border-radius: 4px;
@@ -707,7 +707,7 @@
     }
 
    .worksBodyCodeWindow1Image {
-        background-image: url(../../../../assets/Images/WorksBodyCodeWindow1Image.png);
+        background-image: url(../../../../assets/Images/Portfolio/WorksBodyCodeWindow1Image.png);
         height: 100%;
         width: 100%;
         border-radius: 4px;
@@ -715,7 +715,7 @@
    }
 
    .worksBodyCodeWindow2Image {
-        background-image: url(../../../../assets/Images/WorksBodyCodeWindow2Image.png);
+        background-image: url(../../../../assets/Images/Portfolio/WorksBodyCodeWindow2Image.png);
         height: 100%;
         width: 100%;
         border-radius: 4px;
@@ -756,7 +756,7 @@
     }
 
     .worksBodyDesignImage1 {
-        background-image: url(../../../../assets/Images/worksBodyDesignImage1.png);
+        background-image: url(../../../../assets/Images/Portfolio/worksBodyDesignImage1.png);
         height: 100%;
         width: 100%;
         border-radius: 4px;
@@ -784,7 +784,7 @@
     }
 
        .worksBodyDesignImage2 {
-        background-image: url(../../../../assets/Images/worksBodyDesignImage2.png);
+        background-image: url(../../../../assets/Images/Portfolio/worksBodyDesignImage2.png);
         height: 100%;
         width: 100%;
         border-radius: 4px;
