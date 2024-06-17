@@ -1,3 +1,4 @@
+
 @media screen and (max-width: 414px) {
     .entireTop {
         display: flex;
@@ -96,6 +97,11 @@
         line-height: 100%; /* 14px */
         border-style: solid;
         border-color: white
+    }
+
+    .aboutTalkButton:hover {
+            cursor: pointer;
+            background: #2e2e2e;
     }
 }
 
@@ -197,6 +203,11 @@
         line-height: 100%; /* 14px */
         border-style: solid;
         border-color: white
+    }
+
+    .aboutTalkButton:hover {
+        cursor: pointer;
+        background: #2e2e2e;
     }
 }
 
@@ -331,7 +342,7 @@
     .aboutTalkButton {
         display: none;
     }
- 
+
 }
 
 @media screen and (min-width: 1280px) {

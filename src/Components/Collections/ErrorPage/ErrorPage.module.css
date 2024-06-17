@@ -1,0 +1,457 @@
+@media screen and (max-width: 414px) {
+
+    h1, h2, p {
+        margin: 0;
+        padding: 0;
+    }
+    .entireErrorContainer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 72px;
+    }
+    
+    .errorContentContainer {
+        display: flex;
+        padding: 24px 16px 64px 16px;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+        align-self: stretch;
+        height: 441px;
+        width: 343px;
+    }
+
+    .errorContentContainerTopBox {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        align-self: stretch;
+        gap: 40px;
+    }
+
+    .errorPageHeader {
+        color: #CED1BC;
+        text-align: center;
+        font-family: Montserrat;
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 100%; /* 64px */
+        letter-spacing: 1.92px;
+    }
+
+    .errorPageMessage {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .errorPageMessage > h2 {
+        color: var(--Text-Normal, #111);
+        text-align: center;
+        font-family: 'Montserrat';
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 100%; /* 28px */
+    }
+
+    .errorPageMessage > p {
+        margin-top: 8px;
+        color: #4B4B4B;
+        text-align: center;
+        font-family: "Verdana";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%; /* 22.4px */
+    }
+
+    .errorImageContainer {
+        display: flex;
+        width: 234px;
+        height: 131px;
+        flex-shrink: 0;
+    }
+
+    .errorImage {
+        display: flex;
+        background: url(../../../assets/Images/errorImage.png);
+        background-position: center;
+        background-size: cover;
+        align-self: stretch;
+        width: 100%;
+        height: 100%;
+    }
+
+
+    .errorPageReturnButton {
+        margin-top: 24px;
+        display: flex;
+        width: 160px;
+        height: 44px;
+        padding: 15px 0px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        border: 1px solid #E4E5DA;
+        background: #FFF;
+        width: 160px;
+        flex-shrink: 0;
+        align-self: stretch;
+        color: var(--Text-Normal, #111);
+        text-align: center;
+        font-family: "Verdana";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 100%; /* 14px */
+    }
+
+}
+
+@media screen and (min-width: 415px) and (max-width: 847px) {
+    
+    h1, h2, p {
+        margin: 0;
+        padding: 0;
+    }
+    .entireErrorContainer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 72px;
+    }
+    
+    .errorContentContainer {
+        display: flex;
+        padding: 24px 16px 64px 16px;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+        align-self: stretch;
+        height: 441px;
+        width: 343px;
+    }
+
+    .errorContentContainerTopBox {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        align-self: stretch;
+        gap: 40px;
+    }
+
+    .errorPageHeader {
+        color: #CED1BC;
+        text-align: center;
+        font-family: Montserrat;
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 100%; /* 64px */
+        letter-spacing: 1.92px;
+    }
+
+    .errorPageMessage {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .errorPageMessage > h2 {
+        color: var(--Text-Normal, #111);
+        text-align: center;
+        font-family: 'Montserrat';
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 100%; /* 28px */
+    }
+
+    .errorPageMessage > p {
+        margin-top: 8px;
+        color: #4B4B4B;
+        text-align: center;
+        font-family: "Verdana";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%; /* 22.4px */
+    }
+
+    .errorImageContainer {
+        display: flex;
+        width: 234px;
+        height: 131px;
+        flex-shrink: 0;
+    }
+
+    .errorImage {
+        display: flex;
+        background: url(../../../assets/Images/errorImage.png);
+        background-position: center;
+        background-size: cover;
+        align-self: stretch;
+        width: 100%;
+        height: 100%;
+    }
+
+    .errorPageReturnButton {
+        margin-top: 24px;
+        display: flex;
+        width: 160px;
+        height: 44px;
+        padding: 15px 0px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        border: 1px solid #E4E5DA;
+        background: #FFF;
+        width: 160px;
+        flex-shrink: 0;
+        align-self: stretch;
+        color: var(--Text-Normal, #111);
+        text-align: center;
+        font-family: "Verdana";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 100%; /* 14px */
+    }
+}
+
+@media screen and (min-width: 848px) and (max-width: 1279px) {
+
+    h1, h2, p {
+        margin: 0;
+        padding: 0;
+    }
+
+    .entireErrorContainer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 72px;
+    }
+
+    .errorContentContainer {
+        display: flex;
+        padding: 64px 200px 120px 200px;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+        align-self: stretch;
+        height: 600px;
+        width: 582px;
+    }
+
+    .errorContentContainerTopBox {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        align-self: stretch;
+        gap: 40px;
+    }
+
+    .errorPageHeader {
+        color: #CED1BC;
+        justify-self: center;
+        font-family: 'Montserrat';
+        font-size: 80px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 100%; /* 80px */
+        letter-spacing: 2.4px;
+    }
+
+    .errorPageMessage {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .errorPageMessage > h2 {
+        color: var(--Text-Normal, #111);
+        text-align: center;
+        font-family: Montserrat;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 100%; /* 32px */
+        margin-bottom: 8px;
+    }
+
+    .errorPageMessage > p {
+        color: #4B4B4B;
+        text-align: center;
+        font-family: "Verdana";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%; /* 25.6px */
+    }
+
+    .errorImageContainer {
+        display: flex;
+        width: 398px;
+        height: 192px;
+        align-items: center;
+    }
+
+    .errorImage {
+        display: flex;
+        background: url(../../../assets/Images/errorImage.png);
+        background-position: center;
+        background-size: contain;
+        align-self: stretch;
+        width: 100%;
+        height: 100%;
+    }
+
+
+    .errorPageReturnButton {
+        margin-top: 80px;
+        display: flex;
+        width: 160px;
+        height: 44px;
+        padding: 15px 0px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        border: 1px solid #E4E5DA;
+        background: #FFF;
+        width: 160px;
+        flex-shrink: 0;
+        align-self: stretch;
+        color: var(--Text-Normal, #111);
+        text-align: center;
+        font-family: "Verdana";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 100%; /* 14px */
+    }
+}
+
+@media screen and (min-width: 1280px) {
+
+    h1, h2, p {
+        margin: 0;
+        padding: 0;
+    }
+    .entireErrorContainer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 72px;
+    }
+
+    .errorContentContainer {
+        display: flex;
+        padding: 64px 400px 120px 400px;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+        align-self: stretch;
+        height: 600px;
+        width: 582px;
+    }
+
+    .errorContentContainerTopBox {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        align-self: stretch;
+        gap: 40px;
+    }
+
+    .errorPageHeader {
+        color: #CED1BC;
+        justify-self: center;
+        font-family: 'Montserrat';
+        font-size: 80px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 100%; /* 80px */
+        letter-spacing: 2.4px;
+    }
+
+    .errorPageMessage {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .errorPageMessage > h2 {
+        color: var(--Text-Normal, #111);
+        text-align: center;
+        font-family: Montserrat;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 100%; /* 32px */
+        margin-bottom: 8px;
+    }
+
+    .errorPageMessage > p {
+        color: #4B4B4B;
+        text-align: center;
+        font-family: "Verdana";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%; /* 25.6px */
+    }
+
+    .errorImageContainer {
+        display: flex;
+        width: 398px;
+        height: 192px;
+        align-items: center;
+    }
+
+    .errorImage {
+        display: flex;
+        background: url(../../../assets/Images/errorImage.png);
+        background-position: center;
+        background-size: contain;
+        align-self: stretch;
+        width: 100%;
+        height: 100%;
+    }
+
+
+    .errorPageReturnButton {
+        margin-top: 80px;
+        display: flex;
+        width: 160px;
+        height: 44px;
+        padding: 15px 0px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        border: 1px solid #E4E5DA;
+        background: #FFF;
+        width: 160px;
+        flex-shrink: 0;
+        align-self: stretch;
+        color: var(--Text-Normal, #111);
+        text-align: center;
+        font-family: "Verdana";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 100%; /* 14px */
+    }
+}
+

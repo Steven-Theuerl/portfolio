@@ -6,6 +6,7 @@ import WorkGroupPortfolio from './Components/Groups/WorkGroup-Portfolio'
 import WorkGroupLLApp from './Components/Groups/WorkGroup-LLApp'
 import ContactGroup from './Components/Groups/ContactGroup'
 import WorkGroupLLWebsite from './Components/Groups/WorkGroup-LLWebsite'
+import ErrorPageGroup from './Components/Groups/ErrorPageGroup'
 
 import { Route, Routes } from 'react-router-dom'
 

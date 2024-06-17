@@ -351,6 +351,7 @@ a {
     .slideMenuInactive {
         display: none;
     }
+
     .navMenuContainer {
         display: none;
     }
@@ -377,7 +378,6 @@ a {
         padding: 16px 40px;
         margin-left: 0px;
     }
-
 
     .navSignature {
         color: #111;
@@ -432,6 +432,7 @@ a {
 
     .navULliItemTalkBox:hover {
         cursor: pointer;
+        background: #2e2e2e;
     }
 }
 
@@ -523,6 +524,7 @@ a {
 
     .navULliItemTalkBox:hover {
         cursor: pointer;
+        background: #2e2e2e;
     }
 
 }
