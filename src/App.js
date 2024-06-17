@@ -19,6 +19,7 @@ const App = () => {
             <Route path='/Contact' element={<ContactGroup/>}/>
             <Route path='/Work-LLApp' element={<WorkGroupLLApp/>}/>
             <Route path='/Work-LLWebsite' element={<WorkGroupLLWebsite/>}/>
+            <Route path='/*' element={<ErrorPageGroup/>}/>
         </Routes>
     </>
   )
