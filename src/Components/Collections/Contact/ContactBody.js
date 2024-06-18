@@ -8,7 +8,7 @@ import styles from './ContactBody.module.css'
 
 const ContactBody = () => {
 
-const [contacted, setContacted] = useState(true);
+const [contacted, setContacted] = useState(false);
 
     const {
         register,
@@ -43,13 +43,13 @@ const [contacted, setContacted] = useState(true);
     {contacted ? [
         <div className={styles.entireContactedBody}>
             <div className={styles.contactedBodyContainer}>
-                <div className={styles.contactedHeader}>
+                <h1 className={styles.contactedHeader}>
                     Thank you!
-                </div>
-                <div className={styles.contactedBody}>
+                </h1>
+                <h2 className={styles.contactedBody}>
                     Thank you for contacting me. <br/>
                     I will reply to the email address you provided.
-                </div>
+                </h2>
                 <div className={styles.contactedHomeButtonContainer}>
                     <Link to='/' reloadDocument>
                         <button className={styles.contactedHomeButton}>
@@ -61,26 +61,26 @@ const [contacted, setContacted] = useState(true);
         </div>
         ] : [<div className={styles.entireContactBody}>
         <div className={styles.contactBodyContainer}>
-           <div className={styles.contactHeader}>
+           <h1 className={styles.contactHeader}>
                 Contact
-            </div>
+            </h1>
             <div className={styles.contactSubHeaderContainer}>
-                <div className={styles.contactSubHeaderTop}>
+                <h2 className={styles.contactSubHeaderTop}>
                     I'd love to hear from you!
-                </div>
-                <div className={styles.contactSubHeaderBottom}>
-                    If you'd like to leave me a message, please use the contact form below
-                    or email me at <a className={styles.contactPageAnchor}href='https://www.gmail.com'>mr.steven.theuerl@gmail.com</a>
-                </div>
+                </h2>
+                <p className={styles.contactSubHeaderBottom}>
+                    <span>If you'd like to leave me a message, please use the contact form below
+                    or email me at <a className={styles.contactPageAnchor} href='https://www.gmail.com'>mr.steven.theuerl@gmail.com</a></span>
+                </p>
             </div>
             <form className={styles.contactFormContainer}
                   onSubmit={handleSubmit(onSubmit)}
                   noValidate>
                <div className={styles.contactEntireTopInputsContainer}>
                     <div className={styles.contactInputContainer}>
-                        <div className={styles.contactInputLabel}>
+                        <h3 className={styles.contactInputLabel}>
                             Your Name *
-                        </div>
+                        </h3>
                         <input className={styles.contactInputField}
                                 placeholder='Your Name'
                                 type='text'
@@ -97,9 +97,9 @@ const [contacted, setContacted] = useState(true);
                         {errors.name && (<span className={styles.errorMessage}>{errors.name.message}</span>)}
                     </div>
                     <div className={styles.contactInputContainer}>
-                        <div className={styles.contactInputLabel}>
+                        <h3 className={styles.contactInputLabel}>
                             Your Email Address *
-                        </div>
+                        </h3>
                         <input className={styles.contactInputField}
                                 placeholder='example@example.com'
                                 type='text'
@@ -119,9 +119,9 @@ const [contacted, setContacted] = useState(true);
                     </div>
                </div>
                <div className={styles.contactMessageContainer}>
-                        <div className={styles.contactInputLabel}>
+                        <h3 className={styles.contactInputLabel}>
                             Your Message *
-                        </div>
+                        </h3>
                         <textarea className={styles.contactMessgageInputField}
                                   placeholder='Your Message'
                                   {...register('message', {
