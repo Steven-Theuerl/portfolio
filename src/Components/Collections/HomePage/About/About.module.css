@@ -91,7 +91,15 @@
         font-style: normal;
         font-weight: 500;
         line-height: 100%; /* 20px */
-    
+    }
+
+    .aboutQualificationsEducationItemSubTitle {
+        color: #000;
+        font-family: "Verdana";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
     }
 
     .aboutQualificationsEducationItems {
@@ -286,6 +294,15 @@
         font-style: normal;
         font-weight: 500;
         line-height: 100%; /* 20px */
+    }
+
+    .aboutQualificationsEducationItemSubTitle {
+        color: #000;
+        font-family: "Verdana";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
     }
 
     .aboutQualificationsEducationItems {
@@ -483,6 +500,15 @@
         font-weight: 500;
         line-height: 100%; /* 20px */
     }
+
+    .aboutQualificationsEducationItemSubTitle {
+        color: #000;
+        font-family: "Verdana";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+    }
     
     .aboutQualificationsEducationItems {
         display: flex;
@@ -676,6 +702,15 @@
         font-style: normal;
         font-weight: 500;
         line-height: 100%; /* 20px */
+    }
+
+    .aboutQualificationsEducationItemSubTitle {
+        color: #000;
+        font-family: "Verdana";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
     }
     
     .aboutQualificationsEducationItems {
