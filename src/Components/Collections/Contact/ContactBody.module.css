@@ -256,11 +256,12 @@
     .contactedHomeButton {
         display: flex;
         height: 44px;
-        padding: 15px 44px 15px 37px;
+        padding: 15px 37px 15px 37px;
         align-items: center;
         border-radius: 10px;
         border: 1px solid #E4E5DA;
         color: var(--Text-Normal, #111);
+        background-color: transparent;
         font-family: "Verdana";
         font-size: 14px;
         font-style: normal;

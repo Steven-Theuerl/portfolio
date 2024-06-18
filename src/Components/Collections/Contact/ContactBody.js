@@ -8,7 +8,7 @@ import styles from './ContactBody.module.css'
 
 const ContactBody = () => {
 
-const [contacted, setContacted] = useState(false);
+const [contacted, setContacted] = useState(true);
 
     const {
         register,
