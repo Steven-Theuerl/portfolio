@@ -8,22 +8,21 @@ const Footer = () => {
     <div className={styles.entireFooter}>
         <div className={styles.footerContainer}>
             <div className={styles.footerTopBox}>
-                <div className={styles.footerName}>
+                <h1 className={styles.footerName}>
                     Steven Theuerl
-                </div>
+                </h1>
                 <div className={styles.footerLinks}>
                     <div className={styles.footerInPageLinks}>
                       <Link to='/' reloadDocument>
                         <div className={styles.footerInPageLink}>
-                            <span>Home</span>
+                            Home
                         </div>
                       </Link>
                       <Link to='/Work-Portfolio' reloadDocument>
                         <div className={styles.footerInPageLink}>
-                            <span>Work</span>
+                            Work
                         </div>
                       </Link>
-                
                     </div>
                     <div className={styles.footerExternalLinks}>
                         <div className={styles.footerExternalLinksItem}>
@@ -45,9 +44,9 @@ const Footer = () => {
                 </div>
             </div>
             <div className={styles.separator}/>
-            <div className={styles.footerFooter}>
-                <span>©2024 Steven Theuerl</span>
-            </div>
+            <p className={styles.footerFooter}>
+                ©2024 Steven Theuerl
+            </p>
         </div>
     </div>
   )

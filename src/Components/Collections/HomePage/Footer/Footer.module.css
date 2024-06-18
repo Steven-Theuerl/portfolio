@@ -96,6 +96,7 @@
         }
 
         .footerFooter {
+            align-self: center;
             color: #E4E5DA;
             text-align: center;
             font-family: 'Montserrat';
@@ -199,6 +200,7 @@
     }
 
     .footerFooter {
+        align-self: center;
         color: #E4E5DA;
         text-align: center;
         font-family: 'Montserrat';
@@ -306,6 +308,7 @@
     }
     
     .footerFooter {
+        align-self: center;
         color: #E4E5DA;
         text-align: center;
         font-family: 'Montserrat';
@@ -413,6 +416,7 @@
     }
     
     .footerFooter {
+        align-self: center;
         color: #E4E5DA;
         text-align: center;
         font-family: 'Montserrat';
