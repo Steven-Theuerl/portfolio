@@ -29,7 +29,7 @@ const About = () => {
                         <div className={styles.aboutQualificationsEducationItem}>
                             <div className={styles.aboutQualificationsEducationItemTitle}>
                                 <b>Associate of Science in Natural Sciences</b>
-                                <br></br>
+                                <br/>
                                 <span>Community College of Beaver County at Monaca, PA</span>
                             </div>
                             <div className={styles.aboutQualificationsEducationItemDate}>
@@ -39,7 +39,7 @@ const About = () => {
                         <div className={styles.aboutQualificationsEducationItem}>
                             <div className={styles.aboutQualificationsEducationItemTitle}>
                                 <b>Bachelor of Science in Horticulture</b>
-                                <br></br>
+                                <br/>
                                 <span>Colorado State University at Fort Collins, CO</span>
                             </div>
                             <div className={styles.aboutQualificationsEducationItemDate}>
