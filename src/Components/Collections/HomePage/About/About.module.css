@@ -1,8 +1,3 @@
-.aboutQualificationsEducationItemTitle > br {
-    margin: 0px;
-    padding: 0px;
-}
-
 @media screen and (max-width: 414px) {
     .entireAbout {
         display: flex;
@@ -19,7 +14,6 @@
     }
 
     .aboutTitleText {
-        width: 343px;
         color: #111;
         text-align: center;
         font-family: 'Montserrat';
@@ -107,7 +101,6 @@
         align-items: flex-start;
         gap: 16px;
         align-self: stretch;
-        
     }
 
     .aboutQualificationsEducationItem {
@@ -222,13 +215,14 @@
         padding: 64px 40px;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
         gap: 40px;
     }
 
     .aboutTitleText {
-        width: 343px;
         color: #111;
         text-align: center;
+        align-self: center;
         font-family: 'Montserrat';
         font-size: 24px;
         font-style: normal;
@@ -422,8 +416,9 @@
     
     .aboutContainer {
         display: flex;
-        flex-direction: column;
         align-items: center;
+        justify-content: center;
+        flex-direction: column;
         gap: 40px;
         align-self: stretch;
         max-width: 880px;
@@ -432,6 +427,7 @@
     
     .aboutTitleText {
         color: #000;
+        text-align: center;
         font-family: 'Montserrat';
         font-size: 32px;
         font-style: normal;
@@ -632,6 +628,7 @@
     }
     
     .aboutTitleText {
+        text-align: center;
         color: #000;
         font-family: 'Montserrat';
         font-size: 32px;

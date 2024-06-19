@@ -157,7 +157,7 @@
     }
 
     .worksBodyDesignImageBoxSubtext {
-        align-self: stretch;
+        align-self: center;
         color: #4B4B4B;
         text-align: center;
         font-family: "Verdana";
@@ -353,7 +353,7 @@
     }
 
     .worksBodyDesignImageBoxSubtext {
-        align-self: stretch;
+        align-self: center;
         color: #4B4B4B;
         text-align: center;
         font-family: "Verdana";

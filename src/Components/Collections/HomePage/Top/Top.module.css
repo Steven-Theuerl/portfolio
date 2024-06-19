@@ -1,4 +1,3 @@
-
 @media screen and (max-width: 414px) {
     .entireTop {
         display: flex;
@@ -47,7 +46,6 @@
         line-height: 140%; /* 18.2px */
         margin-top: -16px;
         margin-bottom: -16px;
-        
     }
 
     .topContactBox1 {
@@ -73,7 +71,8 @@
         width: 22px;
         height: 22px;
         flex-shrink: 0;
-        background: url(../../../../assets/Images/topContactBox3Logo2.png) rgb(255, 255, 255) 1% / cover no-repeat;
+        background: url(../../../../assets/Images/topContactBox3Logo2.png) rgb(255, 255, 255) 70% / cover no-repeat;
+        opacity: 80%;
     }
 
     .topContactBox3Logo2 {
@@ -101,8 +100,8 @@
     }
 
     .aboutTalkButton:hover {
-            cursor: pointer;
-            background: #2e2e2e;
+        cursor: pointer;
+        background: #2e2e2e;
     }
 }
 
@@ -180,6 +179,7 @@
         height: 22px;
         flex-shrink: 0;
         background: url(../../../../assets/Images/topContactBox3Logo2.png) rgb(255, 255, 255) 1% / cover no-repeat;
+        opacity: 80%;
     }
 
     .topContactBox3Logo2 {
@@ -332,6 +332,7 @@
         height: 22px;
         flex-shrink: 0;
         background: url(../../../../assets/Images/topContactBox3Logo2.png) rgb(255, 255, 255) 1% / cover no-repeat;
+        opacity: 80%;
     }
 
     .topContactBox3Logo2 {
@@ -343,7 +344,6 @@
     .aboutTalkButton {
         display: none;
     }
-
 }
 
 @media screen and (min-width: 1280px) {
@@ -465,12 +465,13 @@
         height: 22px;
         flex-shrink: 0;
         background: url(../../../../assets/Images/topContactBox3Logo2.png) rgb(255, 255, 255) 1% / cover no-repeat;
+        opacity: 80%;
     }
 
     .topContactBox3Logo2 {
         width: 22px;
-    height: 22px;
-    flex-shrink: 0;
+        height: 22px;
+        flex-shrink: 0;
     }
 
     .aboutTalkButton {

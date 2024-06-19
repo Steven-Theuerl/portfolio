@@ -11,7 +11,13 @@ b {
     font-weight: 600;
 }
 
-h1 , h2, h3, h4, h5, h6, p, b, span, br, a {
+h1 , h2, h3, h4, h5, h6, b {
+    padding: 0px;
+    margin: 0px;
+    font-weight: 600;
+}
+
+p {
     padding: 0px;
     margin: 0px;
 }
