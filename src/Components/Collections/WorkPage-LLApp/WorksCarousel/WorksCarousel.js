@@ -12,7 +12,7 @@ const WorksCarousel = () => {
         <div className={styles.entireWorksCarousel}>
             <div className={styles.worksCarouselContainer}>
                 <div className={styles.worksCarouselTopBar}>
-                    <span className={styles.worksCarouselTitle}>See Other Works</span>
+                    <h2 className={styles.worksCarouselTitle}>See Other Works</h2>
                     <div className={styles.worksCarouselButtons}>
                         {isMobile ?
                             [<button className={styles.worksCarouselSlider} id="slideLeft"
@@ -66,22 +66,22 @@ const WorksCarousel = () => {
                             <div className={styles.worksCarouselCardImageContainer}>
                                 <div className={styles.worksCarouselCardImage1}/>
                             </div>
-                            <div className={styles.worksTextHeader}>
-                                <span>Portfolio</span>
+                            <h3 className={styles.worksTextHeader}>
+                                Portfolio
                                 <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M8 15L6.93125 13.95L11.1312 9.75H2V8.25H11.1312L6.93125 4.05L8 3L14 9L8 15Z" fill="green"/>
                                 </svg>
-                            </div>
-                            <div className={styles.worksTextDescription}>
+                            </h3>
+                            <p className={styles.worksTextDescription}>
                                 My Portfolio Site that you are currently viewing. If you want to know more about what I leanred while making it, click anywhere on this card!
-                            </div>
+                            </p>
                             <div className={styles.worksTextTagsContainer}>
-                                <div className={styles.worksTextTags}>
+                                <p className={styles.worksTextTags}>
                                     React
-                                </div>
-                                <div className={styles.worksTextTags}>
+                                </p>
+                                <p className={styles.worksTextTags}>
                                     JavaScript
-                                </div>
+                                </p>
                             </div>
                         </div>
                     </Link>
@@ -90,22 +90,22 @@ const WorksCarousel = () => {
                             <div className={styles.worksCarouselCardImageContainer}>
                                 <div className={styles.worksCarouselCardImage2}/>
                             </div>
-                            <div className={styles.worksTextHeader}>
-                                <span>First Website</span>
+                            <h3 className={styles.worksTextHeader}>
+                                First Website
                                 <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M8 15L6.93125 13.95L11.1312 9.75H2V8.25H11.1312L6.93125 4.05L8 3L14 9L8 15Z" fill="green"/>
                                 </svg>
-                            </div>
-                            <div className={styles.worksTextDescription}>
+                            </h3>
+                            <p className={styles.worksTextDescription}>
                                 The first website that I created. This was done through the capstone project offered by Meta through the Coursera Front End Developer Certification.
-                            </div>
+                            </p>
                             <div className={styles.worksTextTagsContainer}>
-                                <div className={styles.worksTextTags}>
+                                <p className={styles.worksTextTags}>
                                     React
-                                </div>
-                                <div className={styles.worksTextTags}>
+                                </p>
+                                <p className={styles.worksTextTags}>
                                     JavaScript
-                                </div>
+                                </p>
                             </div>
                         </div>
                     </Link>
@@ -114,22 +114,22 @@ const WorksCarousel = () => {
                             <div className={styles.worksCarouselCardImageContainer}>
                                 <div className={styles.worksCarouselCardImage3}/>
                             </div>
-                            <div className={styles.worksTextHeader}>
-                                <span>Work in Progress</span>
+                            <h3 className={styles.worksTextHeader}>
+                                Work in Progress
                                 <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M8 15L6.93125 13.95L11.1312 9.75H2V8.25H11.1312L6.93125 4.05L8 3L14 9L8 15Z" fill="green"/>
                                 </svg>
-                            </div>
-                            <div className={styles.worksTextDescription}>
+                            </h3>
+                            <p className={styles.worksTextDescription}>
                                 This project is currently under construction, but is useful to fill this carousel :) Clicking here will take you back to the top page.
-                            </div>
+                            </p>
                             <div className={styles.worksTextTagsContainer}>
-                                <div className={styles.worksTextTags}>
+                                <p className={styles.worksTextTags}>
                                     React
-                                </div>
-                                <div className={styles.worksTextTags}>
+                                </p>
+                                <p className={styles.worksTextTags}>
                                     JavaScript
-                                </div>
+                                </p>
                             </div>
                         </div>
                     </Link>
@@ -138,22 +138,22 @@ const WorksCarousel = () => {
                             <div className={styles.worksCarouselCardImageContainer}>
                                 <div className={styles.worksCarouselCardImage1}/>
                             </div>
-                            <div className={styles.worksTextHeader}>
+                            <h3 className={styles.worksTextHeader}>
                                 <span>Portfolio</span>
                                 <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M8 15L6.93125 13.95L11.1312 9.75H2V8.25H11.1312L6.93125 4.05L8 3L14 9L8 15Z" fill="green"/>
                                 </svg>
-                            </div>
-                            <div className={styles.worksTextDescription}>
+                            </h3>
+                            <p className={styles.worksTextDescription}>
                                 My Portfolio Site that you are currently viewing. If you want to know more about what I leanred while making it, click anywhere on this card!
-                            </div>
+                            </p>
                             <div className={styles.worksTextTagsContainer}>
-                                <div className={styles.worksTextTags}>
+                                <p className={styles.worksTextTags}>
                                     React
-                                </div>
-                                <div className={styles.worksTextTags}>
+                                </p>
+                                <p className={styles.worksTextTags}>
                                     JavaScript
-                                </div>
+                                </p>
                             </div>
                         </div>
                     </Link>
@@ -162,22 +162,22 @@ const WorksCarousel = () => {
                             <div className={styles.worksCarouselCardImageContainer}>
                                 <div className={styles.worksCarouselCardImage2}/>
                             </div>
-                            <div className={styles.worksTextHeader}>
-                                <span>First Website</span>
+                            <h3 className={styles.worksTextHeader}>
+                                First Website
                                 <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M8 15L6.93125 13.95L11.1312 9.75H2V8.25H11.1312L6.93125 4.05L8 3L14 9L8 15Z" fill="green"/>
                                 </svg>
-                            </div>
-                            <div className={styles.worksTextDescription}>
-                            The first website that I created. This was done through the capstone project offered by Meta through the Coursera Front End Developer Certification.
-                            </div>
+                            </h3>
+                            <p className={styles.worksTextDescription}>
+                                The first website that I created. This was done through the capstone project offered by Meta through the Coursera Front End Developer Certification.
+                            </p>
                             <div className={styles.worksTextTagsContainer}>
-                                <div className={styles.worksTextTags}>
+                                <p className={styles.worksTextTags}>
                                     React
-                                </div>
-                                <div className={styles.worksTextTags}>
+                                </p>
+                                <p className={styles.worksTextTags}>
                                     JavaScript
-                                </div>
+                                </p>
                             </div>
                         </div>
                     </Link>
@@ -186,22 +186,22 @@ const WorksCarousel = () => {
                             <div className={styles.worksCarouselCardImageContainer}>
                                 <div className={styles.worksCarouselCardImage3}/>
                             </div>
-                            <div className={styles.worksTextHeader}>
-                                <span>Work in Progress</span>
+                            <h3 className={styles.worksTextHeader}>
+                                Work in Progress
                                 <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M8 15L6.93125 13.95L11.1312 9.75H2V8.25H11.1312L6.93125 4.05L8 3L14 9L8 15Z" fill="green"/>
                                 </svg>
-                            </div>
-                            <div className={styles.worksTextDescription}>
+                            </h3>
+                            <p className={styles.worksTextDescription}>
                                 This project is currently under construction, but is useful to fill this carousel :) Clicking here will take you back to the top page.
-                            </div>
+                            </p>
                             <div className={styles.worksTextTagsContainer}>
-                                <div className={styles.worksTextTags}>
+                                <p className={styles.worksTextTags}>
                                     React
-                                </div>
-                                <div className={styles.worksTextTags}>
+                                </p>
+                                <p className={styles.worksTextTags}>
                                     JavaScript
-                                </div>
+                                </p>
                             </div>
                         </div>
                     </Link>
@@ -210,22 +210,22 @@ const WorksCarousel = () => {
                             <div className={styles.worksCarouselCardImageContainer}>
                                 <div className={styles.worksCarouselCardImage1}/>
                             </div>
-                            <div className={styles.worksTextHeader}>
-                                <span>Portfolio</span>
+                            <h3 className={styles.worksTextHeader}>
+                                Portfolio
                                 <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M8 15L6.93125 13.95L11.1312 9.75H2V8.25H11.1312L6.93125 4.05L8 3L14 9L8 15Z" fill="green"/>
                                 </svg>
-                            </div>
-                            <div className={styles.worksTextDescription}>
+                            </h3>
+                            <p className={styles.worksTextDescription}>
                                 My Portfolio Site that you are currently viewing. If you want to know more about what I leanred while making it, click anywhere on this card!
-                            </div>
+                            </p>
                             <div className={styles.worksTextTagsContainer}>
-                                <div className={styles.worksTextTags}>
+                                <p className={styles.worksTextTags}>
                                     React
-                                </div>
-                                <div className={styles.worksTextTags}>
+                                </p>
+                                <p className={styles.worksTextTags}>
                                     JavaScript
-                                </div>
+                                </p>
                             </div>
                         </div>
                     </Link>
@@ -234,22 +234,22 @@ const WorksCarousel = () => {
                             <div className={styles.worksCarouselCardImageContainer}>
                                 <div className={styles.worksCarouselCardImage2}/>
                             </div>
-                            <div className={styles.worksTextHeader}>
-                                <span>First Website</span>
+                            <h3 className={styles.worksTextHeader}>
+                                First Website
                                 <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M8 15L6.93125 13.95L11.1312 9.75H2V8.25H11.1312L6.93125 4.05L8 3L14 9L8 15Z" fill="green"/>
                                 </svg>
-                            </div>
-                            <div className={styles.worksTextDescription}>
+                            </h3>
+                            <p className={styles.worksTextDescription}>
                                 The first website that I created. This was done through the capstone project offered by Meta through the Coursera Front End Developer Certification.
-                            </div>
+                            </p>
                             <div className={styles.worksTextTagsContainer}>
-                                <div className={styles.worksTextTags}>
+                                <p className={styles.worksTextTags}>
                                     React
-                                </div>
-                                <div className={styles.worksTextTags}>
+                                </p>
+                                <p className={styles.worksTextTags}>
                                     JavaScript
-                                </div>
+                                </p>
                             </div>
                         </div>
                     </Link>
@@ -258,22 +258,22 @@ const WorksCarousel = () => {
                             <div className={styles.worksCarouselCardImageContainer}>
                                 <div className={styles.worksCarouselCardImage3}/>
                             </div>
-                            <div className={styles.worksTextHeader}>
-                                <span>Work in Progress</span>
+                            <h3 className={styles.worksTextHeader}>
+                                Work in Progress
                                 <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M8 15L6.93125 13.95L11.1312 9.75H2V8.25H11.1312L6.93125 4.05L8 3L14 9L8 15Z" fill="green"/>
                                 </svg>
-                            </div>
-                            <div className={styles.worksTextDescription}>
+                            </h3>
+                            <p className={styles.worksTextDescription}>
                                 This project is currently under construction, but is useful to fill this carousel :) Clicking here will take you back to the top page.
-                            </div>
+                            </p>
                             <div className={styles.worksTextTagsContainer}>
-                                <div className={styles.worksTextTags}>
+                                <p className={styles.worksTextTags}>
                                     React
-                                </div>
-                                <div className={styles.worksTextTags}>
+                                </p>
+                                <p className={styles.worksTextTags}>
                                     JavaScript
-                                </div>
+                                </p>
                             </div>
                         </div>
                     </Link>
