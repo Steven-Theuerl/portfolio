@@ -674,7 +674,7 @@
         align-items: flex-start;
         gap: 16px;
         width: 343px;
-        height: 380px;
+        height: 386px;
         border-radius: 4px;
     }
 
@@ -682,7 +682,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 192px;
+        height: 190px;
         width: 343px;
         border-radius: 4px;
     }
@@ -728,7 +728,7 @@
         font-style: normal;
         font-weight: 600;
         line-height: 130%; /* 28.6px */
-        margin-bottom: -8px;
+        margin-bottom: -10px;
     }
 
     .worksTextHeader:hover {

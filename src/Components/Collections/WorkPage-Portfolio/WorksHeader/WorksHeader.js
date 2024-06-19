@@ -10,7 +10,7 @@ const WorksHeader = () => {
                 <h1 className={styles.projectTitle}><span >My Portfolio</span></h1>
                 <p  className={styles.projectDescription}>
                     <span>
-                    Thank you, you're looking at my portfolio right now. Not only is it simple and the content is easy to read, but it also shows what makes me unique.
+                        The website you are looking at right now is my portfolio site, and this page mentions some important things that I learned and/or used while creating it.
                     </span>
                 </p>
                 <div className={styles.projectVisitButtonContainer}>
@@ -48,7 +48,7 @@ const WorksHeader = () => {
                     </svg>
                     </div>
                     <p className={styles.workDetailsType}>Tools</p>
-                    <p className={styles.workDetailsDetails}>React, Next js, HTML, css</p>
+                    <p className={styles.workDetailsDetails}>React, HTML, JavaScript, CSS, NPMjs</p>
                </div>
             </div>
         </div>

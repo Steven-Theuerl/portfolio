@@ -105,7 +105,7 @@ const WorksBody = () => {
                     </div>
                     <p className={styles.worksBodyKeyPointsDetail}>
                         <span>
-                            Ensured the project was of a <b>responsive design</b> and styled with influence from trends in <b>modern web development</b> deduced by research into other popular front-end developer portfolio examples while maintaining an original appearance and approach.
+                            Ensured the project was of a <b>responsive design</b> and styled with influence from trends in <b>modern web development</b> decided by research into other popular front-end developer portfolio examples. All while maintaining an original appearance and approach.
                         </span>
                     </p>
                 </div>
@@ -124,7 +124,7 @@ const WorksBody = () => {
                         <div className={styles.worksBodyKeyPointsDetailBullet}/>
                     </div>
                     <p className={styles.worksBodyKeyPointsDetail}>
-                        <span>Created an <b>original character</b> inspired by my personal qualities and characteristics to create a brand identity for the products and services that I will create.</span>
+                        <span>Created an <b>original character</b> inspired by my personal qualities and characteristics to establish a brand identity for the products and services that I will create in the future.</span>
                     </p>
                 </div>
             </div>
