@@ -691,8 +691,9 @@
     }
 
     .worksCarouselCardImage1 {
-        background: url(../../../../assets/Images/LLApp/LLAppHeroMobile.png);
+        background: url(../../../../assets/Images/Portfolio/portfolioHeroMobile.png);
         background-size: cover;
+        background-position: center;
         align-self: stretch;
         height: 100%;
         width: 100%;

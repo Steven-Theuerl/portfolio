@@ -8,9 +8,9 @@ const Footer = () => {
     <div className={styles.entireFooter}>
         <div className={styles.footerContainer}>
             <div className={styles.footerTopBox}>
-                <h1 className={styles.footerName}>
+                <h4 className={styles.footerName}>
                     Steven Theuerl
-                </h1>
+                </h4>
                 <div className={styles.footerLinks}>
                     <div className={styles.footerInPageLinks}>
                       <Link to='/' reloadDocument>

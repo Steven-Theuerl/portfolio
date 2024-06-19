@@ -43,13 +43,13 @@ const [contacted, setContacted] = useState(false);
     {contacted ? [
         <div className={styles.entireContactedBody}>
             <div className={styles.contactedBodyContainer}>
-                <h1 className={styles.contactedHeader}>
+                <h2 className={styles.contactedHeader}>
                     Thank you!
-                </h1>
-                <h2 className={styles.contactedBody}>
+                </h2>
+                <p className={styles.contactedBody}>
                     Thank you for contacting me. <br/>
                     I will reply to the email address you provided.
-                </h2>
+                </p>
                 <div className={styles.contactedHomeButtonContainer}>
                     <Link to='/' reloadDocument>
                         <button className={styles.contactedHomeButton}>
@@ -65,9 +65,9 @@ const [contacted, setContacted] = useState(false);
                 Contact
             </h1>
             <div className={styles.contactSubHeaderContainer}>
-                <h2 className={styles.contactSubHeaderTop}>
+                <p className={styles.contactSubHeaderTop}>
                     I'd love to hear from you!
-                </h2>
+                </p>
                 <p className={styles.contactSubHeaderBottom}>
                     <span>If you'd like to leave me a message, please use the contact form below
                     or email me at <a className={styles.contactPageAnchor} href='https://www.gmail.com'>mr.steven.theuerl@gmail.com</a></span>

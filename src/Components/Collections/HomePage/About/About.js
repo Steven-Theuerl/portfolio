@@ -7,15 +7,15 @@ const About = () => {
   return (
     <div className={styles.entireAbout}>
         <div className={styles.aboutContainer}>
-            <h1 className={styles.aboutTitleText}>
+            <h2 className={styles.aboutTitleText}>
                 About
-            </h1>
+            </h2>
             <div className={styles.aboutImgContainer}>
                 <div className={styles.aboutImg}/>
             </div>
-            <h2 className={styles.aboutHeaderText}>
+            <h3 className={styles.aboutHeaderText}>
                 Hello! I'm Steven.
-            </h2>
+            </h3>
             <p className={styles.aboutBodyText}>
                 A highly motivated, detail-oriented, and well-organized leader, learner, and team-player with over 10 years of work history. I have a passion for learning and using new technologies, developing functional and engaging experiences for users, and using critical thinking to solve complex problems. I have only recently started my web development journey, but I now wake up everyday excited to work on my projects. I am seeking an opportunity to apply my skills and knowledge, learn from experienced professionals, and contribute to innovative projects that drive user engagement and satisfaction.
             </p>

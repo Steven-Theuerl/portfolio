@@ -6,13 +6,11 @@ const WorksHeader = () => {
     <div className={styles.entireWorksAbout}>
         <div className={styles.worksHeaderContainer}>
             <div className={styles.worksHeaderTopContainer}>
-                <div className={styles.tag}><span>Application</span></div>
-                <div className={styles.projectTitle}><span >Mobile Application</span></div>
-                <div  className={styles.projectDescription}>
-                    <span>
-                        I made a simple application as a project from the Coursera Capstone; React Native by Meta. This project taught me valuable skills to work with React Native to develop cross-platform applciations and also work more effectively with data handling.
-                    </span>
-                </div>
+                <h6 className={styles.tag}><span>Application</span></h6>
+                <h1 className={styles.projectTitle}><span >Mobile Application</span></h1>
+                <p  className={styles.projectDescription}>
+                    I made a simple application as a project from the Coursera Capstone; React Native by Meta. This project taught me valuable skills to work with React Native to develop cross-platform applciations and also work more effectively with data handling.
+                </p>
                 <div className={styles.projectVisitButtonContainer}>
                     <button className={styles.projectVisitButton}>
                         View on Github
