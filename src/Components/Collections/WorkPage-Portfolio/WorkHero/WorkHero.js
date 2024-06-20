@@ -40,10 +40,10 @@ const WorkHero = () => {
                 </div>
             </div>
             <div className={styles.heroImageContainer}>
-                {isMobile && <video className={styles.heroImage} width='344' height="190" loop='true' autoPlay='true' src={demo}/> }
-                {isMobileButBigger && <video className={styles.heroImage} width='351' height="196" loop='true' autoPlay='true' src={demo}/> }
-                {isPCButSmaller && <video className={styles.heroImage} width='700' height="411" loop='true' autoPlay='true' src={demo}/> }
-                {isPCProbably && <video className={styles.heroImage} width='960' height="560" loop='true' autoPlay='true' src={demo}/> }
+                {isMobile && <video width='344' height="190" loop='true' autoplay='true' src={demo}/> }
+                {isMobileButBigger && <video width='351' height="196" loop='true' autoplay='true' src={demo}/> }
+                {isPCButSmaller && <video width='700' height="411" loop='true' autoplay='true' src={demo}/> }
+                {isPCProbably && <video width='960' height="560" autoplay='true' loop='true'  src={demo}/> }
             </div>
         </div>
     </div>
