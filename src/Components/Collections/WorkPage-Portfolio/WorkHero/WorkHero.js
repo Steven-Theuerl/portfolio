@@ -1,10 +1,14 @@
 import React from 'react'
 import styles from './WorkHero.module.css'
 import { useMediaQuery } from 'react-responsive'
+import demo from '../../../../assets/Videos/portfolioDemo.mp4'
 
 const WorkHero = () => {
 
     const isMobile = useMediaQuery({ query: '(max-width: 414px)' })
+    const isMobileButBigger = useMediaQuery({ query: '(min-width: 415px) and (max-width: 847px)'})
+    const isPCButSmaller = useMediaQuery({ query: '(min-width: 848px) and (max-width: 1279px)'})
+    const isPCProbably = useMediaQuery({ query: '(min-width: 1280px)'})
 
   return (
     <>
@@ -36,7 +40,10 @@ const WorkHero = () => {
                 </div>
             </div>
             <div className={styles.heroImageContainer}>
-                <div className={styles.heroImage}/>
+                {isMobile && <video className={styles.heroImage} width='344' height="190" loop='true' autoPlay='true' src={demo}/> }
+                {isMobileButBigger && <video className={styles.heroImage} width='351' height="196" loop='true' autoPlay='true' src={demo}/> }
+                {isPCButSmaller && <video className={styles.heroImage} width='700' height="411" loop='true' autoPlay='true' src={demo}/> }
+                {isPCProbably && <video className={styles.heroImage} width='960' height="560" loop='true' autoPlay='true' src={demo}/> }
             </div>
         </div>
     </div>
