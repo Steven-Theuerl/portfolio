@@ -17,7 +17,7 @@ const About = () => {
                 Hello! I'm Steven.
             </h3>
             <p className={styles.aboutBodyText}>
-                A highly motivated, detail-oriented, and well-organized leader, learner, and team-player with over 10 years of work history. I have a passion for learning and using new technologies, developing functional and engaging experiences for users, and using critical thinking to solve complex problems. I have only recently started my web development journey, but I now wake up everyday excited to work on my projects. I am seeking an opportunity to apply my skills and knowledge, learn from experienced professionals, and contribute to innovative projects that drive user engagement and satisfaction.
+                    I have never been afraid to try something or learn something new. That quality has allowed me to collect quite a bit of work and life experience and has been fueled by a deep fufilment and passion for learning and creating. I naturally approach challenges with a thoughtful and analytical mindset and continuously seek opportunities for growth and innovation. I have just started my journey as a developer, but I am very excited to contribute to the world in a meaningful way.
             </p>
             <div className={styles.aboutQualifications}>
                 <div className={styles.aboutQualificationsEducation}>
@@ -53,7 +53,7 @@ const About = () => {
                             Hobbies
                         </h3>
                         <p className={styles.aboutQualificationsHobbiesDescription}>
-                            Gardening, cooking, video games but really just Elden Ring, DIY projects, and learning!
+                            All of my time is happily given to my wife, my child, and my work. But I also enjoy taking care of plants, cooking, video games (but really just Elden Ring), DIY projects, lots of exercise, and learning!
                         </p>
                     </div>
                 </div>

@@ -12,7 +12,7 @@ const WorksBody = () => {
                     Learned about and Used React Native and ExpoGo to Make a 'Native' Cross-Platform Application
                 </h2>
                 <p className={styles.worksBodyKeyPointsDescription}>
-                     An application written using React Native can be displayed on mobile devices as intended with fully functioning features to a native experience. The application is written in JavaScript and then rendered to the native platfrom UI.
+                     An application written using React Native is displayed on mobile devices as intended with fully functioning features to a native experience. The application is written with React using JavaScript and then rendered to the native platfrom UI.
                 </p>
                 <div className={styles.worksBodyKeyPointsDetailContainer}>
                     <div className={styles.worksBodyKeyPointsDetailBulletContainer}>
@@ -39,7 +39,7 @@ const WorksBody = () => {
                    Used Modern Tools and Libraries for Mobile Development
                 </h2>
                 <p className={styles.worksBodyKeyPointsDescription}>
-                    With React Native and JSX along with some common libraries, I implemented features that are commonly used in mobile development.
+                    Utilizing React Native and JSX along with some commonly used libraries and lots of documentation, I implemented features that are frequently used in mobile development.
                 </p>
                 <div className={styles.worksBodyKeyPointsDetailContainer}>
                     <div className={styles.worksBodyKeyPointsDetailBulletContainer}>
@@ -47,18 +47,8 @@ const WorksBody = () => {
                     </div>
                     <div className={styles.worksBodyKeyPointsDetailAndAnchorContainer}>
                         <p className={styles.worksBodyKeyPointsDetail}>
-                            <span>Set up an <b>authentication and navigation flow</b> to enable users to sign in and move between screens.</span>
+                            <span>Set up an <b>authentication and navigation flow</b> to enable users to interact with an onboarding screen, sign into an account, retain persistant data locally to prevent multiple onboarding phases on app restarts, and movement between screens.</span>
                         </p>
-                    </div>
-                </div>
-                <div className={styles.worksBodyKeyPointsDetailContainer}>
-                    <div className={styles.worksBodyKeyPointsDetailBulletContainer}>
-                        <div className={styles.worksBodyKeyPointsDetailBullet}/>
-                    </div>
-                    <div className={styles.worksBodyKeyPointsDetailAndAnchorContainer}>
-                    <p className={styles.worksBodyKeyPointsDetail}>
-                        <span><b>Fetched</b> data from a remote server, <b>stored</b> it in a locally created database, and then <b>rendered</b> it in the application.</span>
-                    </p>
                     </div>
                 </div>
                 <div className={styles.worksBodyKeyPointsDetailContainer}>
@@ -96,14 +86,14 @@ const WorksBody = () => {
                     Created a Design Adhering to a Style Guide and Feature Requirements
                 </h2>
                 <p className={styles.worksBodyKeyPointsDescription}>
-                    <span>Used Figma to create a basic wireframe of app screens before development.</span>
+                    <span>Used Figma to create a basic wireframe of app screens before development. This gave me a clear plan of how to start with development, structure elements and components, and order screens shown in the user experience.</span>
                 </p>
                 <div className={styles.worksBodyKeyPointsDetailContainer}>
                     <div className={styles.worksBodyKeyPointsDetailBulletContainer}>
                         <div className={styles.worksBodyKeyPointsDetailBullet}/>
                     </div>
                     <p className={styles.worksBodyKeyPointsDetail}>
-                        <span><b>Applied UX and UI principles</b> to create a wireframe and prototype for an app.</span>
+                        <span><b>Applied User Experience &#40;UX&#41; and User Interface &#40;UI&#41; principles</b> to create a wireframe and prototype for an app with the expereince for the user as the primary consideration during planning.</span>
                     </p>
                 </div>
                 <div className={styles.worksBodyKeyPointsDetailContainer}>
@@ -111,15 +101,7 @@ const WorksBody = () => {
                         <div className={styles.worksBodyKeyPointsDetailBullet}/>
                     </div>
                     <p className={styles.worksBodyKeyPointsDetail}>
-                        <span>Developed designed screens for a <b>React Native app</b> featuring various custom and core components and interactive elements.</span>
-                    </p>
-                </div>
-                <div className={styles.worksBodyKeyPointsDetailContainer}>
-                    <div className={styles.worksBodyKeyPointsDetailBulletContainer}>
-                        <div className={styles.worksBodyKeyPointsDetailBullet}/>
-                    </div>
-                    <p className={styles.worksBodyKeyPointsDetail}>
-                        <span><b>Designed an onboarding process</b> for welcoming new users to the application.</span>
+                        <span>Designed an onboarding process and developed screens for a <b>React Native app</b> from the figma data utilizing a variety of custom and core components and interactive elements.</span>
                     </p>
                 </div>
             </div>
