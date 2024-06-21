@@ -1,9 +1,12 @@
 import React from 'react'
 import styles from './WorksBody.module.css'
 
+import codeWindow1 from '../../../../assets/Images/LLApp-WorksBodyCodeWindow1Image.png'
+import codeWindow2 from '../../../../assets/Images/LLApp-WorksBodyCodeWindow2Image.png'
+import designImage1 from '../../../../assets/Images/LLApp/figmaDesign.png'
+import designImage2 from '../../../../assets/Images/LLApp/Design_display.png'
+
 const WorksBody = () => {
-
-
   return (
     <div className={styles.entireWorksBody}>
         <div className={styles.worksBodyContainer}>
@@ -27,12 +30,12 @@ const WorksBody = () => {
                         <div className={styles.worksBodyKeyPointsDetailBullet}/>
                     </div>
                     <p className={styles.worksBodyKeyPointsDetail}>
-                    <span><b>Over the Air Updates </b> can enable developers to push small changes or updates directly to users of the application, which can circumvent waits for Play Store and App Store approval to re-distribute the app.</span>
+                        <span><b>Over the Air Updates </b> can enable developers to push small changes or updates directly to users of the application, which can circumvent waits for Play Store and App Store approval to re-distribute the app.</span>
                     </p>
                 </div>
             </div>
             <div className={styles.worksBodyCodeWindow1}>
-                <div className={styles.worksBodyCodeWindow1Image}/>
+                <img src={codeWindow1} alt='the code showing auth context, a a validation process for onboarding' className={styles.worksBodyCodeWindow1Image}/>
             </div>
             <div className={styles.worksBodyKeyPointsContainer}>
                 <h2 className={styles.worksBodyKeyPointsHeader}>
@@ -79,7 +82,7 @@ const WorksBody = () => {
                 </div>
             </div>
             <div className={styles.worksBodyCodeWindow2}>
-                <div className={styles.worksBodyCodeWindow2Image}/>
+                <img src={codeWindow2} alt='code showing the database and filtering functionality' className={styles.worksBodyCodeWindow2Image}/>
             </div>
             <div className={styles.worksBodyKeyPointsContainer}>
                 <h2 className={styles.worksBodyKeyPointsHeader}>
@@ -107,7 +110,7 @@ const WorksBody = () => {
             </div>
             <div className={styles.worksBodyDesignImageBox1}>
                     <div className={styles.worksBodyDesignImageContainer1}>
-                        <div className={styles.worksBodyDesignImage1}/>
+                        <img src={designImage1} alt='the wireframe of the main screen in the figma file' className={styles.worksBodyDesignImage1}/>
                     </div>
                     <div className={styles.worksBodyDesignImageBoxSubtext}>
                         <p>Figma - Main Screen Wireframe</p>
@@ -115,7 +118,7 @@ const WorksBody = () => {
                 </div>
             <div className={styles.worksBodyDesignImageBox2}>
                     <div className={styles.worksBodyDesignImageContainer2}>
-                        <div className={styles.worksBodyDesignImage2}/>
+                        <img src={designImage2} alt='a display of screens from the application' className={styles.worksBodyDesignImage2}/>
                     </div>
                     <div className={styles.worksBodyDesignImageBoxSubtext}>
                         <p>Example Screenshots from App</p>

@@ -2,16 +2,16 @@ import React from 'react'
 import styles from './WorkHero.module.css'
 import { useMediaQuery } from 'react-responsive'
 
-const WorkHero = () => {
+import hero from '../../../../assets/Images/LLApp/LLAppHeroKV.png'
 
-    const isMobile = useMediaQuery({ query: '(max-width: 414px)' })
+const WorkHero = () => {
 
   return (
     <>
     <div className={styles.entireHero}>
         <div className={styles.heroContainer}>
             <div className={styles.heroImageContainer}>
-                <div className={styles.heroImage}/>
+                <img src={hero} alt='example of screens in application' className={styles.heroImage}/>
             </div>
         </div>
     </div>
