@@ -23,6 +23,11 @@ const Footer = () => {
                             Work
                         </div>
                       </Link>
+                      <Link to='/Contact' reloadDocument>
+                        <div className={styles.footerInPageLink}>
+                            Contact
+                        </div>
+                      </Link>
                     </div>
                     <div className={styles.footerExternalLinks}>
                         <div className={styles.footerExternalLinksItem}>

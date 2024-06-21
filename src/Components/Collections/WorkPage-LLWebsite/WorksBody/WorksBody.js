@@ -12,14 +12,14 @@ const WorksBody = () => {
                     Learned About The Importance of Semantic HTML and SEO
                 </h2>
                 <p className={styles.worksBodyKeyPointsDescription}>
-                    Using the correct tags for elements in HTML facilitates a browser's accurate translation from code to content for users. This makes for more accessible content, better search engine optimization for relavent content, and easier collaboration with other developers.
+                    Using the correct tags for elements in HTML facilitate a browser's accurate translation from code to content for browsers, search engines, and ultimatley the end user.
                 </p>
                 <div className={styles.worksBodyKeyPointsDetailContainer}>
                     <div className={styles.worksBodyKeyPointsDetailBulletContainer}>
                     <div className={styles.worksBodyKeyPointsDetailBullet}/>
                     </div>
                     <p className={styles.worksBodyKeyPointsDetail}>
-                       <span>Correct usage of HTML tags help Assistive Technologies accurately provide content from context to users that have disabilities.</span>
+                       <span>Correct usage of HTML tags help <b>Assistive Technologies</b> accurately provide content from context to users that have disabilities, making content more accessible content.</span>
                     </p>
                 </div>
                 <div className={styles.worksBodyKeyPointsDetailContainer}>
@@ -27,7 +27,7 @@ const WorksBody = () => {
                         <div className={styles.worksBodyKeyPointsDetailBullet}/>
                     </div>
                     <p className={styles.worksBodyKeyPointsDetail}>
-                        <span>Semantic Tags in HTML indicate the role of their content to a search engine and browser. For example, the content in a &#60;h1&#62; tag is read as more important to search results than the content in a &#60;p&#62; tag.</span>
+                        <span>Semantic Tags in HTML indicate the <b>role of their content</b> to a search engine and browser. For example, the content in a <b>&#60;h1&#62;</b> tag is read by a search engine as more important to search results than the content in a <b>&#60;p&#62;</b> tag. Ensuring a project has correct tags us crucial for search engine optimization for relavent content.</span>
                     </p>
                 </div>
                 <div className={styles.worksBodyKeyPointsDetailContainer}>
@@ -35,7 +35,7 @@ const WorksBody = () => {
                         <div className={styles.worksBodyKeyPointsDetailBullet}/>
                     </div>
                     <p className={styles.worksBodyKeyPointsDetail}>
-                        <span>Using the correct tags standard to web development makes it easier for other developers who understand the semantics to read and contribute to the project.</span>
+                        <span>Using the correct tags standard to web development makes it easier for other developers who understand the semantics to read and contribute to the project, making it easier to <b>collaborate with other developers</b>.</span>
                     </p>
                 </div>
             </div>
@@ -55,7 +55,7 @@ const WorksBody = () => {
                     </div>
                     <div className={styles.worksBodyKeyPointsDetailAndAnchorContainer}>
                         <p className={styles.worksBodyKeyPointsDetail}>
-                            <span>React uses JavaScript XML &#40;JSX&#41;; an optional syntax extension allowing a developer to write HTML-like code in JavaScript.</span>
+                            <span>React uses JavaScript XML &#40;JSX&#41;; an optional syntax extension allowing a developer to write <b>HTML-like code in JavaScript</b>.</span>
                         </p>
                     </div>
                 </div>
@@ -65,7 +65,7 @@ const WorksBody = () => {
                     </div>
                     <div className={styles.worksBodyKeyPointsDetailAndAnchorContainer}>
                         <p className={styles.worksBodyKeyPointsDetail}>
-                            <span>Working with modularized components can increase the speed of development, efficient unit testing, and general maintenance of the project; making React an excellent choice for SPAs, websites, or applications that display changing informaiton on complex UI elements.</span>
+                            <span>Working with modularized components can <b>increase the speed of development</b>, efficacy of unit testing, and ease of general maintenance of the project. Because of these features, React an excellent choice for SPAs, websites, or applications that <b>display changing information on complex UI elements</b>.</span>
                         </p>
                     </div>
                 </div>
@@ -75,7 +75,7 @@ const WorksBody = () => {
                     </div>
                     <div className={styles.worksBodyKeyPointsDetailAndAnchorContainer}>
                         <p className={styles.worksBodyKeyPointsDetail}>
-                            <span>React uses 'State' to allow components to manage and update data that can change over time. It aallows for more dynamic and interactive components by triggering re-renders when the state changes. By using state effectively, React components can provide a responsive and interactive user experience.</span>
+                            <span>React uses <b>'State'</b> to allow components to <b>manage and update data</b> that can change over time. It allows for more dynamic and interactive components by triggering re-renders when the state changes. By using state effectively, React components can provide a <b>responsive and interactive user experience</b>.</span>
                         </p>
                     </div>
                 </div>
@@ -95,7 +95,7 @@ const WorksBody = () => {
                         <div className={styles.worksBodyKeyPointsDetailBullet}/>
                     </div>
                     <p className={styles.worksBodyKeyPointsDetail}>
-                        <span>Version control systems like Git keep a detailed history of all changes made to the codebase. Who made the changes, when they were made, what specific changes were implemented, and more is recorded; making it easier to track down bugs and revert to previous versions if needed.</span>
+                        <span>Version control systems like Git keep a <b>detailed history</b> of all changes made to the codebase. Who made the changes, when they were made, what specific changes were implemented, and more is recorded; making it easier to <b>identify bugs and revert to previous versions if needed</b>.</span>
                     </p>
                 </div>
                 <div className={styles.worksBodyKeyPointsDetailContainer}>
@@ -103,7 +103,7 @@ const WorksBody = () => {
                         <div className={styles.worksBodyKeyPointsDetailBullet}/>
                     </div>
                     <p className={styles.worksBodyKeyPointsDetail}>
-                        <span>Hosting code on GitHub provides the benefit of its infrastructure and backup systems. This reduces the risk of data loss and ensures that your code is securely stored and accessible from anywhere by anyone with sufficient permissions.</span>
+                        <span>Hosting code on GitHub provides the benefit of its infrastructure and backup systems. This <b>reduces the risk of data loss</b> and ensures that your code is <b>securely stored and accessible</b> from anywhere by anyone with sufficient permissions.</span>
                     </p>
                 </div>
                 <div className={styles.worksBodyKeyPointsDetailContainer}>
@@ -111,7 +111,7 @@ const WorksBody = () => {
                         <div className={styles.worksBodyKeyPointsDetailBullet}/>
                     </div>
                     <p className={styles.worksBodyKeyPointsDetail}>
-                        <span>GitHub provides a cooperative environment where multiple developers can work on the same project simultaneously. Contributors can create branches, experiment with changes, and merge their code back into the main branch while avoiding interference between submissions from contributors.</span>
+                        <span>GitHub provides a <b>cooperative environment</b> where multiple developers can work on the same project simultaneously. Contributors can create branches, experiment with changes, and merge their code back into the main branch while avoiding interference between submissions from contributors.</span>
                     </p>
                 </div>
             </div>

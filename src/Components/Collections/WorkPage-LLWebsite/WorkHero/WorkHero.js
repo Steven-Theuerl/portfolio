@@ -1,10 +1,7 @@
 import React from 'react'
 import styles from './WorkHero.module.css'
-import { useMediaQuery } from 'react-responsive'
 
 const WorkHero = () => {
-
-    const isMobile = useMediaQuery({ query: '(max-width: 414px)' })
 
   return (
     <>

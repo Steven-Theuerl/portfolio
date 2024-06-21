@@ -191,11 +191,11 @@
 
     .worksBodyContainer {
         display: flex;
-        flex: 1 0 0;
+  
         flex-direction: column;
         padding: 24px 32px 40px 32px;
         width: 100%;
-        max-width: 480px;
+        max-width: 580px;
         align-items: center;
         gap: 40px;
         align-self: stretch;
@@ -276,7 +276,7 @@
         display: flex;
         height: 228px;
         width: 100%;
-        max-width: 420px;
+        max-width: 580px;
         justify-content: center;
         align-items: center;
         border-radius: 4px;
@@ -287,7 +287,7 @@
         display: flex;
         height: 228px;
         width: 100%;
-        max-width: 420px;
+        max-width: 580px;
         justify-content: center;
         align-items: center;
         border-radius: 4px;
@@ -296,7 +296,7 @@
 
     .worksBodyCodeWindow1Image {
         background: url(../../../../assets/Images/Portfolio/WorksBodyCodeWindow1Image.png);
-        background-size: contain;
+        background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
         align-self: stretch;
@@ -310,7 +310,7 @@
         background-size: cover;
         background-repeat: no-repeat;
         width: 100%;
-        max-width: 476px;
+        max-width: 580px;
         height: 100%;
         border-radius: 4px;
     }

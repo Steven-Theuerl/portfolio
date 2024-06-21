@@ -44,6 +44,10 @@
         }
 
         .footerInPageLink {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
             color: #FFF;
             font-family: Verdana;
             font-size: 14px;

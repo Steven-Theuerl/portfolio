@@ -196,7 +196,7 @@ a {
         flex-direction: column;
         padding: 24px 32px 40px 32px;
         width: 100%;
-        max-width: 480px;
+        max-width: 580px;
         align-items: center;
         gap: 40px;
         align-self: stretch;

@@ -2,14 +2,11 @@ import React from 'react'
 import styles from './WorkHero.module.css'
 import { useMediaQuery } from 'react-responsive'
 import demo from '../../../../assets/Videos/portfolioDemo.mp4'
-import ReactPlayer from 'react-player'
+
 
 const WorkHero = () => {
 
-    const isMobile = useMediaQuery({ query: '(max-width: 414px)' })
-    const isMobileButBigger = useMediaQuery({ query: '(min-width: 415px) and (max-width: 847px)'})
-    const isPCButSmaller = useMediaQuery({ query: '(min-width: 848px) and (max-width: 1279px)'})
-    const isPCProbably = useMediaQuery({ query: '(min-width: 1280px)'})
+    const isMobile = useMediaQuery({ query: '(max-width: 847px)' })
 
   return (
     <>
@@ -41,10 +38,7 @@ const WorkHero = () => {
                 </div>
             </div>
             <div className={styles.heroImageContainer}>
-
-            <video muted='true' playsInline='true' autoplay='true' loop='true' width='100%' height="100%" src={demo}/>
-
-             {/* <ReactPlayer muted='true' playsinline='true' playing='true' loop='true' width='100%' height="100%" url={demo}/>*/} 
+                <video muted='true' playsInline='true' autoplay='true' loop='true' width='100%' height="100%" src={demo}/>
             </div>
         </div>
     </div>
