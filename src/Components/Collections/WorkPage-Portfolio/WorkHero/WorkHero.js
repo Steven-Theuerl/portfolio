@@ -43,7 +43,7 @@ const WorkHero = () => {
             <div className={styles.heroImageContainer}>
 
 
-                {isMobile && <ReactPlayer playsinline='true' playing='true' loop='true' width='100%' height="100%" url={demo}/> }
+                {isMobile && <ReactPlayer muted='true' playsinline='true' playing='true' loop='true' width='100%' height="100%" url={demo}/> }
 
 
                 {isMobileButBigger && <ReactPlayer width='100%' height="96.5%" playing='true' loop='true' playsinline='true' url={demo}/> }
