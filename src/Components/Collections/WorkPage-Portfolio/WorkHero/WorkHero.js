@@ -40,7 +40,7 @@ const WorkHero = () => {
                 </div>
             </div>
             <div className={styles.heroImageContainer}>
-                {isMobile && <video width='344' height="190" autoplay='true'loop='true' playsInline='true' src={demo}/> }
+                {isMobile && <video className={styles.heroImage} width='344' height="191.25" autoplay='true'loop='true' playsInline='true' src={demo}/> }
                 {isMobileButBigger && <video width='351' height="196" autoplay='true' loop='true' playsInline='true' src={demo}/> }
                 {isPCButSmaller && <video width='700' height="411" autoplay='true' loop='true'  playsInline='true' src={demo}/> }
                 {isPCProbably && <video width='960' height="560" autoplay='true' loop='true' playsInline='true' src={demo}/> }
