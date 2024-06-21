@@ -41,7 +41,11 @@ const WorkHero = () => {
                 </div>
             </div>
             <div className={styles.heroImageContainer}>
-                {isMobile && <ReactPlayer className={styles.heroImage} width='344' height="191.25" playing='true'loop='true' playsinline='true' url={demo}/> }
+
+
+                {isMobile && <ReactPlayer controls='true' width='344px' height="191px" playing='true' loop='true' playsinline='true' url={demo}/> }
+
+
                 {isMobileButBigger && <ReactPlayer width='100%' height="96.5%" playing='true' loop='true' playsinline='true' url={demo}/> }
                 {isPCButSmaller && <ReactPlayer width='700' height="411" playing='true' loop='true'  playsinline='true' url={demo}/> }
                 {isPCProbably && <ReactPlayer width='960' height="560" playing='true' loop='true' playsinline='true' url={demo}/> }
