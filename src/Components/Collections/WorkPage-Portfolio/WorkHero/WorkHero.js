@@ -41,7 +41,10 @@ const WorkHero = () => {
                 </div>
             </div>
             <div className={styles.heroImageContainer}>
-               <ReactPlayer muted='true' playsinline='true' playing='true' loop='true' width='100%' height="100%" url={demo}/>
+
+            <video muted='true' playsInline='true' autoplay='true' loop='true' width='100%' height="100%" src={demo}/>
+
+             {/* <ReactPlayer muted='true' playsinline='true' playing='true' loop='true' width='100%' height="100%" url={demo}/>*/} 
             </div>
         </div>
     </div>
