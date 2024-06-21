@@ -2,7 +2,6 @@ import React from 'react'
 import styles from './WorkHero.module.css'
 import { useMediaQuery } from 'react-responsive'
 import demo from '../../../../assets/Videos/portfolioDemo.mp4'
-import ReactPlayer from 'react-player'
 
 const WorkHero = () => {
 
@@ -43,8 +42,8 @@ const WorkHero = () => {
             <div className={styles.heroImageContainer}>
                 {isMobile && <video width='344' height="190" autoplay='true'loop='true' playsInline='true' src={demo}/> }
                 {isMobileButBigger && <video width='351' height="196" autoplay='true' loop='true' playsInline='true' src={demo}/> }
-                {isPCButSmaller && <ReactPlayer width='700' height="411" playing='true' loop='true'  url={demo} playsinline='true'/> }
-                {isPCProbably && <ReactPlayer width='960px' height='560px' playing='true' loop='true'  url={demo} playsinline='true'/> }
+                {isPCButSmaller && <video width='700' height="411" autoplay='true' loop='true'  playsInline='true' src={demo}/> }
+                {isPCProbably && <video width='960' height="560" autoplay='true' loop='true' playsInline='true' src={demo}/> }
             </div>
         </div>
     </div>
