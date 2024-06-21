@@ -2,6 +2,7 @@ import React from 'react'
 import styles from './WorkHero.module.css'
 import { useMediaQuery } from 'react-responsive'
 import demo from '../../../../assets/Videos/portfolioDemo.mp4'
+import ReactPlayer from 'react-player'
 
 const WorkHero = () => {
 
@@ -40,10 +41,10 @@ const WorkHero = () => {
                 </div>
             </div>
             <div className={styles.heroImageContainer}>
-                {isMobile && <video className={styles.heroImage} width='344' height="191.25" autoplay='true'loop='true' playsInline src={demo}/> }
-                {isMobileButBigger && <video width='351' height="196" autoplay='true' loop='true' playsInline='true' src={demo}/> }
-                {isPCButSmaller && <video width='700' height="411" autoplay='true' loop='true'  playsInline='true' src={demo}/> }
-                {isPCProbably && <video width='960' height="560" autoplay='true' loop='true' playsInline='true' src={demo}/> }
+                {isMobile && <ReactPlayer className={styles.heroImage} width='344' height="191.25" playing='true'loop='true' playsinline url={demo}/> }
+                {isMobileButBigger && <ReactPlayer width='100%' height="96.5%" playing='true' loop='true' playsinline='true' url={demo}/> }
+                {isPCButSmaller && <ReactPlayer width='700' height="411" playing='true' loop='true'  playsinline='true' url={demo}/> }
+                {isPCProbably && <ReactPlayer width='960' height="560" playing='true' loop='true' playsinline='true' url={demo}/> }
             </div>
         </div>
     </div>
