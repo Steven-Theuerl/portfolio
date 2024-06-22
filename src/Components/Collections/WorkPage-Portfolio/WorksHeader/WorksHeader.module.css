@@ -10,6 +10,7 @@
     .worksHeaderContainer {
         display: flex;
         margin: 24px 16px 40px 16px;
+        width: 100%;
         flex-direction: column;
         align-items: flex-start;
         gap: 24px;
@@ -58,9 +59,6 @@
         font-weight: 400;
         line-height: 160%; /* 22.4px */
         margin-bottom: 16px;
-    }
-
-    .projectVisitButtonContainer {
     }
 
     .projectVisitButton {
@@ -124,7 +122,7 @@
 }
 
 @media screen and (min-width: 415px) and (max-width: 847px) {
-    
+
     .entireWorksAbout {
         display: flex;
         justify-content: center;
@@ -134,8 +132,8 @@
 
     .worksHeaderContainer {
         display: flex;
-        margin: 24px 32px 40px 32px;
-        max-width: 580px;
+        margin: 24px 16px 40px 16px;
+        max-width: 781px;
         flex-direction: column;
         align-items: flex-start;
         gap: 24px;
@@ -262,8 +260,8 @@
         flex-direction: column;
         gap: 32px;
         width: 100%;
-        max-width: 664px;
-        padding: 40px 90px 64px 90px;
+        max-width: 800px;
+        margin: 40px 64px 64px 64px;
     }
 
     .worksHeaderTopContainer {
@@ -396,7 +394,8 @@
         display: flex;
         flex-direction: column;
         gap: 32px;
-        width: 800px;
+        width: 100%;
+        max-width: 800px;
         padding: 40px 240px 64px 240px;
     }
 

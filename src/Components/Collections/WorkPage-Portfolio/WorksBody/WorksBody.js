@@ -1,6 +1,11 @@
 import React from 'react'
 import styles from './WorksBody.module.css'
 
+import codeWindow1 from '../../../../assets/Images/Portfolio/WorksBodyCodeWindow1Image.png'
+import codeWindow2 from '../../../../assets/Images/Portfolio/WorksBodyCodeWindow2Image.png'
+import designImage1 from '../../../../assets/Images/Portfolio/worksBodyDesignImage1.png'
+import designImage2 from '../../../../assets/Images/Portfolio/worksBodyDesignImage2.png'
+
 const WorksBody = () => {
 
   return (
@@ -45,7 +50,7 @@ const WorksBody = () => {
                 </div>
             </div>
             <div className={styles.worksBodyCodeWindow1}>
-                <div className={styles.worksBodyCodeWindow1Image}/>
+                <img src={codeWindow1} alt='code showing how mobile menu works using state' className={styles.worksBodyCodeWindow1Image}/>
             </div>
             <div className={styles.worksBodyKeyPointsContainer}>
                 <h2 className={styles.worksBodyKeyPointsHeader}>
@@ -90,7 +95,7 @@ const WorksBody = () => {
                 </div>
             </div>
             <div className={styles.worksBodyCodeWindow2}>
-                <div className={styles.worksBodyCodeWindow2Image}/>
+                <img src={codeWindow2} alt='code window showing how media scrolling carousel works' className={styles.worksBodyCodeWindow2Image}/>
             </div>
             <div className={styles.worksBodyKeyPointsContainer}>
                 <h2 className={styles.worksBodyKeyPointsHeader}>
@@ -130,7 +135,7 @@ const WorksBody = () => {
             </div>
             <div className={styles.worksBodyDesignImageBox1}>
                 <div className={styles.worksBodyDesignImageContainer1}>
-                    <div className={styles.worksBodyDesignImage1}/>
+                    <img src={designImage1} alt='Figma Design System and files' className={styles.worksBodyDesignImage1}/>
                 </div>
                 <p className={styles.worksBodyDesignImageBoxSubtext}>
                     <span>Figma - Design files and Design System</span>
@@ -138,7 +143,7 @@ const WorksBody = () => {
             </div>
             <div className={styles.worksBodyDesignImageBox2}>
                 <div className={styles.worksBodyDesignImageContainer2}>
-                    <div className={styles.worksBodyDesignImage2}/>
+                    <img src={designImage2} alt='Iterations of the creation of my original character' className={styles.worksBodyDesignImage2}/>
                 </div>
                 <p className={styles.worksBodyDesignImageBoxSubtext}>
                     <span>Evolution of Original Character</span>

@@ -11,6 +11,7 @@
         flex: 1 0 0;
         flex-direction: column;
         padding: 24px 16px 40px 16px;
+        max-width: 382px;
         align-items: center;
         gap: 40px;
         align-self: stretch;
@@ -89,40 +90,38 @@
 
     .worksBodyCodeWindow1 {
         display: flex;
-        height: 190px;
+        width: 100%;
+        height: auto;
         justify-content: center;
         align-items: center;
-        align-self: stretch;
         border-radius: 4px;
-        background: #FCFCFB;
     }
 
     .worksBodyCodeWindow2 {
         display: flex;
-        height: 190px;
+        width: 100%;
+        height: auto;
         justify-content: center;
         align-items: center;
-        align-self: stretch;
         border-radius: 4px;
-        background: #FCFCFB;
     }
 
     .worksBodyCodeWindow1Image {
-        background: url(../../../../assets/Images/Portfolio/WorksBodyCodeWindow1Image.png);
-        background-size: cover;
+        background-size: contain;
         background-repeat: no-repeat;
         background-position: center;
         width: 100%;
-        height: 100%;
+        height: auto;
         border-radius: 4px;
     }
 
     .worksBodyCodeWindow2Image {
-        background: url(../../../../assets/Images/Portfolio/WorksBodyCodeWindow2Image.png);
-        background-size: cover;
+ 
+        background-size: contain;
+        background-position: center;
         background-repeat: no-repeat;
         width: 100%;
-        height: 100%;
+        height: auto;
         border-radius: 4px;
     }
 
@@ -132,7 +131,7 @@
         justify-content: center;
         align-items: center;
         width: 100%;
-        height: 275px;
+        height: auto;
     }
 
     .worksBodyDesignImageBox2 {
@@ -141,18 +140,15 @@
         justify-content: center;
         align-items: center;
         width: 100%;
-        height: 252px;
+        height: auto;
     }
 
     .worksBodyDesignImageContainer1 {
-        background: url(../../../../assets/Images/Portfolio/worksBodyDesignImage1.png);
         width: 100%;
-        height: 100%;
+        height: auto;
         background-size: contain;
         background-position: center ;
-        background-color: #d8d8d8fd;
         background-repeat: no-repeat;
-        align-self: stretch;
         border-radius: 4px;
     }
 
@@ -169,13 +165,28 @@
     }
 
     .worksBodyDesignImageContainer2 {
-        background: url(../../../../assets/Images/Portfolio/worksBodyDesignImage2.png);
         width: 100%;
-        height: 100%;
+        height: auto;
+        background-size: contain;
+        background-position: center ;
+        background-repeat: no-repeat;
+        border-radius: 4px;
+    }
+
+    .worksBodyDesignImage1 {
+        width: 100%;
+        height: auto;
         background-size: contain;
         background-position: center;
-        background-color: #FAFAFA;
-        align-self: stretch;
+        background-repeat: no-repeat;
+        border-radius: 4px;
+    }
+
+    .worksBodyDesignImage2 {
+        width: 100%;
+        height: auto;
+        background-size: contain;
+        background-position: center;
         background-repeat: no-repeat;
         border-radius: 4px;
     }
@@ -191,11 +202,10 @@
 
     .worksBodyContainer {
         display: flex;
-  
         flex-direction: column;
-        padding: 24px 32px 40px 32px;
+        margin: 24px 16px 40px 16px;
         width: 100%;
-        max-width: 580px;
+        max-width: 781px;
         align-items: center;
         gap: 40px;
         align-self: stretch;
@@ -274,9 +284,8 @@
 
     .worksBodyCodeWindow1 {
         display: flex;
-        height: 228px;
         width: 100%;
-        max-width: 580px;
+        height: auto;
         justify-content: center;
         align-items: center;
         border-radius: 4px;
@@ -285,9 +294,8 @@
 
     .worksBodyCodeWindow2 {
         display: flex;
-        height: 228px;
         width: 100%;
-        max-width: 580px;
+        height: auto;
         justify-content: center;
         align-items: center;
         border-radius: 4px;
@@ -295,23 +303,20 @@
     }
 
     .worksBodyCodeWindow1Image {
-        background: url(../../../../assets/Images/Portfolio/WorksBodyCodeWindow1Image.png);
-        background-size: cover;
+        background-size: contain;
         background-repeat: no-repeat;
         background-position: center;
-        align-self: stretch;
         width: 100%;
-        height: 100%;
+        height: auto;
         border-radius: 4px;
     }
 
     .worksBodyCodeWindow2Image {
-        background: url(../../../../assets/Images/Portfolio/WorksBodyCodeWindow2Image.png);
-        background-size: cover;
+        background-size: contain;
+        background-position: center;
         background-repeat: no-repeat;
         width: 100%;
-        max-width: 580px;
-        height: 100%;
+        height: auto;
         border-radius: 4px;
     }
 
@@ -321,7 +326,7 @@
         justify-content: center;
         align-items: center;
         width: 100%;
-        height: 350px;
+        height: auto;
     }
 
     .worksBodyDesignImageBox2 {
@@ -330,7 +335,7 @@
         justify-content: center;
         align-items: center;
         width: 100%;
-        height: 280px;
+        height: auto;
     }
 
     .worksBodyDesignImageContainer1 {
@@ -338,17 +343,15 @@
         justify-content: center;
         align-items: center;
         width: 100%;
-        height: 100%;
+        height: auto;
     }
 
     .worksBodyDesignImage1 {
-        background: url(../../../../assets/Images/Portfolio/worksBodyDesignImage1.png);
         width: 100%;
-        max-width: 420px;
-        height: 100%;
+        height: auto;
         background-size: contain;
         background-position: center;
-        background-color: aqua;
+        background-repeat: no-repeat;
         border-radius: 4px;
     }
 
@@ -369,14 +372,12 @@
         justify-content: center;
         align-items: center;
         width: 100%;
-        height: 280px;
+        height: auto;
       }
 
     .worksBodyDesignImage2 {
-        background: url(../../../../assets/Images/Portfolio/worksBodyDesignImage2.png);
         width: 100%;
-        max-width: 420px;
-        height: 100%;
+        height: auto;
         background-size: contain;
         background-position: center;
         background-repeat: no-repeat;
@@ -398,7 +399,8 @@
     .worksBodyContainer {
         display: flex;
         width: 100%;
-        max-width: 664px;
+        max-width: 800px;
+        height: auto;
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -485,8 +487,7 @@
         display: flex;
         flex-direction: row;
         width: 100%;
-        max-width: 801px;
-        height: 366px;
+        height: auto;
         border: solid 1px #E4E5DA;;
         border-radius: 4px;
         font-size: 18px;
@@ -496,29 +497,28 @@
         display: flex;
         flex-direction: row;
         width: 100%;
-        max-width: 801px;
-        height: 444px;
+        height: auto;
         border: solid 1px #E4E5DA;;
         border-radius: 4px;
         font-size: 18px;
     }
 
    .worksBodyCodeWindow1Image {
-        background-image: url(../../../../assets/Images/Portfolio/WorksBodyCodeWindow1Image.png);
-        height: 100%;
+        height: auto;
         width: 100%;
         border-radius: 4px;
-        background-size: cover;
+        background-size: contain;
+        background-position: center;
         background-repeat: no-repeat;
 
    }
 
    .worksBodyCodeWindow2Image {
-        background-image: url(../../../../assets/Images/Portfolio/WorksBodyCodeWindow2Image.png);
-        height: 100%;
+        height: auto;
         width: 100%;
         border-radius: 4px;
         background-size: contain;
+        background-position: center;
         background-repeat: no-repeat;
     }
 
@@ -528,7 +528,7 @@
        justify-content: center;
        align-items: center;
        width: 100%;
-       height: 100%;
+       height: auto;
        gap: 16px;
     }
 
@@ -538,8 +538,9 @@
         justify-content: center;
         align-items: center;
         width: 100%;
-        height: 100%;
+        height: auto;
         gap: 16px;
+        margin-top: -12px;
      }
 
 
@@ -547,19 +548,18 @@
         display: flex;
         flex-direction: row;
         width: 100%;
-        max-width: 801px;
-        height: 522px;
+        height: auto;
         border: solid 1px #E4E5DA;;
         border-radius: 4px;
 
     }
 
     .worksBodyDesignImage1 {
-        background-image: url(../../../../assets/Images/Portfolio/worksBodyDesignImage1.png);
-        height: 100%;
         width: 100%;
+        height: auto;
         border-radius: 4px;
-        background-size: cover;
+        background-size: contain;
+        background-position: center;
         background-repeat: no-repeat;
     }
 
@@ -578,15 +578,13 @@
         display: flex;
         flex-direction: row;
         width: 100%;
-        max-width: 801px;
-        height: 442px;
+        height: auto;
         border-radius: 4px;
     }
 
        .worksBodyDesignImage2 {
-        background-image: url(../../../../assets/Images/Portfolio/worksBodyDesignImage2.png);
-        height: 100%;
         width: 100%;
+        height: auto;
         border-radius: 4px;
         background-size: cover;
         background-position: center;
@@ -609,6 +607,7 @@
         display: flex;
         width: 100%;
         max-width: 800px;
+        height: auto;
         flex-direction: column;
         justify-content: center;
         align-items: center;
