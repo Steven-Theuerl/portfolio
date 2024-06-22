@@ -15,7 +15,7 @@ a {
         display: flex;
         flex-direction: column;
         margin: 24px 16px 40px 16px;
-        max-width: 382px;
+        max-width: 383px;
         align-items: center;
         gap: 40px;
         align-self: stretch;
@@ -205,9 +205,9 @@ a {
     .worksBodyContainer {
         display: flex;
         flex-direction: column;
-        padding: 24px 32px 40px 32px;
+        padding: 24px 16px 40px 16px;
         width: 100%;
-        max-width: 704px;
+        max-width: 781px;
         align-items: center;
         gap: 40px;
         align-self: stretch;

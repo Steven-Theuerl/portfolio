@@ -50,7 +50,7 @@
         justify-content: center;
         margin: 0px 16px;
         width: 100%;
-        max-width: 580px;
+        max-width: 781px;
         height: auto;
         border-radius: 4px;
     }
@@ -61,7 +61,7 @@
     }
 
     .heroImage {
-        background-size: cover;
+        background-size: contain;
         background-position: center;
         background-repeat: no-repeat;
         width: 100%;
@@ -71,7 +71,6 @@
 
 @media screen and (min-width: 848px) and (max-width: 1279px) {
     .entireHero {
-        margin-top: 76px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -85,7 +84,7 @@
         flex-direction: column;
         justify-content: flex-end;
         align-items: flex-start;
-        margin: 64px 40px 0px 40px;
+        margin: 84px 40px 0px 40px;
         border-radius: 4px;
         background: #FCFCFB;
     }
@@ -97,7 +96,7 @@
 
     .heroImage {
         background-position: center;
-        background-size: cover;
+        background-size: contain;
         background-repeat: no-repeat;
         border-radius: 4px;
         width: 100%;
@@ -107,7 +106,6 @@
 
 @media screen and (min-width: 1280px) {
     .entireHero {
-        margin-top: 76px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -121,7 +119,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin: 64px 200px 0px 200px;
+        margin: 84px 200px 0px 200px;
         border-radius: 4px;
         border: none;
         outline: none;

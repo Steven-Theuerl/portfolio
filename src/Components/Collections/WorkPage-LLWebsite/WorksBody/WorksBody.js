@@ -1,6 +1,11 @@
 import React from 'react'
 import styles from './WorksBody.module.css'
 
+import codeWindow1 from '../../../../assets/Images/LLWebsite/codeWindow1.png'
+import codeWindow2 from '../../../../assets/Images/LLWebsite/codeWindow2.png'
+import designImage1 from '../../../../assets/Images/LLWebsite/designImage1.png'
+import designImage2 from '../../../../assets/Images/LLWebsite/designImage2.png'
+
 const WorksBody = () => {
 
 
@@ -40,7 +45,7 @@ const WorksBody = () => {
                 </div>
             </div>
             <div className={styles.worksBodyCodeWindow1}>
-                <div className={styles.worksBodyCodeWindow1Image}/>
+                <img src={codeWindow1} alt='code showing options menu for booking using state' className={styles.worksBodyCodeWindow1Image}/>
             </div>
             <div className={styles.worksBodyKeyPointsContainer}>
                 <h2 className={styles.worksBodyKeyPointsHeader}>
@@ -81,7 +86,7 @@ const WorksBody = () => {
                 </div>
             </div>
             <div className={styles.worksBodyCodeWindow2}>
-                <div className={styles.worksBodyCodeWindow2Image}/>
+                <img src={codeWindow2} alt='code showing more of the booking options functionality' className={styles.worksBodyCodeWindow2Image}/>
             </div>
             <div className={styles.worksBodyKeyPointsContainer}>
                 <h2 className={styles.worksBodyKeyPointsHeader}>
@@ -117,7 +122,7 @@ const WorksBody = () => {
             </div>
             <div className={styles.worksBodyDesignImageBox1}>
                     <div className={styles.worksBodyDesignImageContainer1}>
-                        <div className={styles.worksBodyDesignImage1}/>
+                        <img src={designImage1} alt='display of the websites screens' className={styles.worksBodyDesignImage1}/>
                     </div>
                     <p className={styles.worksBodyDesignImageBoxSubtext}>
                         <span>Figma - Main Screen Wireframe</span>
@@ -125,7 +130,7 @@ const WorksBody = () => {
                 </div>
             <div className={styles.worksBodyDesignImageBox2}>
                     <div className={styles.worksBodyDesignImageContainer2}>
-                        <div className={styles.worksBodyDesignImage2}/>
+                        <img src={designImage2} alt='display of the Figma screens used to create the design of the website' className={styles.worksBodyDesignImage2}/>
                     </div>
                     <p className={styles.worksBodyDesignImageBoxSubtext}>
                         <span>Example Screenshots from App</span>

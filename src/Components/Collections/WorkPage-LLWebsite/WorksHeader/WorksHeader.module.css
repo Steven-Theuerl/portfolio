@@ -24,6 +24,9 @@ p {
     .worksHeaderContainer {
         display: flex;
         margin: 24px 16px 40px 16px;
+        width: 100%;
+        max-width: 382px;
+        height: auto;
         flex-direction: column;
         align-items: flex-start;
         gap: 24px;
@@ -72,9 +75,6 @@ p {
         font-weight: 400;
         line-height: 160%; /* 22.4px */
         margin-bottom: 16px;
-    }
-
-    .projectVisitButtonContainer {
     }
 
     .projectVisitButton {
@@ -148,8 +148,8 @@ p {
 
     .worksHeaderContainer {
         display: flex;
-        margin: 24px 32px 40px 32px;
-        max-width: 580px;
+        margin: 24px 16px 40px 16px;
+        max-width: 781px;
         flex-direction: column;
         align-items: flex-start;
         gap: 24px;
@@ -195,9 +195,6 @@ p {
         font-weight: 400;
         line-height: 160%; /* 22.4px */
         margin-bottom: 16px;
-    }
-
-    .projectVisitButtonContainer {
     }
 
     .projectVisitButton {
@@ -273,7 +270,8 @@ p {
         flex-direction: column;
         gap: 32px;
         width: 100%;
-        max-width: 664px;
+        max-width: 800px;
+        height: auto;
         padding: 40px 90px 64px 90px;
     }
 
