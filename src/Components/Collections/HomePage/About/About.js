@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from '../About/About.module.css'
-
 import { Link } from 'react-router-dom'
+import topImage from '../../../../assets/Images/topImage.png'
 
 const About = () => {
   return (
@@ -11,7 +11,7 @@ const About = () => {
                 About
             </h2>
             <div className={styles.aboutImgContainer}>
-                <div className={styles.aboutImg}/>
+                <img src={topImage} alt='a smiling ghost, looking at you and happily explaining his work' className={styles.aboutImg}/>
             </div>
             <h3 className={styles.aboutHeaderText}>
                 Hello! I'm Steven.

@@ -18,7 +18,8 @@
     .worksCarouselTopBar {
         display: flex;
         flex: 1 0 0;
-        padding: 0px 18px;
+        padding-left: 18px;
+        padding-right: 24px;
         justify-content: space-between;
         align-items: center;
     }

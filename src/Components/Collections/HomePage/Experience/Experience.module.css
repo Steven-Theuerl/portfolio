@@ -62,7 +62,6 @@
     .profExpItemImg1 {
         width: 21px;
         height: 21px;
-         background: url(../../../../assets/Images/profExpItemImg1.png) gray 50% / cover no-repeat;
     }
 
     .profExpItemImgContainer2 {
@@ -80,7 +79,6 @@
         width: 25.615px;
         height: 9px;
         flex-shrink: 0;
-         background: url(../../../../assets/Images/profExpItemImg2A.png) rgb(255, 255, 255) 50% / cover no-repeat;
     }
 
     .profExpItemImgContainer3 {
@@ -143,10 +141,10 @@
         padding: 64px 16px;
         flex-direction: column;
         align-items: center;
-        align-self: stretch;
+        justify-content: center;
         gap: 40px;
         width: 100%;
-        max-width: 480px;
+        max-width: 420px;
     }
 
     .profExp {
@@ -197,7 +195,6 @@
     .profExpItemImg1 {
         width: 21px;
         height: 21px;
-         background: url(../../../../assets/Images/profExpItemImg1.png) gray 50% / cover no-repeat;
     }
 
     .profExpItemImgContainer2 {
@@ -214,8 +211,6 @@
     .profExpItemImg2 {
         width: 25.615px;
         height: 9px;
-        flex-shrink: 0;
-         background: url(../../../../assets/Images/profExpItemImg2A.png) rgb(255, 255, 255) 50% / cover no-repeat;
     }
 
     .profExpItemImgContainer3 {
@@ -261,9 +256,6 @@
         line-height: 100%; /* 13px */
     }
 
-    .mobileSeparator {
-
-    }
 }
 
 @media screen and (min-width: 848px) and (max-width: 1279px) {
@@ -277,10 +269,10 @@
 
     .expContainer {
         display: flex;
-        padding: 120px 160px;
+        margin: 120px 80px;
         justify-content: space-between;
         align-self: stretch;
-        max-width: 1440px;
+        max-width: 800px;
         width: 100%;
         gap: 112px;
     }
@@ -350,20 +342,16 @@
     .profExpItemImg1 {
         width: 31px;
         height: 31px;
-        background: url(../../../../assets/Images/profExpItemImg1.png) gray 50% / cover no-repeat;
     }
 
     .profExpItemImg2 {
         width: 37px;
         height: 13px;
-        background: url(../../../../assets/Images/profExpItemImg2A.png) rgb(255, 255, 255) -0.337px 0px / 99.256% 100% no-repeat;
     }
 
     .profExpItemImg3 {
         width: 30px;
         height: 30px;
-        flex-shrink: 0;
-        background: url(../../../../assets/Images/profExpItemImg3.png) rgb(255, 255, 255) 50% / cover no-repeat;
     }
 
 
@@ -397,7 +385,6 @@
 @media screen and (min-width: 1280px) {
     .entireExp {
         display: flex;
-        
         justify-content: center;
         align-items: center;
         align-self: stretch;
@@ -406,12 +393,12 @@
 
     .expContainer {
         display: flex;
-        padding: 120px 160px;
+        margin: 120px 160px;
         justify-content: space-between;
         align-self: stretch;
-        max-width: 1440px;
+        max-width: 880px;
         width: 100%;
-        gap: 112px;
+        gap: 120px;
     }
 
     .profExp {
@@ -479,20 +466,16 @@
     .profExpItemImg1 {
         width: 31px;
         height: 31px;
-        background: url(../../../../assets/Images/profExpItemImg1.png) gray 50% / cover no-repeat;
     }
 
     .profExpItemImg2 {
         width: 37px;
         height: 13px;
-        background: url(../../../../assets/Images/profExpItemImg2A.png) rgb(255, 255, 255) -0.337px 0px / 99.256% 100% no-repeat;
     }
 
     .profExpItemImg3 {
         width: 30px;
         height: 30px;
-        flex-shrink: 0;
-        background: url(../../../../assets/Images/profExpItemImg3.png) rgb(255, 255, 255) 50% / cover no-repeat;
     }
 
 

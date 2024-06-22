@@ -13,7 +13,7 @@ button:hover {
         flex-direction: column;
         padding: 0px 16px 64px 16px;
         width: 100%;
-        max-width: 414px;
+        max-width: 383px;
         align-items: center;
         justify-content: center;
     }
@@ -32,6 +32,8 @@ button:hover {
     .workContent {
         display: flex;
         padding: 32px 0px;
+        width: 100%;
+        height: auto;
         flex-direction: column;
         align-items: flex-start;
         gap: 16px;
@@ -40,14 +42,11 @@ button:hover {
     }
 
     .workContent1Image {
-        background: url(../../../../assets/Images/Portfolio/portfolioHeroMobile.png);
-        background-color: rgb(163, 163, 163);
-        background-position: 6px;
         background-size: cover;
         background-position: center;
         display: flex;
-        align-self: stretch;
-        height: 190px;
+        width: 100%;
+        height: auto;
         border-radius: 4px;
     }
 
@@ -57,13 +56,11 @@ button:hover {
     }
 
     .workContent2Image {
-        background: url(../../../../assets/Images/topLLAppLinkDisplayMobile.png);
-        background-position: center;
         background-size: cover;
+        background-position: center;
         display: flex;
-        justify-content: flex-end;
-        align-self: stretch;
-        height: 190px;
+        width: 100%;
+        height: auto;
         border-radius: 4px;
 
     }
@@ -74,13 +71,11 @@ button:hover {
     }
 
     .workContent3Image {
-        background: url(../../../../assets/Images/LLWebsite/LLWebsiteHeroMobile.png);
-        background-position: center;
         background-size: cover;
+        background-position: center;
         display: flex;
-        justify-content: flex-end;
-        align-self: stretch;
-        height: 190px;
+        width: 100%;
+        height: auto;
         border-radius: 4px;
     }
 
@@ -90,13 +85,11 @@ button:hover {
     }
 
     .workContent4Image {
-        background: url(../../../../assets/Images/GFNav/GFNavHeroMobile.png);
         background-size: cover;
         background-position: center;
         display: flex;
-        justify-content: flex-end;
-        align-self: stretch;
-        height: 190px;
+        width: 100%;
+        height: auto;
         border-radius: 4px;
     }
 
@@ -176,16 +169,19 @@ button:hover {
     .workContentContainer {
         display: flex;
         flex-direction: column;
-        margin: 0px 32px 64px 32px;
+        margin: 0px 16px 64px 16px;
         width: 100%;
-        max-width: 512px;
+        max-width: 781px;
         height: auto;
         align-items: center;
         justify-content: center;
     }
 
     .workTitle {
-        align-self: stretch;
+        display: flex;
+        align-items: flex-start;
+        width: 100%;
+        max-width: 680px;
         color: #000;
         font-family: 'Montserrat';
         font-size: 24px;
@@ -200,22 +196,20 @@ button:hover {
         display: flex;
         padding: 32px 0px;
         flex-direction: column;
+        justify-content: center;
         align-items: flex-start;
         gap: 8px;
-        align-self: stretch;
         border-bottom: 1px solid #E4E5DA;
         width: 100%;
         max-width: 680px;
     }
 
     .workContent1Image {
-        background: url(../../../../assets/Images/Portfolio/portfolioHeroMobile.png);
-        background-position: 6px;
-        background-size: cover;
+        background-size: contain;
         background-position: center;
         display: flex;
-        align-self: stretch;
-        height: 196px;
+        width: 100%;
+        height: auto;
         border-radius: 4px;
     }
 
@@ -225,12 +219,11 @@ button:hover {
     }
 
     .workContent2Image {
-        background: url(../../../../assets/Images/LLApp/LLAppHeroMobile.png);
+        background-size: contain;
         background-position: center;
-        background-size: cover;
         display: flex;
-        align-self: stretch;
-        height: 196px;
+        width: 100%;
+        height: auto;
         border-radius: 4px;
     }
 
@@ -240,12 +233,11 @@ button:hover {
     }
 
     .workContent3Image {
-        background: url(../../../../assets/Images/LLWebsite/LLWebsiteHeroMobile.png);
+        background-size: contain;
         background-position: center;
-        background-size: cover;
         display: flex;
-        align-self: stretch;
-        height: 196px;
+        width: 100%;
+        height: auto;
         border-radius: 4px;
     }
 
@@ -253,14 +245,14 @@ button:hover {
         opacity: .775;
         cursor: pointer;
     }
-    
+
     .workContent4Image {
-        background: url(../../../../assets/Images/GFNav/GFNavHeroMobile.png);
+        background-size: contain;
         background-position: center;
-        background-size: cover;
         display: flex;
         align-self: stretch;
-        height: 196px;
+        width: 100%;
+        height: auto;
         border-radius: 4px;
     }
 
@@ -342,19 +334,20 @@ button:hover {
     .workContentContainer {
         display: flex;
         flex-direction: column;
-        padding: 16px 0px 88px 0px;
-        max-width: 672px;
+        margin: 76px 180px;
         width: 100%;
-        margin-left: 280px;
-        margin-right: 280px;
+        max-width: 800px;
+        height: auto;
+   
     }
 
     .workTitle {
         display: flex;
         align-items: center;
         justify-content: flex-start;
-        max-width: 880px;
+        max-width: 781px;
         width: 100%;
+        margin: 0px 32px;
         color: #000;
         font-family: 'Montserrat';
         font-size: 32px;
@@ -371,18 +364,15 @@ button:hover {
         align-self: stretch;
         gap: 16px;
         border-bottom: 1px solid #E4E5DA;
-        padding: 32px 0px;
+        margin-top: 32px;
+        margin-left: 32px;
+        margin-right: 32px;
     }
 
 
     .workContent1Image {
-        background: url(../../../../assets/Images/Portfolio/portfolioHero.png);
-        background-position: center;
-        background-size: cover;
-        display: flex;
-        justify-content: flex-end;
-        align-self: stretch;
-        height: 280px;
+        width: 100%;
+        height: auto;
         border-radius: 4px;
     }
 
@@ -392,13 +382,8 @@ button:hover {
     }
 
     .workContent2Image {
-        background: url(../../../../assets/Images/LLApp/LLAppHero.png);
-        background-position: center;
-        background-size: cover;
-        display: flex;
-        justify-content: flex-end;
-        align-self: stretch;
-        height: 280px;
+        width: 100%;
+        height: auto;
         border-radius: 4px;
     }
 
@@ -408,13 +393,8 @@ button:hover {
     }
 
     .workContent3Image {
-        background: url(../../../../assets/Images/LLWebsite/LLWebsiteHero.png);
-        background-position: center;
-        background-size: cover;
-        display: flex;
-        justify-content: flex-end;
-        align-self: stretch;
-        height: 280px;
+        width: 100%;
+        height: auto;
         border-radius: 4px;
     }
 
@@ -424,13 +404,8 @@ button:hover {
     }
 
     .workContent4Image {
-        background: url(../../../../assets/Images/GFNav/GFNavHero.png);
-        background-position: center;
-        background-size: cover;
-        display: flex;
-        justify-content: flex-end;
-        align-self: stretch;
-        height: 280px;
+        width: 100%;
+        height: auto;
         border-radius: 4px;
     }
 
@@ -491,6 +466,7 @@ button:hover {
         font-style: normal;
         font-weight: 400;
         line-height: 130%; /* 15.6px */
+        margin-bottom: 32px;
     }
 }
 
@@ -509,8 +485,7 @@ button:hover {
         padding: 64px 0px 120px 0px;
         width: 100%;
         max-width: 880px;
-        margin-left: 280px;
-        margin-right: 280px;
+        height: auto;
 }
 
     .workTitle {
@@ -539,13 +514,11 @@ button:hover {
     }
 
     .workContent1Image {
-        background: url(../../../../assets/Images/Portfolio/portfolioHero.png) rgb(163, 163, 163) 0% / cover no-repeat;
         background-position: center;
         display: flex;
-        padding: 37px 87.464px 0px 167px;
-        justify-content: flex-end;
-        align-self: stretch;
-        height: 323px;
+        justify-content: center;
+        width: 100%;
+        height: auto;
         border-radius: 4px;
     }
 
@@ -555,14 +528,10 @@ button:hover {
     }
 
     .workContent2Image {
-        background: url(../../../../assets/Images/LLApp/LLAppHero.png);
-        background-size: cover;
-        background-position: center;
-        display: flex;
-        padding: 37px 87.464px 0px 167px;
         justify-content: flex-end;
         align-self: stretch;
-        height: 323px;
+        width: 100%;
+        height: auto;
         border-radius: 4px;
     }
 
@@ -572,14 +541,10 @@ button:hover {
     }
 
     .workContent3Image {
-        background: url(../../../../assets/Images/LLWebsite/LLWebsiteHero.png);
-        background-size: cover;
-        background-position: center;
-        display: flex;
-        padding: 37px 87.464px 0px 167px;
         justify-content: flex-end;
         align-self: stretch;
-        height: 323px;
+        width: 100%;
+        height: auto;
         border-radius: 4px;
     }
 
@@ -589,15 +554,10 @@ button:hover {
     }
 
     .workContent4Image {
-        background: url(../../../../assets/Images/GFNav/GFNavHero.png);
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-        display: flex;
-        padding: 37px 87.464px 0px 167px;
         justify-content: flex-end;
         align-self: stretch;
-        height: 323px;
+        width: 100%;
+        height: auto;
         border-radius: 4px;
     }
 

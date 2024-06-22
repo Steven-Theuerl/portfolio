@@ -8,6 +8,9 @@
     .aboutContainer {
         display: flex;
         padding: 64px 16px;
+        width: 100%;
+        max-width: 382px;
+        height: auto;
         flex-direction: column;
         align-items: center;
         gap: 40px;
@@ -25,15 +28,18 @@
 
     .aboutImgContainer {
         display: flex;
-        height: 101px;
-        padding: 4px 89.866px 4px 80px;
+        width: 100%;
+        height: auto;
         align-items: center;
+        justify-content: center;
+
     }
 
     .aboutImg {
         background: url(../../../../assets/Images/topImage.png) rgb(255, 255, 255) 50% / cover no-repeat;
-        width: 178.134px;
-        height: 93px;
+        width: 100%;
+        max-width: 173px;
+        height: auto;
     }
 
     .aboutHeaderText {
@@ -212,8 +218,9 @@
 
     .aboutContainer {
         display: flex;
-        padding: 64px 40px;
-        max-width: 512px;
+        padding: 64px 16px;
+        max-width: 781px;
+        height: auto;
         flex-direction: column;
         align-items: center;
         justify-content: center;
@@ -232,13 +239,18 @@
     }
 
     .aboutImgContainer {
-        background: url(../../../../assets/Images/topImage.png) rgb(255, 255, 255) 50% / cover no-repeat;
         display: flex;
         flex-direction: column;
         align-items: center;
         gap: 40px;
-        width: 320px;
-        height: 160px;
+        width: 100%;
+        height: auto;
+    }
+
+    .aboutImg {
+        width: 100%;
+        max-width: 248px;
+        height: auto;
     }
 
     .aboutHeaderText {
@@ -250,7 +262,8 @@
         font-style: normal;
         font-weight: 500;
         line-height: 160%; /* 35.2px */
-        margin-bottom: -30px;
+        margin-top: -32px;
+        margin-bottom: -32px;
     }
 
     .aboutBodyText {
@@ -410,11 +423,11 @@
 @media screen and (min-width: 848px) and (max-width: 1279px) {
     .entireAbout {
         display: flex;
-        padding: 64px 140px 120px 140px;
+        padding: 64px 80px 120px 80px;
         align-items: center;
         justify-content: center;
     }
-    
+
     .aboutContainer {
         display: flex;
         align-items: center;
@@ -422,10 +435,10 @@
         flex-direction: column;
         gap: 40px;
         align-self: stretch;
-        max-width: 880px;
+        max-width: 800px;
         width: 100%;
     }
-    
+
     .aboutTitleText {
         color: #000;
         text-align: center;
@@ -435,18 +448,23 @@
         font-weight: 500;
         line-height: 100%; /* 32px */
     }
-    
+
     .aboutImgContainer {
-        background: url(../../../../assets/Images/topImage.png) rgb(255, 255, 255) 50% / cover no-repeat;
         display: flex;
-        width: 380px;
-        height: 224px;
+        width: 100%;
+        max-width: 324px;
+        height: auto;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         gap: 8px;
     }
-    
+
+    .aboutImg {
+        width: 100%;
+        height: auto;
+    }
+
     .aboutHeaderText {
         color: #111;
         text-align: center;
@@ -455,6 +473,8 @@
         font-style: normal;
         font-weight: 500;
         line-height: 160%; /* 44.8px */
+        margin-top: -24px;
+        margin-bottom: -24px;
     }
     
     .aboutBodyText {
@@ -613,11 +633,11 @@
 @media screen and (min-width: 1280px) {
     .entireAbout {
         display: flex;
-        padding: 64px 280px 120px 280px;
+        margin: 64px 200px 120px 200px;
         align-items: center;
         justify-content: center;
     }
-    
+
     .aboutContainer {
         display: flex;
         flex-direction: column;
@@ -627,7 +647,7 @@
         max-width: 880px;
         width: 100%;
     }
-    
+
     .aboutTitleText {
         text-align: center;
         color: #000;
@@ -639,16 +659,17 @@
     }
 
     .aboutImgContainer {
-        width: 323.706px;
-        height: 169px;
+        width: 100%;
+        max-width: 324px;
+        height: auto;
     }
-    
+
     .aboutImg {
         background: url(../../../../assets/Images/topImage.png) rgb(255, 255, 255) 50% / cover no-repeat;
         width: 100%;
-        height: 100%;
+        height: auto;
     }
-    
+
     .aboutHeaderText {
         color: #111;
         text-align: center;
@@ -660,7 +681,7 @@
         margin-top: -24px;
         margin-bottom: -24px;
     }
-    
+
     .aboutBodyText {
         color: #111;
         text-align: center;
@@ -670,7 +691,7 @@
         font-weight: 400;
         line-height: 180%; /* 28.8px */
     }
-    
+
     .aboutQualifications {
         display: flex;
         padding: 24px 0px;
@@ -679,7 +700,7 @@
         gap: 16px;
         align-self: stretch;
     }
-    
+
     .aboutQualificationsEducation {
         display: flex;
         padding: 24px 0px;
@@ -689,7 +710,7 @@
         align-self: stretch;
         border-top: 1px solid #E4E5DA;
     }
-    
+
     .aboutQualificationsTitle {
         display: flex;
         justify-content: flex-start;
@@ -710,7 +731,7 @@
         font-weight: 400;
         line-height: 150%;
     }
-    
+
     .aboutQualificationsEducationItems {
         display: flex;
         flex-direction: row;
@@ -718,14 +739,14 @@
         gap: 40px;
         align-self: stretch;
     }
-    
+
     .aboutQualificationsEducationItem {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
         flex: 1 0 0;
     }
-    
+
     .aboutQualificationsEducationItemTitle {
         display: flex;
         flex-direction: column;
@@ -736,7 +757,7 @@
         font-weight: 400;
         line-height: 150%;
     }
-    
+
     .aboutQualificationsEducationItemDate {
         color: #707070;
         font-family: Verdana;
@@ -746,7 +767,7 @@
         line-height: 100%; /* 13px */
         margin-top: 16px;
     }
-    
+
     .aboutQualificationsHobbies {
         display: flex;
         padding: 24px 0px;
@@ -763,7 +784,7 @@
         font-weight: 400;
         line-height: 140%; /* 19.6px */
     }
-    
+
     .aboutLinks {
         display: flex;
         justify-content: center;
@@ -778,17 +799,17 @@
         font-weight: 400;
         line-height: 140%; /* 19.6px */
     }
-    
+
     .aboutAnchor {
         color: black;
         text-decoration: none;
     }
-    
+
     .aboutAnchor:hover {
         color: green;
         transition: 0.5s;
     }
-    
+
     .aboutTalkButton {
         display: flex;
         height: 44px;
@@ -806,10 +827,10 @@
         color: white;
         border: none;
     }
-    
+
     .aboutTalkButton:hover {
         cursor: pointer;
         background: #2e2e2e;
     }
-    
+
 }

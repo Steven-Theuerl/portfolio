@@ -2,6 +2,11 @@ import React from 'react'
 import styles from '../Work/Work.module.css'
 import { Link } from 'react-router-dom'
 
+import workContentImg1 from '../../../../assets/Images/Portfolio/portfolioHero.png'
+import workContentImg2 from '../../../../assets/Images/LLApp/LLAppHero.png'
+import workContentImg3 from '../../../../assets/Images/LLWebsite/LLWebsiteHero.png'
+import workContentImg4 from '../../../../assets/Images/GFNav/GFNavHero.png'
+
 const Work = () => {
   return (
     <div className={styles.entireWork}>
@@ -11,7 +16,7 @@ const Work = () => {
             </h2>
             <Link to='/Work-Portfolio' reloadDocument>
                 <div className={styles.workContent}>
-                        <div className={styles.workContent1Image}/>
+                        <img src={workContentImg1} alt='Thumbnail of the `About Portfolio Page` Link' className={styles.workContent1Image}/>
                     <h3 className={styles.workText1}>
                         <span className={styles.workText1Title}>Portfolio <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M8 15L6.93125 13.95L11.1312 9.75H2V8.25H11.1312L6.93125 4.05L8 3L14 9L8 15Z" fill="#279070"/>
@@ -29,7 +34,7 @@ const Work = () => {
             </Link>
             <Link to='/Work-LLApp' reloadDocument>
                 <div className={styles.workContent}>
-                    <div className={styles.workContent2Image}/>
+                    <img src={workContentImg2} alt='Thumbnail for the `About My Mobile Application Page` Link' className={styles.workContent2Image}/>
                     <h3 className={styles.workText1}>
                         <span className={styles.workText1Title}>Mobile Application <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M8 15L6.93125 13.95L11.1312 9.75H2V8.25H11.1312L6.93125 4.05L8 3L14 9L8 15Z" fill="#279070"/></svg>
@@ -46,7 +51,7 @@ const Work = () => {
             </Link>
             <Link to='/Work-LLWebsite' reloadDocument>
                 <div className={styles.workContent}>
-                    <div className={styles.workContent3Image}/>
+                    <img src={workContentImg3} alt='Thumbnail for the `About My First Website` Page Link' className={styles.workContent3Image}/>
                     <h3 className={styles.workText1}>
                         <span className={styles.workText1Title}>First Website <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M8 15L6.93125 13.95L11.1312 9.75H2V8.25H11.1312L6.93125 4.05L8 3L14 9L8 15Z" fill="#279070"/></svg>
@@ -62,7 +67,7 @@ const Work = () => {
                 </div>
             </Link>
             <div className={styles.workContent}>
-                <div className={styles.workContent4Image}/>
+                <img src={workContentImg4} alt='Thumbnail for the `Gluten Free Navigation Application` Page link' className={styles.workContent4Image}/>
                 <h3 className={styles.workText1}>
                     <span className={styles.workText1Title}>Currently in Development <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M8 15L6.93125 13.95L11.1312 9.75H2V8.25H11.1312L6.93125 4.05L8 3L14 9L8 15Z" fill="#279070"/></svg>

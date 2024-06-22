@@ -1,6 +1,9 @@
 import React from 'react'
-
 import styles from '../Experience/Experience.module.css'
+
+import profExpItemImg1 from '../../../../assets/Images/profExpItemImg1.png'
+import profExpItemImg2 from '../../../../assets/Images/profExpItemImg2A.png'
+import profExpItemImg3 from '../../../../assets/Images/profExpItemImg3.png'
 
 const Experience = () => {
 
@@ -14,7 +17,7 @@ const Experience = () => {
                 <div className={styles.profExpItems}>
                     <div className={styles.profExpItem}>
                         <div className={styles.profExpItemImgContainer1}>
-                            <div className={styles.profExpItemImg1}/>
+                            <img src={profExpItemImg1} alt='logo for Goodblend' className={styles.profExpItemImg1}/>
                         </div>
                         <div className={styles.profExpText}>
                             <h3 className={styles.profExpTitle}>
@@ -29,7 +32,7 @@ const Experience = () => {
                 <div className={styles.profExpItems}>
                     <div className={styles.profExpItem}>
                         <div className={styles.profExpItemImgContainer2}>
-                            <div className={styles.profExpItemImg2}/>
+                            <img src={profExpItemImg2} alt='Logo for IBEX Global' className={styles.profExpItemImg2}/>
                         </div>
                         <div className={styles.profExpText}>
                             <h3 className={styles.profExpTitle}>
@@ -49,7 +52,7 @@ const Experience = () => {
                 <div className={styles.profExpItems}>
                     <div className={styles.profExpItem}>
                         <div className={styles.profExpItemImgContainer3}>
-                            <div className={styles.profExpItemImg3}/>
+                            <img src={profExpItemImg3} alt='Logo for Meta' className={styles.profExpItemImg3}/>
                         </div>
                         <div className={styles.profExpText}>
                             <h3 className={styles.profExpTitle}>
@@ -64,7 +67,7 @@ const Experience = () => {
                 <div className={styles.profExpItems}>
                     <div className={styles.profExpItem}>
                         <div className={styles.profExpItemImgContainer3}>
-                            <div className={styles.profExpItemImg3}/>
+                            <img src={profExpItemImg3} alt='Logo for Meta' className={styles.profExpItemImg3}/>
                         </div>
                         <div className={styles.profExpText}>
                             <h3 className={styles.profExpTitle}>
