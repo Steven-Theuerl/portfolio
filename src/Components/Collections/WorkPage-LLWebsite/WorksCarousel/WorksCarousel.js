@@ -13,41 +13,23 @@ const WorksCarousel = () => {
     const elementRef = useRef(null);
     const [initialPosition, setInitialPosition] = useState(null);
     const [isDragging, setIsDragging] = useState(false);
-  
+
     const handleTouchStart = (event) => {
       setInitialPosition(event.touches[0].clientX);
       setIsDragging(true);
     };
-  
+
     const handleTouchMove = (event) => {
       if (!isDragging) return;
-  
+
       const currentDistance = event.touches[0].clientX - initialPosition;
       elementRef.current.scrollLeft -= currentDistance;
       setInitialPosition(event.touches[0].clientX);
     };
-  
+
     const handleTouchEnd = () => {
       setIsDragging(false);
     };
-  
-    const handleMouseDown = (event) => {
-      setInitialPosition(event.clientX);
-      setIsDragging(true);
-    };
-  
-    const handleMouseMove = (event) => {
-      if (!isDragging) return;
-  
-      const currentDistance = event.clientX - initialPosition;
-      elementRef.current.scrollLeft -= currentDistance;
-      setInitialPosition(event.clientX);
-    };
-  
-    const handleMouseUp = () => {
-      setIsDragging(false);
-    };
-
 
   return (
     <>
@@ -107,9 +89,6 @@ const WorksCarousel = () => {
                      onTouchStart={handleTouchStart}
                      onTouchMove={handleTouchMove}
                      onTouchEnd={handleTouchEnd}
-                     onMouseDown={handleMouseDown}
-                     onMouseMove={handleMouseMove}
-                     onMouseUp={handleMouseUp}
                      onClick={(event) => event.preventDefault()}
                      style={{ overflowX: 'scroll' }}>
                     <Link to='/Work-Portfolio' reloadDocument>
