@@ -17,7 +17,7 @@ const About = () => {
                 Hello! I'm Steven.
             </h3>
             <p className={styles.aboutBodyText}>
-                    I have never been afraid to try something or learn something new. That quality has allowed me to collect quite a bit of work and life experience and has been fueled by a deep fufilment and passion for learning and creating. I naturally approach challenges with a thoughtful and analytical mindset and continuously seek opportunities for growth and innovation. I have just started my journey as a developer, but I am very excited to contribute to the world in a meaningful way.
+                    I have never been afraid to try or study something new. That quality has been fueled by a deep sense of fufilment from exploration, discovery, and applying my knowledge in a practical and useful way. It has also allowed me to collect various types of work and life experience. I naturally approach challenges with a thoughtful and analytical mindset and often explore new innovative technologies and opportunites for improvement of my own life and skills, which led me to coding as a hobby. Now I colloborate with creators, think about my projects while in the shower and eating dinner, and can easily lose track of time while working on them. I have just started my journey as a developer, but I am very excited to contribute to the world in a meaningful way. Thank you for viewing and reading through my website!
             </p>
             <div className={styles.aboutQualifications}>
                 <div className={styles.aboutQualificationsEducation}>

@@ -7,6 +7,8 @@ const WorksCarousel = () => {
 
     const isMobile = useMediaQuery({ query: '(max-width: 414px)' })
 
+    function scrollingMotion() {}
+
   return (
     <>
         <div className={styles.entireWorksCarousel}>
@@ -60,7 +62,8 @@ const WorksCarousel = () => {
                         </button>]}
                     </div>
                 </div>
-                <div id="mediaScroller" className={styles.mediaScroller}>
+                <div id="mediaScroller" className={styles.mediaScroller}
+                    onClick={() => scrollingMotion()}>
                     <Link to='/Work-LLApp' reloadDocument>
                         <div className={styles.worksCarouselCard}>
                             <div className={styles.worksCarouselCardImageContainer}>

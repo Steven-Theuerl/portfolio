@@ -36,8 +36,11 @@
     .worksCarouselButtons {
         display: flex;
         align-items: center;
+        padding-right: 12px;
         gap: 8px;
     }
+
+ 
 
     .worksCarouselSlider {
         width: 44px;
@@ -230,6 +233,7 @@
     .worksCarouselButtons {
         display: flex;
         align-items: center;
+        padding-right: 12px;
         gap: 8px;
     }
 
