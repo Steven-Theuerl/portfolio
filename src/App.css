@@ -25,3 +25,7 @@ p {
 .worksCarouselButtons:active {
     background-color: transparent;
 }
+
+.worksCarouselSlider:active {
+    background-color: transparent;
+}
