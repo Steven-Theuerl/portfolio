@@ -11,6 +11,7 @@ const WorksCarousel = () => {
     const isMobile = useMediaQuery({ query: '(max-width: 414px)' })
 
     const elementRef = useRef(null);
+
     const [initialPosition, setInitialPosition] = useState(null);
     const [isDragging, setIsDragging] = useState(false);
 
@@ -22,7 +23,7 @@ const WorksCarousel = () => {
     const handleTouchMove = (event) => {
       if (!isDragging) return;
 
-      const currentDistance = (event.touches[0].clientX - initialPosition) * 2;
+      const currentDistance = (event.touches[0].clientX - initialPosition) * 1.75;
       elementRef.current.scrollLeft -= currentDistance;
       setInitialPosition(event.touches[0].clientX);
     };
@@ -30,6 +31,7 @@ const WorksCarousel = () => {
     const handleTouchEnd = () => {
       setIsDragging(false);
     };
+
 
   return (
     <>
@@ -89,6 +91,8 @@ const WorksCarousel = () => {
                      onTouchStart={handleTouchStart}
                      onTouchMove={handleTouchMove}
                      onTouchEnd={handleTouchEnd}
+
+                    
                      >
                     <Link to='/Work-Portfolio' reloadDocument>
                         <div className={styles.worksCarouselCard}>
