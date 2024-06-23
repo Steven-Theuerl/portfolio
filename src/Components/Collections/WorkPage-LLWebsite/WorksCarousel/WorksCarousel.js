@@ -22,7 +22,7 @@ const WorksCarousel = () => {
     const handleTouchMove = (event) => {
       if (!isDragging) return;
 
-      const currentDistance = event.touches[0].clientX - initialPosition;
+      const currentDistance = event.touches[0 * 0.5].clientX - initialPosition;
       elementRef.current.scrollLeft -= currentDistance;
       setInitialPosition(event.touches[0].clientX);
     };
@@ -89,8 +89,7 @@ const WorksCarousel = () => {
                      onTouchStart={handleTouchStart}
                      onTouchMove={handleTouchMove}
                      onTouchEnd={handleTouchEnd}
-                     onClick={(event) => event.preventDefault()}
-                     style={{ overflowX: 'scroll' }}>
+                     >
                     <Link to='/Work-Portfolio' reloadDocument>
                         <div className={styles.worksCarouselCard}>
                             <div className={styles.worksCarouselCardImageContainer}>
