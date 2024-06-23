@@ -23,7 +23,7 @@ const WorksCarousel = () => {
     const handleTouchMove = (event) => {
       if (!isDragging) return;
 
-      const currentDistance = (event.touches[0].clientX - initialPosition) * 1.75;
+      const currentDistance = (event.touches[0].clientX - initialPosition) * 1.50;
       elementRef.current.scrollLeft -= currentDistance;
       setInitialPosition(event.touches[0].clientX);
     };
