@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './WorksCarousel.module.css'
-import { useRef } from 'react'
+import { useRef, useState } from 'react'
 import { useMediaQuery } from 'react-responsive'
 import { Link } from 'react-router-dom'
 
@@ -11,44 +11,43 @@ const WorksCarousel = () => {
     const isMobile = useMediaQuery({ query: '(max-width: 414px)' })
 
     const elementRef = useRef(null);
-    let initialTouchPosition;
-    let initialScrollPosition;
+    const [initialPosition, setInitialPosition] = useState(null);
+    const [isDragging, setIsDragging] = useState(false);
   
     const handleTouchStart = (event) => {
-      initialTouchPosition = event.touches[0].clientY;
-      initialScrollPosition = elementRef.current.scrollLeft;
+      setInitialPosition(event.touches[0].clientX);
+      setIsDragging(true);
     };
   
     const handleTouchMove = (event) => {
-      const currentTouchPosition = event.touches[0].clientY;
-      const distance = initialTouchPosition - currentTouchPosition;
-      elementRef.current.scrollLeft = initialScrollPosition + distance;
+      if (!isDragging) return;
+  
+      const currentDistance = event.touches[0].clientX - initialPosition;
+      elementRef.current.scrollLeft -= currentDistance;
+      setInitialPosition(event.touches[0].clientX);
     };
   
     const handleTouchEnd = () => {
-      initialTouchPosition = null;
-      initialScrollPosition = null;
+      setIsDragging(false);
+    };
+  
+    const handleMouseDown = (event) => {
+      setInitialPosition(event.clientX);
+      setIsDragging(true);
+    };
+  
+    const handleMouseMove = (event) => {
+      if (!isDragging) return;
+  
+      const currentDistance = event.clientX - initialPosition;
+      elementRef.current.scrollLeft -= currentDistance;
+      setInitialPosition(event.clientX);
+    };
+  
+    const handleMouseUp = () => {
+      setIsDragging(false);
     };
 
-    {/*var element = document.getElementById('mediaScroller');
-    var initialTouchPosition;
-    var initialScrollPosition;
-
-    element.addEventListener('touchstart', function(event) {
-    initialTouchPosition = event.touches[0].clientY;
-    initialScrollPosition = element.scrollLeft;
-    });
-
-    element.addEventListener('touchmove', function(event) {
-    var currentTouchPosition = event.touches[0].clientY;
-    var distance = initialTouchPosition - currentTouchPosition;
-    element.scrollLeft = initialScrollPosition + distance;
-    });
-
-    element.addEventListener('touchend', function() {
-    initialTouchPosition = null;
-    initialScrollPosition = null;
-    });*/}
 
   return (
     <>
@@ -107,8 +106,13 @@ const WorksCarousel = () => {
                      ref={elementRef}
                      onTouchStart={handleTouchStart}
                      onTouchMove={handleTouchMove}
-                     onTouchEnd={handleTouchEnd}>
-                <Link to='/Work-Portfolio' reloadDocument>
+                     onTouchEnd={handleTouchEnd}
+                     onMouseDown={handleMouseDown}
+                     onMouseMove={handleMouseMove}
+                     onMouseUp={handleMouseUp}
+                     onClick={(event) => event.preventDefault()}
+                     style={{ overflowX: 'scroll' }}>
+                    <Link to='/Work-Portfolio' reloadDocument>
                         <div className={styles.worksCarouselCard}>
                             <div className={styles.worksCarouselCardImageContainer}>
                                 <div className={styles.worksCarouselCardImage1}/>
