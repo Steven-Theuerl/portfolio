@@ -1,11 +1,54 @@
 import React from 'react'
 import styles from './WorksCarousel.module.css'
+import { useRef } from 'react'
 import { useMediaQuery } from 'react-responsive'
 import { Link } from 'react-router-dom'
+
+
 
 const WorksCarousel = () => {
 
     const isMobile = useMediaQuery({ query: '(max-width: 414px)' })
+
+    const elementRef = useRef(null);
+    let initialTouchPosition;
+    let initialScrollPosition;
+  
+    const handleTouchStart = (event) => {
+      initialTouchPosition = event.touches[0].clientY;
+      initialScrollPosition = elementRef.current.scrollLeft;
+    };
+  
+    const handleTouchMove = (event) => {
+      const currentTouchPosition = event.touches[0].clientY;
+      const distance = initialTouchPosition - currentTouchPosition;
+      elementRef.current.scrollLeft = initialScrollPosition + distance;
+    };
+  
+    const handleTouchEnd = () => {
+      initialTouchPosition = null;
+      initialScrollPosition = null;
+    };
+
+    {/*var element = document.getElementById('mediaScroller');
+    var initialTouchPosition;
+    var initialScrollPosition;
+
+    element.addEventListener('touchstart', function(event) {
+    initialTouchPosition = event.touches[0].clientY;
+    initialScrollPosition = element.scrollLeft;
+    });
+
+    element.addEventListener('touchmove', function(event) {
+    var currentTouchPosition = event.touches[0].clientY;
+    var distance = initialTouchPosition - currentTouchPosition;
+    element.scrollLeft = initialScrollPosition + distance;
+    });
+
+    element.addEventListener('touchend', function() {
+    initialTouchPosition = null;
+    initialScrollPosition = null;
+    });*/}
 
   return (
     <>
@@ -60,7 +103,11 @@ const WorksCarousel = () => {
                         </button>]}
                     </div>
                 </div>
-                <div id="mediaScroller" className={styles.mediaScroller}>
+                <div id="mediaScroller" className={styles.mediaScroller}
+                     ref={elementRef}
+                     onTouchStart={handleTouchStart}
+                     onTouchMove={handleTouchMove}
+                     onTouchEnd={handleTouchEnd}>
                 <Link to='/Work-Portfolio' reloadDocument>
                         <div className={styles.worksCarouselCard}>
                             <div className={styles.worksCarouselCardImageContainer}>
