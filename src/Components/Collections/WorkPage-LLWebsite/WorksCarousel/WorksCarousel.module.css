@@ -69,12 +69,12 @@
         align-items: flex-start;
         gap: 16px;
         padding-right:16px;
-       /*scroll-snap-align: center; - commented out for test*/
+       scroll-snap-align: center;
     }
 
     .worksCarouselCardImageContainer {
         display: flex;
-        inline-size: 100%;
+        width: 280px;
         height: 152px;
     }
 
