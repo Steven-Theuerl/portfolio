@@ -25,7 +25,7 @@ const WorksCarousel = () => {
         if (!isDragging) return;
         const currentX = event.touches[0].clientX;
         const deltaX = (currentX - initialPosition) * 1.75;
-        if (Math.abs(deltaX) > 5) {
+        if (Math.abs(deltaX) > 1) {
           event.preventDefault(); // Prevent vertical scrolling
           elementRef.current.scrollLeft -= deltaX;
           setInitialPosition(currentX);
