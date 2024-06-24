@@ -18,7 +18,7 @@ const WorksCarousel = () => {
     const handleTouchStart = (event) => {
       setInitialPosition(event.touches[0].clientX);
       setIsDragging(true);
-      event.preventDefault();
+     
     };
 
     const handleTouchMove = (event) => {
@@ -27,6 +27,7 @@ const WorksCarousel = () => {
       const currentDistance = (event.touches[0].clientX - initialPosition) * 1.75;
       elementRef.current.scrollLeft -= currentDistance;
       setInitialPosition(event.touches[0].clientX);
+      event.preventDefault();
     };
 
     const handleTouchEnd = () => {
