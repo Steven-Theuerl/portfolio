@@ -3,6 +3,11 @@ import styles from './WorksCarousel.module.css'
 import { useMediaQuery } from 'react-responsive'
 import { Link } from 'react-router-dom'
 
+import portfolioCardImg from '../../../../assets/Images/Portfolio/portfolioHeroMobile.png'
+import LLAppCardImg from '../../../../assets/Images/LLApp/LLAppHeroMobile.png'
+import LLWebCardImg from '../../../../assets/Images/LLWebsite/LLWebsiteHeroMobile.png'
+import GFNavCardImg from '../../../../assets/Images/GFNav/GFNavHeroMobile.png'
+
 const WorksCarousel = () => {
 
     const isMobile = useMediaQuery({ query: '(max-width: 414px)' })
@@ -64,7 +69,7 @@ const WorksCarousel = () => {
                     <Link to='/Work-Portfolio' reloadDocument>
                         <div className={styles.worksCarouselCard}>
                             <div className={styles.worksCarouselCardImageContainer}>
-                                <div className={styles.worksCarouselCardImage1}/>
+                                <img src={portfolioCardImg} alt='A view of the portfolio site from a mobile device and a personal computer.' className={styles.worksCarouselCardImage1}/>
                             </div>
                             <h3 className={styles.worksTextHeader}>
                                 Portfolio
@@ -88,7 +93,7 @@ const WorksCarousel = () => {
                     <Link to='/Work-LLWebsite' reloadDocument>
                         <div className={styles.worksCarouselCard}>
                             <div className={styles.worksCarouselCardImageContainer}>
-                                <div className={styles.worksCarouselCardImage2}/>
+                                <img src={LLWebCardImg} alt='A view of a website for a restaurant called Little Lemon for a personal computer.' className={styles.worksCarouselCardImage2}/>
                             </div>
                             <h3 className={styles.worksTextHeader}>
                                 First Website
@@ -112,7 +117,7 @@ const WorksCarousel = () => {
                     <Link to='/' reloadDocument>
                         <div className={styles.worksCarouselCard}>
                             <div className={styles.worksCarouselCardImageContainer}>
-                                <div className={styles.worksCarouselCardImage3}/>
+                                <img src={GFNavCardImg} alt='A preview for a website to help locate food for people with allergies.' className={styles.worksCarouselCardImage3}/>
                             </div>
                             <h3 className={styles.worksTextHeader}>
                                 Work in Progress
@@ -136,79 +141,7 @@ const WorksCarousel = () => {
                     <Link to='/Work-Portfolio' reloadDocument>
                         <div className={styles.worksCarouselCard}>
                             <div className={styles.worksCarouselCardImageContainer}>
-                                <div className={styles.worksCarouselCardImage1}/>
-                            </div>
-                            <h3 className={styles.worksTextHeader}>
-                                <span>Portfolio</span>
-                                <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M8 15L6.93125 13.95L11.1312 9.75H2V8.25H11.1312L6.93125 4.05L8 3L14 9L8 15Z" fill="green"/>
-                                </svg>
-                            </h3>
-                            <p className={styles.worksTextDescription}>
-                                My Portfolio Site that you are currently viewing. If you want to know more about what I leanred while making it, click anywhere on this card!
-                            </p>
-                            <div className={styles.worksTextTagsContainer}>
-                                <p className={styles.worksTextTags}>
-                                    React
-                                </p>
-                                <p className={styles.worksTextTags}>
-                                    JavaScript
-                                </p>
-                            </div>
-                        </div>
-                    </Link>
-                    <Link to='/Work-LLWebsite' reloadDocument>
-                        <div className={styles.worksCarouselCard}>
-                            <div className={styles.worksCarouselCardImageContainer}>
-                                <div className={styles.worksCarouselCardImage2}/>
-                            </div>
-                            <h3 className={styles.worksTextHeader}>
-                                First Website
-                                <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M8 15L6.93125 13.95L11.1312 9.75H2V8.25H11.1312L6.93125 4.05L8 3L14 9L8 15Z" fill="green"/>
-                                </svg>
-                            </h3>
-                            <p className={styles.worksTextDescription}>
-                                The first website that I created. This was done through the capstone project offered by Meta through the Coursera Front End Developer Certification.
-                            </p>
-                            <div className={styles.worksTextTagsContainer}>
-                                <p className={styles.worksTextTags}>
-                                    React
-                                </p>
-                                <p className={styles.worksTextTags}>
-                                    JavaScript
-                                </p>
-                            </div>
-                        </div>
-                    </Link>
-                    <Link to='/' reloadDocument>
-                        <div className={styles.worksCarouselCard}>
-                            <div className={styles.worksCarouselCardImageContainer}>
-                                <div className={styles.worksCarouselCardImage3}/>
-                            </div>
-                            <h3 className={styles.worksTextHeader}>
-                                Work in Progress
-                                <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M8 15L6.93125 13.95L11.1312 9.75H2V8.25H11.1312L6.93125 4.05L8 3L14 9L8 15Z" fill="green"/>
-                                </svg>
-                            </h3>
-                            <p className={styles.worksTextDescription}>
-                                This project is currently under construction, but is useful to fill this carousel :) Clicking here will take you back to the top page.
-                            </p>
-                            <div className={styles.worksTextTagsContainer}>
-                                <p className={styles.worksTextTags}>
-                                    React
-                                </p>
-                                <p className={styles.worksTextTags}>
-                                    JavaScript
-                                </p>
-                            </div>
-                        </div>
-                    </Link>
-                    <Link to='/Work-Portfolio' reloadDocument>
-                        <div className={styles.worksCarouselCard}>
-                            <div className={styles.worksCarouselCardImageContainer}>
-                                <div className={styles.worksCarouselCardImage1}/>
+                                <img src={portfolioCardImg} alt='A view of the portfolio site from a mobile device and a personal computer.' className={styles.worksCarouselCardImage1}/>
                             </div>
                             <h3 className={styles.worksTextHeader}>
                                 Portfolio
@@ -232,7 +165,7 @@ const WorksCarousel = () => {
                     <Link to='/Work-LLWebsite' reloadDocument>
                         <div className={styles.worksCarouselCard}>
                             <div className={styles.worksCarouselCardImageContainer}>
-                                <div className={styles.worksCarouselCardImage2}/>
+                                <img src={LLWebCardImg} alt='A view of a website for a restaurant called Little Lemon for a personal computer.' className={styles.worksCarouselCardImage2}/>
                             </div>
                             <h3 className={styles.worksTextHeader}>
                                 First Website
@@ -256,7 +189,7 @@ const WorksCarousel = () => {
                     <Link to='/' reloadDocument>
                         <div className={styles.worksCarouselCard}>
                             <div className={styles.worksCarouselCardImageContainer}>
-                                <div className={styles.worksCarouselCardImage3}/>
+                                <img src={GFNavCardImg} alt='A preview for a website to help locate food for people with allergies.' className={styles.worksCarouselCardImage3}/>
                             </div>
                             <h3 className={styles.worksTextHeader}>
                                 Work in Progress
@@ -277,6 +210,79 @@ const WorksCarousel = () => {
                             </div>
                         </div>
                     </Link>
+                    <Link to='/Work-Portfolio' reloadDocument>
+                        <div className={styles.worksCarouselCard}>
+                            <div className={styles.worksCarouselCardImageContainer}>
+                                <img src={portfolioCardImg} alt='A view of the portfolio site from a mobile device and a personal computer.' className={styles.worksCarouselCardImage1}/>
+                            </div>
+                            <h3 className={styles.worksTextHeader}>
+                                Portfolio
+                                <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8 15L6.93125 13.95L11.1312 9.75H2V8.25H11.1312L6.93125 4.05L8 3L14 9L8 15Z" fill="green"/>
+                                </svg>
+                            </h3>
+                            <p className={styles.worksTextDescription}>
+                                My Portfolio Site that you are currently viewing. If you want to know more about what I leanred while making it, click anywhere on this card!
+                            </p>
+                            <div className={styles.worksTextTagsContainer}>
+                                <p className={styles.worksTextTags}>
+                                    React
+                                </p>
+                                <p className={styles.worksTextTags}>
+                                    JavaScript
+                                </p>
+                            </div>
+                        </div>
+                    </Link>
+                    <Link to='/Work-LLWebsite' reloadDocument>
+                        <div className={styles.worksCarouselCard}>
+                            <div className={styles.worksCarouselCardImageContainer}>
+                                <img src={LLWebCardImg} alt='A view of a website for a restaurant called Little Lemon for a personal computer.' className={styles.worksCarouselCardImage2}/>
+                            </div>
+                            <h3 className={styles.worksTextHeader}>
+                                First Website
+                                <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8 15L6.93125 13.95L11.1312 9.75H2V8.25H11.1312L6.93125 4.05L8 3L14 9L8 15Z" fill="green"/>
+                                </svg>
+                            </h3>
+                            <p className={styles.worksTextDescription}>
+                                The first website that I created. This was done through the capstone project offered by Meta through the Coursera Front End Developer Certification.
+                            </p>
+                            <div className={styles.worksTextTagsContainer}>
+                                <p className={styles.worksTextTags}>
+                                    React
+                                </p>
+                                <p className={styles.worksTextTags}>
+                                    JavaScript
+                                </p>
+                            </div>
+                        </div>
+                    </Link>
+                    <Link to='/' reloadDocument>
+                        <div className={styles.worksCarouselCard}>
+                            <div className={styles.worksCarouselCardImageContainer}>
+                                <img src={GFNavCardImg} alt='A preview for a website to help locate food for people with allergies.' className={styles.worksCarouselCardImage3}/>
+                            </div>
+                            <h3 className={styles.worksTextHeader}>
+                                Work in Progress
+                                <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8 15L6.93125 13.95L11.1312 9.75H2V8.25H11.1312L6.93125 4.05L8 3L14 9L8 15Z" fill="green"/>
+                                </svg>
+                            </h3>
+                            <p className={styles.worksTextDescription}>
+                                This project is currently under construction, but is useful to fill this carousel :) Clicking here will take you back to the top page.
+                            </p>
+                            <div className={styles.worksTextTagsContainer}>
+                                <p className={styles.worksTextTags}>
+                                    React
+                                </p>
+                                <p className={styles.worksTextTags}>
+                                    JavaScript
+                                </p>
+                            </div>
+                        </div>
+                    </Link>
+                    
                 </div>
             </div>
         </div>

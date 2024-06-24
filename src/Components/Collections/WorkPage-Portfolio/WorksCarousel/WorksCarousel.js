@@ -3,11 +3,15 @@ import styles from './WorksCarousel.module.css'
 import { useMediaQuery } from 'react-responsive'
 import { Link } from 'react-router-dom'
 
+import portfolioCardImg from '../../../../assets/Images/Portfolio/portfolioHeroMobile.png'
+import LLAppCardImg from '../../../../assets/Images/LLApp/LLAppHeroMobile.png'
+import LLWebCardImg from '../../../../assets/Images/LLWebsite/LLWebsiteHeroMobile.png'
+import GFNavCardImg from '../../../../assets/Images/GFNav/GFNavHeroMobile.png'
+
+
 const WorksCarousel = () => {
 
     const isMobile = useMediaQuery({ query: '(max-width: 414px)' })
-
-    function scrollingMotion() {}
 
   return (
     <>
@@ -62,12 +66,11 @@ const WorksCarousel = () => {
                         </button>]}
                     </div>
                 </div>
-                <div id="mediaScroller" className={styles.mediaScroller}
-                    onClick={() => scrollingMotion()}>
+                <div id="mediaScroller" className={styles.mediaScroller}>
                     <Link to='/Work-LLApp' reloadDocument>
                         <div className={styles.worksCarouselCard}>
                             <div className={styles.worksCarouselCardImageContainer}>
-                                <div className={styles.worksCarouselCardImage1}/>
+                                <img src={LLAppCardImg} alt='A preview of multiple screens from a mobile application' className={styles.worksCarouselCardImage1}/>
                             </div>
                             <h3 className={styles.worksTextHeader}>
                                 <span>Mobile Application</span>
@@ -91,7 +94,7 @@ const WorksCarousel = () => {
                     <Link to='/Work-LLWebsite' reloadDocument>
                         <div className={styles.worksCarouselCard}>
                             <div className={styles.worksCarouselCardImageContainer}>
-                                <div className={styles.worksCarouselCardImage2}/>
+                                <img src={LLWebCardImg} alt='A view of a website for a restaurant called Little Lemon for a personal computer.' className={styles.worksCarouselCardImage2}/>
                             </div>
                             <h3 className={styles.worksTextHeader}>
                                 <span>First Website</span>
@@ -115,7 +118,7 @@ const WorksCarousel = () => {
                     <Link to='/' reloadDocument>
                         <div className={styles.worksCarouselCard}>
                             <div className={styles.worksCarouselCardImageContainer}>
-                                <div className={styles.worksCarouselCardImage3}/>
+                                <img src={GFNavCardImg} alt='A preview for a website to help locate food for people with allergies.' className={styles.worksCarouselCardImage3}/>
                             </div>
                             <h3 className={styles.worksTextHeader}>
                                 <span>Work in Progress</span>
@@ -139,7 +142,7 @@ const WorksCarousel = () => {
                     <Link to='/Work-LLApp' reloadDocument>
                         <div className={styles.worksCarouselCard}>
                             <div className={styles.worksCarouselCardImageContainer}>
-                                <div className={styles.worksCarouselCardImage1}/>
+                                <img src={LLAppCardImg} alt='A preview of multiple screens from a mobile application' className={styles.worksCarouselCardImage1}/>
                             </div>
                             <h3 className={styles.worksTextHeader}>
                                 <span>Mobile Application</span>
@@ -148,7 +151,7 @@ const WorksCarousel = () => {
                                 </svg>
                             </h3>
                             <p className={styles.worksTextDescription}>
-                                    My first Cross-Platfrom React Native App. It was completed as a Capstone Project for my certification course on Coursera through offered by Meta.
+                                My first Cross-Platfrom React Native App. It was completed as a Capstone Project for my certification course on Coursera through offered by Meta.
                             </p>
                             <div className={styles.worksTextTagsContainer}>
                                 <p className={styles.worksTextTags}>
@@ -163,7 +166,7 @@ const WorksCarousel = () => {
                     <Link to='/Work-LLWebsite' reloadDocument>
                         <div className={styles.worksCarouselCard}>
                             <div className={styles.worksCarouselCardImageContainer}>
-                                <div className={styles.worksCarouselCardImage2}/>
+                                <img src={LLWebCardImg} alt='A view of a website for a restaurant called Little Lemon for a personal computer.' className={styles.worksCarouselCardImage2}/>
                             </div>
                             <h3 className={styles.worksTextHeader}>
                                 <span>First Website</span>
@@ -172,7 +175,7 @@ const WorksCarousel = () => {
                                 </svg>
                             </h3>
                             <p className={styles.worksTextDescription}>
-                            The first website that I created. This was done through the capstone project offered by Meta through the Coursera Front End Developer Certification.
+                                The first website that I created. This was done through the capstone project offered by Meta through the Coursera Front End Developer Certification.
                             </p>
                             <div className={styles.worksTextTagsContainer}>
                                 <p className={styles.worksTextTags}>
@@ -187,7 +190,7 @@ const WorksCarousel = () => {
                     <Link to='/' reloadDocument>
                         <div className={styles.worksCarouselCard}>
                             <div className={styles.worksCarouselCardImageContainer}>
-                                <div className={styles.worksCarouselCardImage3}/>
+                                <img src={GFNavCardImg} alt='A preview for a website to help locate food for people with allergies.' className={styles.worksCarouselCardImage3}/>
                             </div>
                             <h3 className={styles.worksTextHeader}>
                                 <span>Work in Progress</span>
@@ -211,7 +214,7 @@ const WorksCarousel = () => {
                     <Link to='/Work-LLApp' reloadDocument>
                         <div className={styles.worksCarouselCard}>
                             <div className={styles.worksCarouselCardImageContainer}>
-                                <div className={styles.worksCarouselCardImage1}/>
+                                <img src={LLAppCardImg} alt='A preview of multiple screens from a mobile application' className={styles.worksCarouselCardImage1}/>
                             </div>
                             <h3 className={styles.worksTextHeader}>
                                 <span>Mobile Application</span>
@@ -220,7 +223,7 @@ const WorksCarousel = () => {
                                 </svg>
                             </h3>
                             <p className={styles.worksTextDescription}>
-                                    My first Cross-Platfrom React Native App. It was completed as a Capstone Project for my certification course on Coursera through offered by Meta.
+                                My first Cross-Platfrom React Native App. It was completed as a Capstone Project for my certification course on Coursera through offered by Meta.
                             </p>
                             <div className={styles.worksTextTagsContainer}>
                                 <p className={styles.worksTextTags}>
@@ -235,7 +238,7 @@ const WorksCarousel = () => {
                     <Link to='/Work-LLWebsite' reloadDocument>
                         <div className={styles.worksCarouselCard}>
                             <div className={styles.worksCarouselCardImageContainer}>
-                                <div className={styles.worksCarouselCardImage2}/>
+                                <img src={LLWebCardImg} alt='A view of a website for a restaurant called Little Lemon for a personal computer.' className={styles.worksCarouselCardImage2}/>
                             </div>
                             <h3 className={styles.worksTextHeader}>
                                 <span>First Website</span>
@@ -244,7 +247,7 @@ const WorksCarousel = () => {
                                 </svg>
                             </h3>
                             <p className={styles.worksTextDescription}>
-                                he first website that I created. This was done through the capstone project offered by Meta through the Coursera Front End Developer Certification.
+                                The first website that I created. This was done through the capstone project offered by Meta through the Coursera Front End Developer Certification.
                             </p>
                             <div className={styles.worksTextTagsContainer}>
                                 <p className={styles.worksTextTags}>
@@ -259,7 +262,7 @@ const WorksCarousel = () => {
                     <Link to='/' reloadDocument>
                         <div className={styles.worksCarouselCard}>
                             <div className={styles.worksCarouselCardImageContainer}>
-                                <div className={styles.worksCarouselCardImage3}/>
+                                <img src={GFNavCardImg} alt='A preview for a website to help locate food for people with allergies.' className={styles.worksCarouselCardImage3}/>
                             </div>
                             <h3 className={styles.worksTextHeader}>
                                 <span>Work in Progress</span>
@@ -280,6 +283,7 @@ const WorksCarousel = () => {
                             </div>
                         </div>
                     </Link>
+                   
                 </div>
             </div>
         </div>

@@ -1,38 +1,16 @@
 import React from 'react'
 import styles from './WorksCarousel.module.css'
-import { useRef, useState } from 'react'
 import { useMediaQuery } from 'react-responsive'
 import { Link } from 'react-router-dom'
 
-
+import portfolioCardImg from '../../../../assets/Images/Portfolio/portfolioHeroMobile.png'
+import LLAppCardImg from '../../../../assets/Images/LLApp/LLAppHeroMobile.png'
+import LLWebCardImg from '../../../../assets/Images/LLWebsite/LLWebsiteHeroMobile.png'
+import GFNavCardImg from '../../../../assets/Images/GFNav/GFNavHeroMobile.png'
 
 const WorksCarousel = () => {
 
     const isMobile = useMediaQuery({ query: '(max-width: 414px)' })
-
-    const elementRef = useRef(null);
-
-    const [initialPosition, setInitialPosition] = useState(null);
-    const [isDragging, setIsDragging] = useState(false);
-
-    const handleTouchStart = (event) => {
-      setInitialPosition(event.touches[0].clientX);
-      setIsDragging(true);
-    };
-
-    const handleTouchMove = (event) => {
-      if (!isDragging) return;
-
-      const currentDistance = (event.touches[0].clientX - initialPosition) * 1.75;
-      elementRef.current.scrollLeft -= currentDistance;
-      setInitialPosition(event.touches[0].clientX);
-      event.preventDefault();
-    };
-
-    const handleTouchEnd = () => {
-      setIsDragging(false);
-    };
-
 
   return (
     <>
@@ -91,7 +69,7 @@ const WorksCarousel = () => {
                     <Link to='/Work-Portfolio' reloadDocument>
                         <div className={styles.worksCarouselCard}>
                             <div className={styles.worksCarouselCardImageContainer}>
-                                <div className={styles.worksCarouselCardImage1}/>
+                                <img src={portfolioCardImg} alt='A view of the portfolio site from a mobile device and a personal computer.' className={styles.worksCarouselCardImage1}/>
                             </div>
                             <h3 className={styles.worksTextHeader}>
                                 <span>Portfolio</span>
@@ -115,7 +93,7 @@ const WorksCarousel = () => {
                     <Link to='/Work-LLApp' reloadDocument>
                         <div className={styles.worksCarouselCard}>
                             <div className={styles.worksCarouselCardImageContainer}>
-                                <div className={styles.worksCarouselCardImage2}/>
+                                <img src={LLAppCardImg} alt='A preview of multiple screens from a mobile application' className={styles.worksCarouselCardImage2}/>
                             </div>
                             <h3 className={styles.worksTextHeader}>
                                 <span>Mobile Application</span>
@@ -139,7 +117,7 @@ const WorksCarousel = () => {
                     <Link to='/' reloadDocument>
                         <div className={styles.worksCarouselCard}>
                             <div className={styles.worksCarouselCardImageContainer}>
-                                <div className={styles.worksCarouselCardImage3}/>
+                                <img src={GFNavCardImg} alt='A preview for a website to help locate food for people with allergies.' className={styles.worksCarouselCardImage3}/>
                             </div>
                             <h3 className={styles.worksTextHeader}>
                                 <span>Work in Progress</span>
@@ -163,7 +141,7 @@ const WorksCarousel = () => {
                     <Link to='/Work-Portfolio' reloadDocument>
                         <div className={styles.worksCarouselCard}>
                             <div className={styles.worksCarouselCardImageContainer}>
-                                <div className={styles.worksCarouselCardImage1}/>
+                                <img src={portfolioCardImg} alt='A view of the portfolio site from a mobile device and a personal computer.' className={styles.worksCarouselCardImage1}/>
                             </div>
                             <h3 className={styles.worksTextHeader}>
                                 <span>Portfolio</span>
@@ -187,7 +165,7 @@ const WorksCarousel = () => {
                     <Link to='/Work-LLApp' reloadDocument>
                         <div className={styles.worksCarouselCard}>
                             <div className={styles.worksCarouselCardImageContainer}>
-                                <div className={styles.worksCarouselCardImage2}/>
+                                <img src={LLAppCardImg} alt='A preview of multiple screens from a mobile application' className={styles.worksCarouselCardImage2}/>
                             </div>
                             <h3 className={styles.worksTextHeader}>
                                 <span>Mobile Application</span>
@@ -196,7 +174,7 @@ const WorksCarousel = () => {
                                 </svg>
                             </h3>
                             <p className={styles.worksTextDescription}>
-                                    My first Cross-Platfrom React Native App. It was completed as a Capstone Project for my certification course on Coursera through offered by Meta.
+                                My first Cross-Platfrom React Native App. It was completed as a Capstone Project for my certification course on Coursera through offered by Meta.
                             </p>
                             <div className={styles.worksTextTagsContainer}>
                                 <p className={styles.worksTextTags}>
@@ -211,7 +189,7 @@ const WorksCarousel = () => {
                     <Link to='/' reloadDocument>
                         <div className={styles.worksCarouselCard}>
                             <div className={styles.worksCarouselCardImageContainer}>
-                                <div className={styles.worksCarouselCardImage3}/>
+                                <img src={GFNavCardImg} alt='A preview for a website to help locate food for people with allergies.' className={styles.worksCarouselCardImage3}/>
                             </div>
                             <h3 className={styles.worksTextHeader}>
                                 <span>Work in Progress</span>
@@ -235,7 +213,7 @@ const WorksCarousel = () => {
                     <Link to='/Work-Portfolio' reloadDocument>
                         <div className={styles.worksCarouselCard}>
                             <div className={styles.worksCarouselCardImageContainer}>
-                                <div className={styles.worksCarouselCardImage1}/>
+                                <img src={portfolioCardImg} alt='A view of the portfolio site from a mobile device and a personal computer.' className={styles.worksCarouselCardImage1}/>
                             </div>
                             <h3 className={styles.worksTextHeader}>
                                 <span>Portfolio</span>
@@ -259,7 +237,7 @@ const WorksCarousel = () => {
                     <Link to='/Work-LLApp' reloadDocument>
                         <div className={styles.worksCarouselCard}>
                             <div className={styles.worksCarouselCardImageContainer}>
-                                <div className={styles.worksCarouselCardImage2}/>
+                                <img src={LLAppCardImg} alt='A preview of multiple screens from a mobile application' className={styles.worksCarouselCardImage2}/>
                             </div>
                             <h3 className={styles.worksTextHeader}>
                                 <span>Mobile Application</span>
@@ -268,7 +246,7 @@ const WorksCarousel = () => {
                                 </svg>
                             </h3>
                             <p className={styles.worksTextDescription}>
-                                    My first Cross-Platfrom React Native App. It was completed as a Capstone Project for my certification course on Coursera through offered by Meta.
+                                My first Cross-Platfrom React Native App. It was completed as a Capstone Project for my certification course on Coursera through offered by Meta.
                             </p>
                             <div className={styles.worksTextTagsContainer}>
                                 <p className={styles.worksTextTags}>
@@ -283,7 +261,7 @@ const WorksCarousel = () => {
                     <Link to='/' reloadDocument>
                         <div className={styles.worksCarouselCard}>
                             <div className={styles.worksCarouselCardImageContainer}>
-                                <div className={styles.worksCarouselCardImage3}/>
+                                <img src={GFNavCardImg} alt='A preview for a website to help locate food for people with allergies.' className={styles.worksCarouselCardImage3}/>
                             </div>
                             <h3 className={styles.worksTextHeader}>
                                 <span>Work in Progress</span>
