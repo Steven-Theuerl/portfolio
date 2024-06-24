@@ -69,7 +69,7 @@
         align-items: flex-start;
         gap: 16px;
         padding-right:16px;
-        scroll-snap-align: center;
+       /*scroll-snap-align: center; - commented out for test*/
     }
 
     .worksCarouselCardImageContainer {
