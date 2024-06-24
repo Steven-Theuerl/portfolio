@@ -51,15 +51,13 @@
 
     .mediaScroller {
         display: grid;
-        grid-template-rows: min-content;
         padding-left: 16px;
         gap: 224px;
         grid-auto-flow: column;
         grid-auto-columns: 20%;
-        overflow-x: auto;
         overflow: hidden;
         overscroll-behavior-inline: contain;
-        scroll-snap-type: inline mandatory;
+        scroll-snap-type: x mandatory;
     }
 
     /* needs attention, snapping not working */
