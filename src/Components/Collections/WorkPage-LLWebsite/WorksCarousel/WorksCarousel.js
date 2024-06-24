@@ -88,10 +88,7 @@ const WorksCarousel = () => {
                     </div>
                 </div>
                 <div id="mediaScroller" className={styles.mediaScroller}
-                     ref={elementRef}
-                     onTouchStart={handleTouchStart}
-                     onTouchMove={handleTouchMove}
-                     onTouchEnd={handleTouchEnd}
+               
                      >
                     <Link to='/Work-Portfolio' reloadDocument>
                         <div className={styles.worksCarouselCard}>

@@ -55,7 +55,8 @@
         gap: 224px;
         grid-auto-flow: column;
         grid-auto-columns: 20%;
-        overflow: hidden;
+    
+        overflow-x: auto;
         overscroll-behavior-inline: contain;
         scroll-snap-type: inline mandatory;
     }
