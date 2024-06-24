@@ -23,7 +23,7 @@ const WorksCarousel = () => {
 
     const handleTouchMove = (event) => {
         if (!isDragging) return;
-        const currentX = event.touches[0].clientX;
+        const currentX = event.touches[0].x;
         const deltaX = (currentX - initialPosition) * 1.75;
         if (Math.abs(deltaX) > 1) {
           event.preventDefault(); // Prevent vertical scrolling
@@ -32,15 +32,14 @@ const WorksCarousel = () => {
         }
       };
 
-
-    {/*const handleTouchMove = (event) => {
+    /*const handleTouchMove = (event) => {
       if (!isDragging) return;
 
       const currentDistance = (event.touches[0].clientX - initialPosition) * 1.75;
       elementRef.current.scrollLeft -= currentDistance;
       setInitialPosition(event.touches[0].clientX);
       event.preventDefault();
-    };*/}
+    };*/
 
     const handleTouchEnd = () => {
       setIsDragging(false);
@@ -105,8 +104,6 @@ const WorksCarousel = () => {
                      onTouchStart={handleTouchStart}
                      onTouchMove={handleTouchMove}
                      onTouchEnd={handleTouchEnd}
-
-                    
                      >
                     <Link to='/Work-Portfolio' reloadDocument>
                         <div className={styles.worksCarouselCard}>
