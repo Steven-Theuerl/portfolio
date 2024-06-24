@@ -87,9 +87,7 @@ const WorksCarousel = () => {
                         </button>]}
                     </div>
                 </div>
-                <div id="mediaScroller" className={styles.mediaScroller}
-               
-                     >
+                <div id="mediaScroller" className={styles.mediaScroller}>
                     <Link to='/Work-Portfolio' reloadDocument>
                         <div className={styles.worksCarouselCard}>
                             <div className={styles.worksCarouselCardImageContainer}>
