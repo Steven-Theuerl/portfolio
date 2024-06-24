@@ -57,7 +57,7 @@
         grid-auto-columns: 20%;
         overflow: hidden;
         overscroll-behavior-inline: contain;
-        scroll-snap-type: x mandatory;
+        scroll-snap-type: inline mandatory;
     }
 
     /* needs attention, snapping not working */
@@ -69,7 +69,7 @@
         align-items: flex-start;
         gap: 16px;
         padding-right:16px;
-       scroll-snap-align: center;
+        /*scroll-snap-align: center;*/
     }
 
     .worksCarouselCardImageContainer {
