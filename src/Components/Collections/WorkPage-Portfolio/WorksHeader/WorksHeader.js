@@ -10,7 +10,7 @@ const WorksHeader = () => {
                 <h1 className={styles.projectTitle}><span >My Portfolio</span></h1>
                 <p  className={styles.projectDescription}>
                     <span>
-                        The website you are looking at right now is my portfolio site. This page mentions things that I learned, used, or felt was important to mention while creating it.
+                        The website you are looking at right now is my portfolio site. It was designed in large part by my &#40;beautiful and talented&#41; wife as my first project outside of any guided tutorial or course. This page documents some of the things that I learned, used, or felt was important to mention while creating it.
                     </span>
                 </p>
             </div>
