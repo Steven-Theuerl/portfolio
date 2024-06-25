@@ -24,11 +24,13 @@ const Work = () => {
                         </span>
                     </h3>
                     <p className={styles.workText2}>
-                        <span>My Portfolio Site that you are currently viewing. If you want to know more about what I leanred while making it, feel free to click here!</span>
+                        <span>My Portfolio Site that you are currently viewing. If you want to know more about what I learned while making it, feel free to click here!</span>
                     </p>
                     <div className={styles.workText3}>
                         <p className={styles.workContentTags}>React</p>
                         <p className={styles.workContentTags}>JavaScript</p>
+                        <p className={styles.workContentTags}>CSS</p>
+                        <p className={styles.workContentTags}>HTML</p>
                     </div>
                 </div>
             </Link>
@@ -41,10 +43,10 @@ const Work = () => {
                         </span>
                     </h3>
                     <p className={styles.workText2}>
-                        <span>My first Cross-Platfrom React Native App. It was completed as a Capstone Project for my certification course on Coursera through a React Native Specialization offered by Meta.</span>
+                        <span>My first Cross-Platform React Native App. It was completed as a Capstone Project for my certification course on Coursera through a React Native Specialization offered by Meta.</span>
                     </p>
                     <div className={styles.workText3}>
-                        <p className={styles.workContentTags}>React</p>
+                        <p className={styles.workContentTags}>React Native</p>
                         <p className={styles.workContentTags}>JavaScript</p>
                     </div>
                 </div>
@@ -58,11 +60,13 @@ const Work = () => {
                         </span>
                     </h3>
                     <p className={styles.workText2}>
-                        <span> The first website that I created. This was done through the capstone project offered by Meta through the Coursera Front End Developer Certification.</span>
+                        <span>The first website that I created. This was done through the capstone project offered by Meta through the Coursera Front End Developer Certification.</span>
                     </p>
                     <div className={styles.workText3}>
                         <p className={styles.workContentTags}>React</p>
                         <p className={styles.workContentTags}>JavaScript</p>
+                        <p className={styles.workContentTags}>CSS</p>
+                        <p className={styles.workContentTags}>HTML</p>
                     </div>
                 </div>
             </Link>
@@ -74,7 +78,7 @@ const Work = () => {
                     </span>
                 </h3>
                 <p className={styles.workText2}>
-                    <span>I am currently working on a service that will collect and organize information to make it easier to find allergen sensitive restaurants, grocery stores, and recipes for people who need them. </span>
+                    <span>I am currently working on a service that will collect and organize information to make finding allergen sensitive restaurants, grocery stores, and recipes easier for people who need them.</span>
                 </p>
                 <div className={styles.workText3}>
                     <p className={styles.workContentTags}>React</p>

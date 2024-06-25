@@ -79,7 +79,7 @@ const WorksCarousel = () => {
                                 </svg>
                             </h3>
                             <p className={styles.worksTextDescription}>
-                                My first Cross-Platfrom React Native App. It was completed as a Capstone Project for my certification course on Coursera through offered by Meta.
+                                My first Cross-Platform React Native App. It was completed as a Capstone Project for my certification course on Coursera through offered by Meta.
                             </p>
                             <div className={styles.worksTextTagsContainer}>
                                 <p className={styles.worksTextTags}>
@@ -151,7 +151,7 @@ const WorksCarousel = () => {
                                 </svg>
                             </h3>
                             <p className={styles.worksTextDescription}>
-                                My first Cross-Platfrom React Native App. It was completed as a Capstone Project for my certification course on Coursera through offered by Meta.
+                                My first Cross-Platform React Native App. It was completed as a Capstone Project for my certification course on Coursera through offered by Meta.
                             </p>
                             <div className={styles.worksTextTagsContainer}>
                                 <p className={styles.worksTextTags}>
@@ -223,7 +223,7 @@ const WorksCarousel = () => {
                                 </svg>
                             </h3>
                             <p className={styles.worksTextDescription}>
-                                My first Cross-Platfrom React Native App. It was completed as a Capstone Project for my certification course on Coursera through offered by Meta.
+                                My first Cross-Platform React Native App. It was completed as a Capstone Project for my certification course on Coursera through offered by Meta.
                             </p>
                             <div className={styles.worksTextTagsContainer}>
                                 <p className={styles.worksTextTags}>

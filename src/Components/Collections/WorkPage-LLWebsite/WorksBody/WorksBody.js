@@ -17,7 +17,7 @@ const WorksBody = () => {
                     Learned About The Importance of Semantic HTML and SEO
                 </h2>
                 <p className={styles.worksBodyKeyPointsDescription}>
-                    Using the correct tags for elements in HTML facilitate a browser's accurate translation from code to content for browsers, search engines, and ultimatley the end user.
+                    Using the correct tags for elements in HTML facilitate a browser's accurate translation from code to content for browsers, search engines, and ultimately the end user.
                 </p>
                 <div className={styles.worksBodyKeyPointsDetailContainer}>
                     <div className={styles.worksBodyKeyPointsDetailBulletContainer}>
@@ -32,7 +32,7 @@ const WorksBody = () => {
                         <div className={styles.worksBodyKeyPointsDetailBullet}/>
                     </div>
                     <p className={styles.worksBodyKeyPointsDetail}>
-                        <span>Semantic Tags in HTML indicate the <b>role of their content</b> to a search engine and browser. For example, the content in a <b>&#60;h1&#62;</b> tag is read by a search engine as more important to search results than the content in a <b>&#60;p&#62;</b> tag. Ensuring a project has correct tags us crucial for search engine optimization for relavent content.</span>
+                        <span>Semantic Tags in HTML indicate the <b>role of their content</b> to a search engine and browser. For example, the content in a <b>&#60;h1&#62;</b> tag is read by a search engine as more important to search results than the content in a <b>&#60;p&#62;</b> tag. Ensuring a project has correct tags us crucial for search engine optimization for relevant content.</span>
                     </p>
                 </div>
                 <div className={styles.worksBodyKeyPointsDetailContainer}>
@@ -125,7 +125,7 @@ const WorksBody = () => {
                         <img src={designImage1} alt='display of the websites screens' className={styles.worksBodyDesignImage1}/>
                     </div>
                     <p className={styles.worksBodyDesignImageBoxSubtext}>
-                        <span>Figma - Main Screen Wireframe</span>
+                        <span>Figma - Main Screen Wire-frame</span>
                     </p>
                 </div>
             <div className={styles.worksBodyDesignImageBox2}>

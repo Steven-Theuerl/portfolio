@@ -42,9 +42,9 @@ const WorksBody = () => {
                         <span>
                             <b>Created a working contact page</b> with <b>validation and email</b> functionalities. I did use a few libraries to get this functionality without having to write back-end code. <br/>
                             &#9900; <a href='https://www.npmjs.com/package/@emailjs/browser'><b>Emailjs/browser </b></a>
-                            helps you send emails directly from code with one command. No server is required – just connect EmailJS to one of the supported email services, create an email template, and use our SDK to trigger an email. <br/>
+                            helps you send emails directly from code with one command. No server is required, just connect EmailJS to one of the supported email services, create an email template, and use our SDK to trigger an email. <br/>
                             &#9900; <a href='https://www.npmjs.com/package/react-hook-form'><b>React-Hook-Form </b></a>
-                            helps with setting up forms easliy and reliably.
+                            helps with setting up forms easily and reliably.
                         </span>
                     </p>
                 </div>
@@ -99,10 +99,10 @@ const WorksBody = () => {
             </div>
             <div className={styles.worksBodyKeyPointsContainer}>
                 <h2 className={styles.worksBodyKeyPointsHeader}>
-                    Collaborating with UI / UX Desginer
+                    Collaborating with UI / UX Designer
                 </h2>
                 <p className={styles.worksBodyKeyPointsDescription}>
-                    <span>Worked with a professional designer to ensure adherence to standard design and styling practices while also defining my project with functional and aesthectic personal touches.</span>
+                    <span>Worked with a professional designer to ensure adherence to standard design and styling practices while also defining my project with functional and aesthetic personal touches.</span>
                 </p>
                 <div className={styles.worksBodyKeyPointsDetailContainer}>
                     <div className={styles.worksBodyKeyPointsDetailBulletContainer}>
@@ -120,7 +120,7 @@ const WorksBody = () => {
                     </div>
                     <p className={styles.worksBodyKeyPointsDetail}>
                         <span>
-                            Became familiar with <b>collaboration</b> technologies such as <b>Vercel</b>, <b>Figma</b>, and <b>Docker</b>. Using these helped with faster development by translating information from deisgn to code with integration tools and ease of access to a staging environment for collaborators to verify and provide feedback on progress.
+                            Became familiar with <b>collaboration</b> technologies such as <b>Vercel</b>, <b>Figma</b>, and <b>Docker</b>. Using these helped with faster development by translating information from design to code with integration tools and ease of access to a staging environment for collaborators to verify and provide feedback on progress.
                         </span>
                     </p>
                 </div>

@@ -9,7 +9,7 @@ const WorksHeader = () => {
                 <p className={styles.tag}><span>Application</span></p>
                 <h1 className={styles.projectTitle}><span >Mobile Application</span></h1>
                 <p  className={styles.projectDescription}>
-                    I made a simple application as a project from the Coursera Capstone; React Native by Meta. This project taught me valuable skills to work with React Native to develop cross-platform applciations and also hot to work more effectively with data handling.
+                    I made a simple application as a project from the Coursera Capstone; React Native by Meta. This project taught me valuable skills to work with React Native to develop cross-platform applications and also hot to work more effectively with data handling.
                 </p>
                 <div className={styles.projectVisitButtonContainer}>
                     <a href=' https://github.com/Steven-Theuerl/LLApplication-Made-with-React-Native'>

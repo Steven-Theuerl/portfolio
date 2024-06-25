@@ -15,7 +15,7 @@ const WorksBody = () => {
                     Learned about and Used React Native and ExpoGo to Make a 'Native' Cross-Platform Application
                 </h2>
                 <p className={styles.worksBodyKeyPointsDescription}>
-                     An application written using React Native is displayed on mobile devices as intended with fully functioning features to a native experience. The application is written with React using JavaScript and then rendered to the native platfrom UI.
+                     An application written using React Native is displayed on mobile devices as intended with fully functioning features to a native experience. The application is written with React using JavaScript and then rendered to the native platform UI.
                 </p>
                 <div className={styles.worksBodyKeyPointsDetailContainer}>
                     <div className={styles.worksBodyKeyPointsDetailBulletContainer}>
@@ -50,7 +50,7 @@ const WorksBody = () => {
                     </div>
                     <div className={styles.worksBodyKeyPointsDetailAndAnchorContainer}>
                         <p className={styles.worksBodyKeyPointsDetail}>
-                            <span>Set up an <b>authentication and navigation flow</b> to enable users to interact with an onboarding screen, sign into an account, retain persistant data locally to prevent multiple onboarding phases on app restarts, and movement between screens.</span>
+                            <span>Set up an <b>authentication and navigation flow</b> to enable users to interact with an onboarding screen, sign into an account, retain persistent data locally to prevent multiple onboarding phases on app restarts, and movement between screens.</span>
                         </p>
                     </div>
                 </div>
@@ -89,14 +89,14 @@ const WorksBody = () => {
                     Created a Design Adhering to a Style Guide and Feature Requirements
                 </h2>
                 <p className={styles.worksBodyKeyPointsDescription}>
-                    <span>Used Figma to create a basic wireframe of app screens before development. This gave me a clear plan of how to start with development, structure elements and components, and order screens shown in the user experience.</span>
+                    <span>Used Figma to create a basic wire-frame of app screens before development. This gave me a clear plan of how to start with development, structure elements and components, and order screens shown in the user experience.</span>
                 </p>
                 <div className={styles.worksBodyKeyPointsDetailContainer}>
                     <div className={styles.worksBodyKeyPointsDetailBulletContainer}>
                         <div className={styles.worksBodyKeyPointsDetailBullet}/>
                     </div>
                     <p className={styles.worksBodyKeyPointsDetail}>
-                        <span><b>Applied User Experience &#40;UX&#41; and User Interface &#40;UI&#41; principles</b> to create a wireframe and prototype for an app with the expereince for the user as the primary consideration during planning.</span>
+                        <span><b>Applied User Experience &#40;UX&#41; and User Interface &#40;UI&#41; principles</b> to create a wire-frame and prototype for an app with the experience for the user as the primary consideration during planning.</span>
                     </p>
                 </div>
                 <div className={styles.worksBodyKeyPointsDetailContainer}>
@@ -110,10 +110,10 @@ const WorksBody = () => {
             </div>
             <div className={styles.worksBodyDesignImageBox1}>
                     <div className={styles.worksBodyDesignImageContainer1}>
-                        <img src={designImage1} alt='the wireframe of the main screen in the figma file' className={styles.worksBodyDesignImage1}/>
+                        <img src={designImage1} alt='the wire-frame of the main screen in the figma file' className={styles.worksBodyDesignImage1}/>
                     </div>
                     <div className={styles.worksBodyDesignImageBoxSubtext}>
-                        <p>Figma - Main Screen Wireframe</p>
+                        <p>Figma - Main Screen Wire-frame</p>
                     </div>
                 </div>
             <div className={styles.worksBodyDesignImageBox2}>
