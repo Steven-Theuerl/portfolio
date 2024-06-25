@@ -70,7 +70,7 @@ const [contacted, setContacted] = useState(false);
                 </p>
                 <p className={styles.contactSubHeaderBottom}>
                     <span>If you'd like to leave me a message, please use the contact form below
-                    or email me at <a className={styles.contactPageAnchor} href='https://www.gmail.com'>mr.steven.theuerl@gmail.com</a></span>
+                    or email me at <a className={styles.contactPageAnchor} href='mailto:mr.steven.theuerl@gmail.com'>mr.steven.theuerl@gmail.com</a></span>
                 </p>
             </div>
             <form className={styles.contactFormContainer}

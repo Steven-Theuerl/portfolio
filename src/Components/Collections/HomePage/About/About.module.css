@@ -492,7 +492,7 @@
         padding: 24px 0px;
         flex-direction: column;
         align-items: flex-start;
-        gap: 16px;
+        gap: 24px;
         align-self: stretch;
     }
     
@@ -533,6 +533,7 @@
         align-items: flex-start;
         gap: 40px;
         align-self: stretch;
+        
       
     }
     
@@ -706,7 +707,7 @@
         padding: 24px 0px;
         flex-direction: column;
         align-items: flex-start;
-        gap: 16px;
+        gap: 24px;
         align-self: stretch;
         border-top: 1px solid #E4E5DA;
     }
@@ -738,6 +739,7 @@
         align-items: flex-start;
         gap: 40px;
         align-self: stretch;
+        margin-top: -8px;
     }
 
     .aboutQualificationsEducationItem {
