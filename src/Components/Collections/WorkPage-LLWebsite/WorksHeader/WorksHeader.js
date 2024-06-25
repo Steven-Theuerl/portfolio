@@ -12,12 +12,14 @@ const WorksHeader = () => {
                     This was the first functional website that I created, and was through the capstone project offered by Meta through the Coursera Front End Developer Certification. Working on this project taught me the fundamental skills needed to start my working on websites and applications as a developer.
                 </p>
                 <div className={styles.projectVisitButtonContainer}>
-                    <button className={styles.projectVisitButton}>
-                        View on Github
-                    <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M2.64645 10.6464C2.45118 10.8417 2.45118 11.1583 2.64645 11.3536C2.84171 11.5488 3.15829 11.5488 3.35355 11.3536L2.64645 10.6464ZM9.86396 4.63604C9.86396 4.3599 9.6401 4.13604 9.36396 4.13604L4.86396 4.13604C4.58782 4.13604 4.36396 4.3599 4.36396 4.63604C4.36396 4.91218 4.58782 5.13604 4.86396 5.13604L8.86396 5.13604L8.86396 9.13604C8.86396 9.41218 9.08782 9.63604 9.36396 9.63604C9.6401 9.63604 9.86396 9.41218 9.86396 9.13604L9.86396 4.63604ZM3.35355 11.3536L9.71751 4.98959L9.01041 4.28249L2.64645 10.6464L3.35355 11.3536Z" fill="green"/>
-                    </svg>
-                    </button>
+                    <a href='https://github.com/Steven-Theuerl/LL-Website-Made-with-React'>
+                        <button className={styles.projectVisitButton}>
+                            View on Github
+                        <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M2.64645 10.6464C2.45118 10.8417 2.45118 11.1583 2.64645 11.3536C2.84171 11.5488 3.15829 11.5488 3.35355 11.3536L2.64645 10.6464ZM9.86396 4.63604C9.86396 4.3599 9.6401 4.13604 9.36396 4.13604L4.86396 4.13604C4.58782 4.13604 4.36396 4.3599 4.36396 4.63604C4.36396 4.91218 4.58782 5.13604 4.86396 5.13604L8.86396 5.13604L8.86396 9.13604C8.86396 9.41218 9.08782 9.63604 9.36396 9.63604C9.6401 9.63604 9.86396 9.41218 9.86396 9.13604L9.86396 4.63604ZM3.35355 11.3536L9.71751 4.98959L9.01041 4.28249L2.64645 10.6464L3.35355 11.3536Z" fill="green"/>
+                        </svg>
+                        </button>
+                    </a>
                 </div>
             </div>
             <div className={styles.worksHeaderBottomContainer}>

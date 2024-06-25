@@ -53,7 +53,7 @@ const [contacted, setContacted] = useState(false);
                 <div className={styles.contactedHomeButtonContainer}>
                     <Link to='/' reloadDocument>
                         <button className={styles.contactedHomeButton}>
-                            Home
+                            Back to Home
                         </button>
                     </Link>
                 </div>

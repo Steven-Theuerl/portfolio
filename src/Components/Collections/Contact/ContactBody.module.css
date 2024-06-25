@@ -515,6 +515,7 @@
             border-radius: 10px;
             border: 1px solid #E4E5DA;
             color: var(--Text-Normal, #111);
+            background-color: transparent;
             font-family: "Verdana";
             font-size: 14px;
             font-style: normal;
