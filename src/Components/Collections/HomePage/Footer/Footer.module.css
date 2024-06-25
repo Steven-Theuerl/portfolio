@@ -154,6 +154,8 @@
     .footerInPageLink {
         color: #FFF;
         font-family: Verdana;
+        justify-content: center;
+        text-align: center;
         font-size: 14px;
         font-style: normal;
         font-weight: 400;

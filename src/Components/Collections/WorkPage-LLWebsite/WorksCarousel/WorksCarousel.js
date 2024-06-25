@@ -82,10 +82,13 @@ const WorksCarousel = () => {
                             </p>
                             <div className={styles.worksTextTagsContainer}>
                                 <p className={styles.worksTextTags}>
-                                    React
+                                    JavaScript
                                 </p>
                                 <p className={styles.worksTextTags}>
-                                    JavaScript
+                                    HTML
+                                </p>
+                                <p className={styles.worksTextTags}>
+                                    CSS
                                 </p>
                             </div>
                         </div>
@@ -106,10 +109,13 @@ const WorksCarousel = () => {
                             </p>
                             <div className={styles.worksTextTagsContainer}>
                                 <p className={styles.worksTextTags}>
-                                    React
+                                    JavaScript
                                 </p>
                                 <p className={styles.worksTextTags}>
-                                    JavaScript
+                                    HTML
+                                </p>
+                                <p className={styles.worksTextTags}>
+                                    CSS
                                 </p>
                             </div>
                         </div>
@@ -130,10 +136,13 @@ const WorksCarousel = () => {
                             </p>
                             <div className={styles.worksTextTagsContainer}>
                                 <p className={styles.worksTextTags}>
-                                    React
+                                    JavaScript
                                 </p>
                                 <p className={styles.worksTextTags}>
-                                    JavaScript
+                                    HTML
+                                </p>
+                                <p className={styles.worksTextTags}>
+                                    CSS
                                 </p>
                             </div>
                         </div>
@@ -154,10 +163,13 @@ const WorksCarousel = () => {
                             </p>
                             <div className={styles.worksTextTagsContainer}>
                                 <p className={styles.worksTextTags}>
-                                    React
+                                    JavaScript
                                 </p>
                                 <p className={styles.worksTextTags}>
-                                    JavaScript
+                                    HTML
+                                </p>
+                                <p className={styles.worksTextTags}>
+                                    CSS
                                 </p>
                             </div>
                         </div>
@@ -178,10 +190,13 @@ const WorksCarousel = () => {
                             </p>
                             <div className={styles.worksTextTagsContainer}>
                                 <p className={styles.worksTextTags}>
-                                    React
+                                    JavaScript
                                 </p>
                                 <p className={styles.worksTextTags}>
-                                    JavaScript
+                                    HTML
+                                </p>
+                                <p className={styles.worksTextTags}>
+                                    CSS
                                 </p>
                             </div>
                         </div>
@@ -202,10 +217,13 @@ const WorksCarousel = () => {
                             </p>
                             <div className={styles.worksTextTagsContainer}>
                                 <p className={styles.worksTextTags}>
-                                    React
+                                    JavaScript
                                 </p>
                                 <p className={styles.worksTextTags}>
-                                    JavaScript
+                                    HTML
+                                </p>
+                                <p className={styles.worksTextTags}>
+                                    CSS
                                 </p>
                             </div>
                         </div>
@@ -226,10 +244,13 @@ const WorksCarousel = () => {
                             </p>
                             <div className={styles.worksTextTagsContainer}>
                                 <p className={styles.worksTextTags}>
-                                    React
+                                    JavaScript
                                 </p>
                                 <p className={styles.worksTextTags}>
-                                    JavaScript
+                                    HTML
+                                </p>
+                                <p className={styles.worksTextTags}>
+                                    CSS
                                 </p>
                             </div>
                         </div>
@@ -250,10 +271,13 @@ const WorksCarousel = () => {
                             </p>
                             <div className={styles.worksTextTagsContainer}>
                                 <p className={styles.worksTextTags}>
-                                    React
+                                    JavaScript
                                 </p>
                                 <p className={styles.worksTextTags}>
-                                    JavaScript
+                                    HTML
+                                </p>
+                                <p className={styles.worksTextTags}>
+                                    CSS
                                 </p>
                             </div>
                         </div>
@@ -274,10 +298,13 @@ const WorksCarousel = () => {
                             </p>
                             <div className={styles.worksTextTagsContainer}>
                                 <p className={styles.worksTextTags}>
-                                    React
+                                    JavaScript
                                 </p>
                                 <p className={styles.worksTextTags}>
-                                    JavaScript
+                                    HTML
+                                </p>
+                                <p className={styles.worksTextTags}>
+                                    CSS
                                 </p>
                             </div>
                         </div>

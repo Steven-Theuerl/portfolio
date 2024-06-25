@@ -83,10 +83,13 @@ const WorksCarousel = () => {
                             </p>
                             <div className={styles.worksTextTagsContainer}>
                                 <p className={styles.worksTextTags}>
-                                    React
+                                    JavaScript
                                 </p>
                                 <p className={styles.worksTextTags}>
-                                    JavaScript
+                                    HTML
+                                </p>
+                                <p className={styles.worksTextTags}>
+                                    CSS
                                 </p>
                             </div>
                         </div>
@@ -106,11 +109,14 @@ const WorksCarousel = () => {
                                 The first website that I created. This was done through the capstone project offered by Meta through the Coursera Front End Developer Certification.
                             </p>
                             <div className={styles.worksTextTagsContainer}>
-                                <p className={styles.worksTextTags}>
-                                    React
+                            <p className={styles.worksTextTags}>
+                                    JavaScript
                                 </p>
                                 <p className={styles.worksTextTags}>
-                                    JavaScript
+                                    HTML
+                                </p>
+                                <p className={styles.worksTextTags}>
+                                    CSS
                                 </p>
                             </div>
                         </div>
@@ -130,11 +136,14 @@ const WorksCarousel = () => {
                                 This project is currently under construction, but is useful to fill this carousel :) Clicking here will take you back to the top page.
                             </p>
                             <div className={styles.worksTextTagsContainer}>
-                                <p className={styles.worksTextTags}>
-                                    React
+                            <p className={styles.worksTextTags}>
+                                    JavaScript
                                 </p>
                                 <p className={styles.worksTextTags}>
-                                    JavaScript
+                                    HTML
+                                </p>
+                                <p className={styles.worksTextTags}>
+                                    CSS
                                 </p>
                             </div>
                         </div>
@@ -155,10 +164,13 @@ const WorksCarousel = () => {
                             </p>
                             <div className={styles.worksTextTagsContainer}>
                                 <p className={styles.worksTextTags}>
-                                    React
+                                    JavaScript
                                 </p>
                                 <p className={styles.worksTextTags}>
-                                    JavaScript
+                                    HTML
+                                </p>
+                                <p className={styles.worksTextTags}>
+                                    CSS
                                 </p>
                             </div>
                         </div>
@@ -178,11 +190,14 @@ const WorksCarousel = () => {
                                 The first website that I created. This was done through the capstone project offered by Meta through the Coursera Front End Developer Certification.
                             </p>
                             <div className={styles.worksTextTagsContainer}>
-                                <p className={styles.worksTextTags}>
-                                    React
+                            <p className={styles.worksTextTags}>
+                                    JavaScript
                                 </p>
                                 <p className={styles.worksTextTags}>
-                                    JavaScript
+                                    HTML
+                                </p>
+                                <p className={styles.worksTextTags}>
+                                    CSS
                                 </p>
                             </div>
                         </div>
@@ -202,11 +217,14 @@ const WorksCarousel = () => {
                                 This project is currently under construction, but is useful to fill this carousel :) Clicking here will take you back to the top page.
                             </p>
                             <div className={styles.worksTextTagsContainer}>
-                                <p className={styles.worksTextTags}>
-                                    React
+                            <p className={styles.worksTextTags}>
+                                    JavaScript
                                 </p>
                                 <p className={styles.worksTextTags}>
-                                    JavaScript
+                                    HTML
+                                </p>
+                                <p className={styles.worksTextTags}>
+                                    CSS
                                 </p>
                             </div>
                         </div>
@@ -227,10 +245,13 @@ const WorksCarousel = () => {
                             </p>
                             <div className={styles.worksTextTagsContainer}>
                                 <p className={styles.worksTextTags}>
-                                    React
+                                    JavaScript
                                 </p>
                                 <p className={styles.worksTextTags}>
-                                    JavaScript
+                                    HTML
+                                </p>
+                                <p className={styles.worksTextTags}>
+                                    CSS
                                 </p>
                             </div>
                         </div>
@@ -250,11 +271,14 @@ const WorksCarousel = () => {
                                 The first website that I created. This was done through the capstone project offered by Meta through the Coursera Front End Developer Certification.
                             </p>
                             <div className={styles.worksTextTagsContainer}>
-                                <p className={styles.worksTextTags}>
-                                    React
+                            <p className={styles.worksTextTags}>
+                                    JavaScript
                                 </p>
                                 <p className={styles.worksTextTags}>
-                                    JavaScript
+                                    HTML
+                                </p>
+                                <p className={styles.worksTextTags}>
+                                    CSS
                                 </p>
                             </div>
                         </div>
@@ -274,15 +298,19 @@ const WorksCarousel = () => {
                                 This project is currently under construction, but is useful to fill this carousel :) Clicking here will take you back to the top page.
                             </p>
                             <div className={styles.worksTextTagsContainer}>
-                                <p className={styles.worksTextTags}>
-                                    React
+                            <p className={styles.worksTextTags}>
+                                    JavaScript
                                 </p>
                                 <p className={styles.worksTextTags}>
-                                    JavaScript
+                                    HTML
+                                </p>
+                                <p className={styles.worksTextTags}>
+                                    CSS
                                 </p>
                             </div>
                         </div>
                     </Link>
+                    
                    
                 </div>
             </div>
