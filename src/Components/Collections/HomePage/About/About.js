@@ -3,7 +3,7 @@ import styles from '../About/About.module.css'
 import { Link } from 'react-router-dom'
 import topImage from '../../../../assets/Images/topImage.png'
 
-import Resume from '../../../../assets/Documents/Steven_Theuerl_Resume-June_2024.pdf'
+import Resume from '../../../../assets/Documents/Steven_Theuerl_Resume-No_phone_Number.pdf'
 
 const About = () => {
   return (

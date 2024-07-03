@@ -2,7 +2,7 @@ import React from 'react'
 import styles from '../Footer/Footer.module.css'
 import { Link } from 'react-router-dom'
 
-import Resume from '../../../../assets/Documents/Steven_Theuerl_Resume-June_2024.pdf'
+import Resume from '../../../../assets/Documents/Steven_Theuerl_Resume-No_phone_Number.pdf'
 
 const Footer = () => {
   return (
