@@ -1,22 +1,52 @@
 import React from 'react'
 import styles from '../Work/Work.module.css'
 import { Link } from 'react-router-dom'
+import { useMediaQuery } from 'react-responsive'
 
-import workContentImg1 from '../../../../assets/Images/Portfolio/portfolioHero.png'
-import workContentImg2 from '../../../../assets/Images/LLApp/LLAppHero.png'
-import workContentImg3 from '../../../../assets/Images/LLWebsite/LLWebsiteHero.png'
-import workContentImg4 from '../../../../assets/Images/GFNav/GFNavHero.png'
+import portfolioMVPC from '../../../../assets/Images/Portfolio/portfolioHero.png'
+import portfolioMVMobile from '../../../../assets/Images/Portfolio/portfolioHeroMobile.png'
+import LLAppMVMobile from '../../../../assets/Images/LLApp/LLAppHeroMobile.png'
+import LLAppMVPC from '../../../../assets/Images/LLApp/LLAppHero.png'
+import LLWebsiteMVMobile from '../../../../assets/Images/LLWebsite/LLWebsiteHeroMobile.png'
+import LLWebsiteMVPC from '../../../../assets/Images/LLWebsite/LLWebsiteHero.png'
+
+import TsundokuMVMobile from '../../../../assets/Images/Tsundoku/TsundokuHeroMobile.png'
+import TsundokuMVPC from '../../../../assets/Images/Tsundoku/TsundokuHero.png'
+
 
 const Work = () => {
+
+  const screenUnder847px = useMediaQuery({query: '(max-width: 847px)'})
+
   return (
     <div className={styles.entireWork}>
         <div className={styles.workContentContainer}>
             <h2 className={styles.workTitle}>
                 Work
             </h2>
+            <Link to='/Work-Tsundoku' reloadDocument>
+                <div className={styles.workContent}>
+                        <img src={screenUnder847px ? TsundokuMVMobile : TsundokuMVPC} alt='Thumbnail of the `About Tsundoku Page` Link' className={styles.workContentImage}/>
+                    <h3 className={styles.workText1}>
+                        <span className={styles.workText1Title}>Tsundoku <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 15L6.93125 13.95L11.1312 9.75H2V8.25H11.1312L6.93125 4.05L8 3L14 9L8 15Z" fill="#279070"/>
+                        </svg>
+                        </span>
+                    </h3>
+                    <p className={styles.workText2}>
+                        <span>My partner and I wanted our own place that we could publish articles related to web development, design, and lifestyle - so we made one. </span>
+                    </p>
+                    <div className={styles.workText3}>
+                        <p className={styles.workContentTags}>Next.js</p>
+                        <p className={styles.workContentTags}>Sanity.io</p>
+                        <p className={styles.workContentTags}>TypeScript</p>
+                        <p className={styles.workContentTags}>TailwindCSS</p>
+                    </div>
+                </div>
+            </Link>
             <Link to='/Work-Portfolio' reloadDocument>
                 <div className={styles.workContent}>
-                        <img src={workContentImg1} alt='Thumbnail of the `About Portfolio Page` Link' className={styles.workContent1Image}/>
+                        <img src={screenUnder847px ? portfolioMVMobile : portfolioMVPC} alt='Thumbnail of the `About Portfolio Page` Link' className={styles.workContentImage}/>
                     <h3 className={styles.workText1}>
                         <span className={styles.workText1Title}>Portfolio <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M8 15L6.93125 13.95L11.1312 9.75H2V8.25H11.1312L6.93125 4.05L8 3L14 9L8 15Z" fill="#279070"/>
@@ -36,7 +66,7 @@ const Work = () => {
             </Link>
             <Link to='/Work-LLApp' reloadDocument>
                 <div className={styles.workContent}>
-                    <img src={workContentImg2} alt='Thumbnail for the `About My Mobile Application Page` Link' className={styles.workContent2Image}/>
+                    <img src={screenUnder847px ? LLAppMVMobile : LLAppMVPC} alt='Thumbnail for the `About My Mobile Application Page` Link' className={styles.workContentImage}/>
                     <h3 className={styles.workText1}>
                         <span className={styles.workText1Title}>Mobile Application <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M8 15L6.93125 13.95L11.1312 9.75H2V8.25H11.1312L6.93125 4.05L8 3L14 9L8 15Z" fill="#279070"/></svg>
@@ -53,7 +83,7 @@ const Work = () => {
             </Link>
             <Link to='/Work-LLWebsite' reloadDocument>
                 <div className={styles.workContent}>
-                    <img src={workContentImg3} alt='Thumbnail for the `About My First Website` Page Link' className={styles.workContent3Image}/>
+                    <img src={screenUnder847px ? LLWebsiteMVMobile : LLWebsiteMVPC} alt='Thumbnail for the `About My First Website` Page Link' className={styles.workContentImage}/>
                     <h3 className={styles.workText1}>
                         <span className={styles.workText1Title}>First Website <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M8 15L6.93125 13.95L11.1312 9.75H2V8.25H11.1312L6.93125 4.05L8 3L14 9L8 15Z" fill="#279070"/></svg>
@@ -70,21 +100,6 @@ const Work = () => {
                     </div>
                 </div>
             </Link>
-            <div className={styles.workContent}>
-                <img src={workContentImg4} alt='Thumbnail for the `Gluten Free Navigation Application` Page link' className={styles.workContent4Image}/>
-                <h3 className={styles.workText1}>
-                    <span className={styles.workText1Title}>Currently in Development <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M8 15L6.93125 13.95L11.1312 9.75H2V8.25H11.1312L6.93125 4.05L8 3L14 9L8 15Z" fill="#279070"/></svg>
-                    </span>
-                </h3>
-                <p className={styles.workText2}>
-                    <span>I am currently working on a service that will collect and organize information to make finding allergen sensitive restaurants, grocery stores, and recipes easier for people who need them.</span>
-                </p>
-                <div className={styles.workText3}>
-                    <p className={styles.workContentTags}>React</p>
-                    <p className={styles.workContentTags}>JavaScript</p>
-                </div>
-            </div>
         </div>
     </div>
   )

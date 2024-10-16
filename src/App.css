@@ -3,19 +3,24 @@ body {
     padding: 0px;
 }
 
-a:hover {
-    cursor: pointer;
-}
-
 h1 , h2, h3, h4, h5, h6, b {
     padding: 0px;
     margin: 0px;
     font-weight: 600;
 }
 
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  cursor: pointer;
+  opacity: .775;
+}
+
 p {
-    padding: 0px;
-    margin: 0px;
+  padding: 0px;
+  margin: 0px;
 }
 
 .worksCarouselButtons:active {

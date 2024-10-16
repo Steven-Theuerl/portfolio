@@ -1,7 +1,3 @@
-button:hover {
-    cursor: pointer;
-}
-
 @media screen and (max-width: 414px) {
     .entireWork {
         display: flex;
@@ -37,11 +33,11 @@ button:hover {
         flex-direction: column;
         align-items: flex-start;
         gap: 8px;
-        align-self: stretch;
         border-bottom: 1px solid #E4E5DA;
     }
 
-    .workContent1Image {
+  
+    .workContentImage {
         background-size: cover;
         background-position: center;
         display: flex;
@@ -50,53 +46,10 @@ button:hover {
         border-radius: 4px;
     }
 
-    .workContent1Image:hover {
-        opacity: .775;
-        cursor: pointer;
+    .workContentImage:hover {
+      opacity: .775
     }
-
-    .workContent2Image {
-        background-size: cover;
-        background-position: center;
-        display: flex;
-        width: 100%;
-        height: auto;
-        border-radius: 4px;
-
-    }
-
-    .workContent2Image:hover {
-        opacity: .775;
-        cursor: pointer;
-    }
-
-    .workContent3Image {
-        background-size: cover;
-        background-position: center;
-        display: flex;
-        width: 100%;
-        height: auto;
-        border-radius: 4px;
-    }
-
-    .workContent3Image:hover {
-        opacity: .775;
-        cursor: pointer;
-    }
-
-    .workContent4Image {
-        background-size: cover;
-        background-position: center;
-        display: flex;
-        width: 100%;
-        height: auto;
-        border-radius: 4px;
-    }
-
-    .workContent4Image:hover {
-        opacity: .775;
-        cursor: pointer;
-    }
+    
 
     .workText1 {
         display: flex;
@@ -203,7 +156,7 @@ button:hover {
         max-width: 680px;
     }
 
-    .workContent1Image {
+    .workContentImage {
         background-size: contain;
         background-position: center;
         display: flex;
@@ -212,52 +165,8 @@ button:hover {
         border-radius: 4px;
     }
 
-    .workContent1Image:hover {
-        opacity: .775;
-        cursor: pointer;
-    }
-
-    .workContent2Image {
-        background-size: contain;
-        background-position: center;
-        display: flex;
-        width: 100%;
-        height: auto;
-        border-radius: 4px;
-    }
-
-    .workContent2Image:hover {
-        opacity: .775;
-        cursor: pointer;
-    }
-
-    .workContent3Image {
-        background-size: contain;
-        background-position: center;
-        display: flex;
-        width: 100%;
-        height: auto;
-        border-radius: 4px;
-    }
-
-    .workContent3Image:hover {
-        opacity: .775;
-        cursor: pointer;
-    }
-
-    .workContent4Image {
-        background-size: contain;
-        background-position: center;
-        display: flex;
-        align-self: stretch;
-        width: 100%;
-        height: auto;
-        border-radius: 4px;
-    }
-
-    .workContent4Image:hover {
-        opacity: .775;
-        cursor: pointer;
+    .workContentImage:hover {
+      opacity: .775
     }
 
     .workText1 {
@@ -369,48 +278,14 @@ button:hover {
     }
 
 
-    .workContent1Image {
+    .workContentImage {
         width: 100%;
         height: auto;
         border-radius: 4px;
     }
 
-    .workContent1Image:hover {
-        opacity: .775;
-        cursor: pointer;
-    }
-
-    .workContent2Image {
-        width: 100%;
-        height: auto;
-        border-radius: 4px;
-    }
-
-    .workContent2Image:hover {
-        opacity: .775;
-        cursor: pointer;
-    }
-
-    .workContent3Image {
-        width: 100%;
-        height: auto;
-        border-radius: 4px;
-    }
-
-    .workContent3Image:hover {
-        opacity: .775;
-        cursor: pointer;
-    }
-
-    .workContent4Image {
-        width: 100%;
-        height: auto;
-        border-radius: 4px;
-    }
-
-    .workContent4Image:hover {
-        opacity: .775;
-        cursor: pointer;
+    .workContentImage:hover {
+      opacity: .775
     }
 
     .workText1 {
@@ -502,6 +377,10 @@ button:hover {
         margin-bottom: 40px;
     }
 
+    .workContentLink:hover {
+      opacity: 0;
+    }
+
     .workContent {
         display: flex;
         flex-direction: column;
@@ -512,7 +391,7 @@ button:hover {
         padding: 32px 0px;
     }
 
-    .workContent1Image {
+    .workContentImage {
         background-position: center;
         display: flex;
         justify-content: center;
@@ -521,50 +400,9 @@ button:hover {
         border-radius: 4px;
     }
 
-    .workContent1Image:hover {
-        opacity: .775;
-        cursor: pointer;
+    .workContentImage:hover {
+      opacity: .775
     }
-
-    .workContent2Image {
-        justify-content: flex-end;
-        align-self: stretch;
-        width: 100%;
-        height: auto;
-        border-radius: 4px;
-    }
-
-    .workContent2Image:hover {
-        opacity: .775;
-        cursor: pointer;
-    }
-
-    .workContent3Image {
-        justify-content: flex-end;
-        align-self: stretch;
-        width: 100%;
-        height: auto;
-        border-radius: 4px;
-    }
-
-    .workContent3Image:hover {
-        opacity: .775;
-        cursor: pointer;
-    }
-
-    .workContent4Image {
-        justify-content: flex-end;
-        align-self: stretch;
-        width: 100%;
-        height: auto;
-        border-radius: 4px;
-    }
-
-    .workContent4Image:hover {
-        opacity: .775;
-        cursor: pointer;
-    }
-
 
     .workText1 {
         display: flex;

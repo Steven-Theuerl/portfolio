@@ -29,7 +29,7 @@ const Top = () => {
                     Steven Theuerl<br/>Software Engineer
                 </h1>
                 <h2 className={styles.topTextSubTitle}>
-                    Front-end engineer based in PA, USA
+                    Software engineer based in PA, USA
                 </h2>
                 <div className={styles.separator}/>
                 <div className={styles.topContactBox}>
