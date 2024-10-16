@@ -3,7 +3,7 @@ import styles from '../About/About.module.css'
 import { Link } from 'react-router-dom'
 import topImage from '../../../../assets/Images/topImage.png'
 
-import Resume from '../../../../assets/Documents/Steven_Theuerl_Resume-No_phone_Number.pdf'
+import Resume from '../../../../assets/Documents/Steven-Theuerl-Resume-noPhone.pdf'
 
 const About = () => {
   return (
@@ -19,7 +19,10 @@ const About = () => {
                 Hello! I'm Steven.
             </h3>
             <p className={styles.aboutBodyText}>
-                    I have never been afraid to try or study something new. That quality has been fueled by a deep sense of fulfillment from exploration, discovery, and applying my knowledge in a practical and useful way. It has also allowed me to collect various types of work and life experience. I naturally approach challenges with a thoughtful and analytical mindset and often explore new innovative technologies and opportunities for improvement of my own life and skills, which led me to coding as a hobby. Now I collaborate with creators, think about my projects while in the shower and eating dinner, and can easily lose track of time while working on them. I have just started my journey as a developer, but I am very excited to contribute to the world in a meaningful way. Thank you for viewing and reading through my website!
+            I have never been afraid to try something new. That mentality has enabled me to experience work and life in many different ways which has given me a broad, worldly perspective. I am driven by a deep sense of fulfillment from exploration, discovery, and applying my knowledge in practical and useful ways, and I also naturally approach challenges with a thoughtful and analytical mindset. This has enabled me to explore innovative technologies and opportunities for self-improvement, including my recent interest in coding.<br/></p>
+
+           <p className={styles.aboutBodyText}> My interests quickly grew to become engrossed enthusiasm with the idea of creating websites and services to make information and services convenient, accessible, and engaging. I started studying with no prior knowledge or experience in tech at the end of 2023, but now I collaborate with professionals, think about my projects while in the shower and eating dinner, and can easily lose track of time while working on them. I have just started my journey as a developer, but I am very excited to contribute to the world in a meaningful way. Thank you for viewing and reading through my website!
+
             </p>
             <div className={styles.aboutQualifications}>
                 <div className={styles.aboutQualificationsEducation}>
@@ -55,7 +58,7 @@ const About = () => {
                             Hobbies
                         </h3>
                         <p className={styles.aboutQualificationsHobbiesDescription}>
-                            All of my time is happily given to my wife, my child, and my work. But I also enjoy taking care of plants, cooking, video games (but really just Elden Ring), DIY projects, lots of exercise, and learning!
+                            All of my time is happily given to my wife, my child, and my work. I also enjoy cooking, video games, DIY projects, lots of exercise, and learning!
                         </p>
                     </div>
                 </div>

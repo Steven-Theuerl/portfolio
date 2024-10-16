@@ -9,7 +9,7 @@ const WorksHeader = () => {
                 <p className={styles.tag}><span>Website</span></p>
                 <h1 className={styles.projectTitle}><span >Tsundoku</span></h1>
                 <p  className={styles.projectDescription}>
-                  <span>Tsundoku is a blog site that was developed to be a place where my wife and I can write informative articles compiling information that we have learned for ourselves and for others. If you would like to see the website - you can <a href='https://www.tsundoku.blog'>visit it here</a>.</span>
+                  <span>Tsundoku is a blog site that was developed to be a place where my wife and I can write informative articles compiling information that we have learned for ourselves and for others. You can visit it if you <a href='https://www.tsundoku.blog'>click here</a>.</span>
                 </p>
                 <div className={styles.projectVisitButtonContainer}>
                     <a href='https://github.com/Steven-Theuerl/Tsundoku'>

@@ -34,7 +34,7 @@ const Work = () => {
                         </span>
                     </h3>
                     <p className={styles.workText2}>
-                        <span>My partner and I wanted our own place that we could publish articles related to web development, design, and lifestyle - so we made one. </span>
+                        <span>My partner and I wanted our own place that we could publish articles related to web development, design, and lifestyle - so we made one.</span>
                     </p>
                     <div className={styles.workText3}>
                         <p className={styles.workContentTags}>Next.js</p>

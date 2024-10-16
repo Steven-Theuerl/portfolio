@@ -120,19 +120,19 @@ const WorksCarousel = () => {
                             </div>
                         </div>
                     </Link>
-                    <Link to='/' reloadDocument>
+                    <Link to='/Work-LLWebsite' reloadDocument>
                         <div className={styles.worksCarouselCard}>
                             <div className={styles.worksCarouselCardImageContainer}>
-                                <img src={GFNavCardImg} alt='A preview for a website to help locate food for people with allergies.' className={styles.worksCarouselCardImage3}/>
+                                <img src={LLWebCardImg} alt='A view of a website for a restaurant called Little Lemon for a personal computer.' className={styles.worksCarouselCardImage2}/>
                             </div>
                             <h3 className={styles.worksTextHeader}>
-                                <span>Work in Progress</span>
+                                First Website
                                 <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M8 15L6.93125 13.95L11.1312 9.75H2V8.25H11.1312L6.93125 4.05L8 3L14 9L8 15Z" fill="green"/>
                                 </svg>
                             </h3>
                             <p className={styles.worksTextDescription}>
-                                This project is currently under construction, but is useful to fill this carousel :) Clicking here will take you back to the top page.
+                                The first website that I created. This was done through the capstone project offered by Meta through the Coursera Front End Developer Certification.
                             </p>
                             <div className={styles.worksTextTagsContainer}>
                                 <p className={styles.worksTextTags}>
@@ -201,19 +201,19 @@ const WorksCarousel = () => {
                             </div>
                         </div>
                     </Link>
-                    <Link to='/' reloadDocument>
+                    <Link to='/Work-LLWebsite' reloadDocument>
                         <div className={styles.worksCarouselCard}>
                             <div className={styles.worksCarouselCardImageContainer}>
-                                <img src={GFNavCardImg} alt='A preview for a website to help locate food for people with allergies.' className={styles.worksCarouselCardImage3}/>
+                                <img src={LLWebCardImg} alt='A view of a website for a restaurant called Little Lemon for a personal computer.' className={styles.worksCarouselCardImage2}/>
                             </div>
                             <h3 className={styles.worksTextHeader}>
-                                <span>Work in Progress</span>
+                                First Website
                                 <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M8 15L6.93125 13.95L11.1312 9.75H2V8.25H11.1312L6.93125 4.05L8 3L14 9L8 15Z" fill="green"/>
                                 </svg>
                             </h3>
                             <p className={styles.worksTextDescription}>
-                                This project is currently under construction, but is useful to fill this carousel :) Clicking here will take you back to the top page.
+                                The first website that I created. This was done through the capstone project offered by Meta through the Coursera Front End Developer Certification.
                             </p>
                             <div className={styles.worksTextTagsContainer}>
                                 <p className={styles.worksTextTags}>
@@ -282,19 +282,19 @@ const WorksCarousel = () => {
                             </div>
                         </div>
                     </Link>
-                    <Link to='/' reloadDocument>
+                    <Link to='/Work-LLWebsite' reloadDocument>
                         <div className={styles.worksCarouselCard}>
                             <div className={styles.worksCarouselCardImageContainer}>
-                                <img src={GFNavCardImg} alt='A preview for a website to help locate food for people with allergies.' className={styles.worksCarouselCardImage3}/>
+                                <img src={LLWebCardImg} alt='A view of a website for a restaurant called Little Lemon for a personal computer.' className={styles.worksCarouselCardImage2}/>
                             </div>
                             <h3 className={styles.worksTextHeader}>
-                                <span>Work in Progress</span>
+                                First Website
                                 <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M8 15L6.93125 13.95L11.1312 9.75H2V8.25H11.1312L6.93125 4.05L8 3L14 9L8 15Z" fill="green"/>
                                 </svg>
                             </h3>
                             <p className={styles.worksTextDescription}>
-                                This project is currently under construction, but is useful to fill this carousel :) Clicking here will take you back to the top page.
+                                The first website that I created. This was done through the capstone project offered by Meta through the Coursera Front End Developer Certification.
                             </p>
                             <div className={styles.worksTextTagsContainer}>
                                 <p className={styles.worksTextTags}>

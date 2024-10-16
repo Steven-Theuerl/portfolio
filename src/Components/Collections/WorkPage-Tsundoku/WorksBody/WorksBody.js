@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from './WorksBody.module.css'
+import { useMediaQuery } from 'react-responsive'
 
 import image1 from '../../../../assets/Images/Tsundoku/nextjs_visual.png'
 import image2 from '../../../../assets/Images/Tsundoku/CMS_visual.png'
@@ -8,6 +9,7 @@ import image4 from '../../../../assets/Images/Tsundoku/typescript.png'
 
 const WorksBody = () => {
 
+const screenUnder847px = useMediaQuery({ query: '(max-width: 847px)'})
 
   return (
     <div className={styles.entireWorksBody}>
@@ -166,7 +168,7 @@ const WorksBody = () => {
               <img src={image3} alt='display of the websites screens' className={styles.worksBodyImage}/>
               <div className={styles.worksBodyImageSubtext}>
                 <p>
-                  Map the relatedPosts, inject custom variable in each, sort the relatedPosts, slice the new array called sortedRelatedPosts.
+                  Map the relatedPosts, determine the value of the custom variable, inject it into each post object, sort the relatedPosts by value of the variable, slice the new array called sortedRelatedPosts.
                 </p>
               </div>
             </div>
@@ -217,6 +219,11 @@ const WorksBody = () => {
                     TypeScript is a superset of JavaScript.
                 </p>
               </div>
+            </div>
+            <div className={styles.outroContainer}>
+              <p>
+                <span>All of this text was paraphrased from an article that I wrote on Tsundoku about these topics. If you're interested, you can read more about them if you <a href="https://www.tsundoku.blog/posts/from-curious-to-coding-building-a-blog-with-next-js-sanity-typescript-and-tailwind">click here</a>!</span>
+              </p>
             </div>
         </div>
     </div>

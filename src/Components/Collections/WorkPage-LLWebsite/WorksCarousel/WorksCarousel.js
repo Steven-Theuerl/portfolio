@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 import portfolioCardImg from '../../../../assets/Images/Portfolio/portfolioHeroMobile.png'
 import LLAppCardImg from '../../../../assets/Images/LLApp/LLAppHeroMobile.png'
 import LLWebCardImg from '../../../../assets/Images/LLWebsite/LLWebsiteHeroMobile.png'
-import GFNavCardImg from '../../../../assets/Images/GFNav/GFNavHeroMobile.png'
+import TsundokuCardImg from '../../../../assets/Images/Tsundoku/TsundokuCarouselCard.png'
 
 const WorksCarousel = () => {
 
@@ -120,29 +120,29 @@ const WorksCarousel = () => {
                             </div>
                         </div>
                     </Link>
-                    <Link to='/' reloadDocument>
+                    <Link to='/Work-Tsundoku' reloadDocument>
                         <div className={styles.worksCarouselCard}>
                             <div className={styles.worksCarouselCardImageContainer}>
-                                <img src={GFNavCardImg} alt='A preview for a website to help locate food for people with allergies.' className={styles.worksCarouselCardImage3}/>
+                                <img src={TsundokuCardImg} alt='A preview for the Tsundoku.blog website.' className={styles.worksCarouselCardImage3}/>
                             </div>
                             <h3 className={styles.worksTextHeader}>
-                                <span>Work in Progress</span>
+                                <span>Tsundoku</span>
                                 <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M8 15L6.93125 13.95L11.1312 9.75H2V8.25H11.1312L6.93125 4.05L8 3L14 9L8 15Z" fill="green"/>
                                 </svg>
                             </h3>
                             <p className={styles.worksTextDescription}>
-                                This project is currently under construction, but is useful to fill this carousel :) Clicking here will take you back to the top page.
+                              My partner and I wanted our own place that we could publish articles related to web development, design, and lifestyle - so we made one.
                             </p>
                             <div className={styles.worksTextTagsContainer}>
-                                <p className={styles.worksTextTags}>
-                                    JavaScript
+                            <p className={styles.worksTextTags}>
+                                    Next.js
                                 </p>
                                 <p className={styles.worksTextTags}>
-                                    HTML
+                                    Sanity
                                 </p>
                                 <p className={styles.worksTextTags}>
-                                    CSS
+                                    TypeScript
                                 </p>
                             </div>
                         </div>
@@ -201,29 +201,29 @@ const WorksCarousel = () => {
                             </div>
                         </div>
                     </Link>
-                    <Link to='/' reloadDocument>
+                    <Link to='/Work-Tsundoku' reloadDocument>
                         <div className={styles.worksCarouselCard}>
                             <div className={styles.worksCarouselCardImageContainer}>
-                                <img src={GFNavCardImg} alt='A preview for a website to help locate food for people with allergies.' className={styles.worksCarouselCardImage3}/>
+                                <img src={TsundokuCardImg} alt='A preview for the Tsundoku.blog website.' className={styles.worksCarouselCardImage3}/>
                             </div>
                             <h3 className={styles.worksTextHeader}>
-                                <span>Work in Progress</span>
+                                <span>Tsundoku</span>
                                 <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M8 15L6.93125 13.95L11.1312 9.75H2V8.25H11.1312L6.93125 4.05L8 3L14 9L8 15Z" fill="green"/>
                                 </svg>
                             </h3>
                             <p className={styles.worksTextDescription}>
-                                This project is currently under construction, but is useful to fill this carousel :) Clicking here will take you back to the top page.
+                              My partner and I wanted our own place that we could publish articles related to web development, design, and lifestyle - so we made one.
                             </p>
                             <div className={styles.worksTextTagsContainer}>
-                                <p className={styles.worksTextTags}>
-                                    JavaScript
+                            <p className={styles.worksTextTags}>
+                                    Next.js
                                 </p>
                                 <p className={styles.worksTextTags}>
-                                    HTML
+                                    Sanity
                                 </p>
                                 <p className={styles.worksTextTags}>
-                                    CSS
+                                    TypeScript
                                 </p>
                             </div>
                         </div>
@@ -282,29 +282,29 @@ const WorksCarousel = () => {
                             </div>
                         </div>
                     </Link>
-                    <Link to='/' reloadDocument>
+                    <Link to='/Work-Tsundoku' reloadDocument>
                         <div className={styles.worksCarouselCard}>
                             <div className={styles.worksCarouselCardImageContainer}>
-                                <img src={GFNavCardImg} alt='A preview for a website to help locate food for people with allergies.' className={styles.worksCarouselCardImage3}/>
+                                <img src={TsundokuCardImg} alt='A preview for the Tsundoku.blog website.' className={styles.worksCarouselCardImage3}/>
                             </div>
                             <h3 className={styles.worksTextHeader}>
-                                <span>Work in Progress</span>
+                                <span>Tsundoku</span>
                                 <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M8 15L6.93125 13.95L11.1312 9.75H2V8.25H11.1312L6.93125 4.05L8 3L14 9L8 15Z" fill="green"/>
                                 </svg>
                             </h3>
                             <p className={styles.worksTextDescription}>
-                                This project is currently under construction, but is useful to fill this carousel :) Clicking here will take you back to the top page.
+                              My partner and I wanted our own place that we could publish articles related to web development, design, and lifestyle - so we made one.
                             </p>
                             <div className={styles.worksTextTagsContainer}>
-                                <p className={styles.worksTextTags}>
-                                    JavaScript
+                            <p className={styles.worksTextTags}>
+                                    Next.js
                                 </p>
                                 <p className={styles.worksTextTags}>
-                                    HTML
+                                    Sanity
                                 </p>
                                 <p className={styles.worksTextTags}>
-                                    CSS
+                                    TypeScript
                                 </p>
                             </div>
                         </div>
