@@ -2,7 +2,7 @@ import React from 'react'
 import styles from '../Footer/Footer.module.css'
 import { Link } from 'react-router-dom'
 
-import Resume from '../../../../assets/Documents/Steven_Theuerl_Resume-No_phone_Number.pdf'
+import Resume from '../../../../assets/Documents/Steven-Theuerl-Resume-noPhone.pdf'
 
 const Footer = () => {
   return (
@@ -19,7 +19,7 @@ const Footer = () => {
                             Home
                         </div>
                       </Link>
-                      <Link to='/Work-Portfolio' reloadDocument>
+                      <Link to='/Work-Tsundoku' reloadDocument>
                         <div className={styles.footerInPageLink}>
                             Work
                         </div>

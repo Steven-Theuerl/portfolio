@@ -222,7 +222,7 @@ const screenUnder847px = useMediaQuery({ query: '(max-width: 847px)'})
             </div>
             <div className={styles.outroContainer}>
               <p>
-                <span>All of this text was paraphrased from an article that I wrote on Tsundoku about these topics. If you're interested, you can read more about them if you <a href="https://www.tsundoku.blog/posts/from-curious-to-coding-building-a-blog-with-next-js-sanity-typescript-and-tailwind">click here</a>!</span>
+                <span>All of this text was paraphrased from an article that I wrote on Tsundoku about these topics. If you're interested, you can read more about them if you <a href="https://www.tsundoku.blog/posts/from-curious-to-coding-building-a-blog-with-next-js-sanity-typescript-and-tailwind" target='_blank'>click here</a>!</span>
               </p>
             </div>
         </div>

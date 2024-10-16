@@ -3,7 +3,7 @@ import { useState } from 'react'
 import styles from '../Navbar/Navbar.module.css'
 import { Link } from 'react-router-dom'
 
-import Resume from '../../../../assets/Documents/Steven_Theuerl_Resume-No_phone_Number.pdf'
+import Resume from '../../../../assets/Documents/Steven-Theuerl-Resume-noPhone.pdf'
 
 
 const Navbar = () => {
@@ -36,7 +36,7 @@ const Navbar = () => {
                         <Link to='/' reloadDocument>
                             <li className={styles.navULliItem}>Home</li>
                         </Link>
-                        <Link to='/Work-Portfolio' reloadDocument>
+                        <Link to='/Work-Tsundoku' reloadDocument>
                             <li className={styles.navULliItem}>Work</li>
                         </Link>
                         <Link to='/Contact' reloadDocument>
@@ -54,7 +54,7 @@ const Navbar = () => {
                     <Link to='/' reloadDocument>
                         <li className={styles.navULliItem}>Home</li>
                     </Link>
-                    <Link to='/Work-Portfolio' reloadDocument>
+                    <Link to='/Work-Tsundoku' reloadDocument>
                         <li className={styles.navULliItem}>Work</li>
                     </Link>
                     <Link to='/Contact' reloadDocument>
