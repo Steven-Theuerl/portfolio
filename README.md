@@ -1,2 +1,3 @@
-You can visit this project at:
-https://www.steventheuerl.xyz
+My personal portfolio site where I showcase the projects that I have completed.
+
+The site can be visited <a href="https://www.steventheuerl.xyz">here</a>.
