@@ -1,4 +1,3 @@
-
 # Portfolio – Steven Theuerl
 
 ![ezgif-40e029fce16a59](https://github.com/user-attachments/assets/5bc7690d-33ae-4ca8-bd59-76588c3c1df9)
@@ -52,3 +51,22 @@ npm run dev
 ## 🎨 Credits
 
 This project was co-designed with my partner, a professional UI/UX designer. All visual assets, layout guidance, and animation work were created collaboratively.
+
+---
+
+## ⚠️ Legal Notice
+
+This is a public-facing portfolio repository intended for informational and showcase purposes only.  
+All content and source code are original works by **Steven Theuerl**.
+
+You are **NOT** permitted to:
+- Copy, clone, modify, or redistribute any part of this work.
+- Use this work as the basis for your own product or project.
+- Claim authorship of any part of this project.
+
+Unauthorized use or imitation, in whole or in part, will be treated as intellectual property theft and may result in legal action.
+
+If you're interested in collaboration or licensing, please contact me directly.
+
+**© 2025 Steven Theuerl. All rights reserved.**
+```
