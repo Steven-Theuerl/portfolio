@@ -1,6 +1,8 @@
 
 # Portfolio – Steven Theuerl
 
+![ezgif-40e029fce16a59](https://github.com/user-attachments/assets/5bc7690d-33ae-4ca8-bd59-76588c3c1df9)
+
 This site was my first project built entirely from scratch, outside of any coursework or tutorial. It serves as a central hub to showcase my work, provide an “about me,” and give visitors a way to contact me — a happy medium between raw GitHub repos and long-form blog content.
 
 ---
