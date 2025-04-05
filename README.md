@@ -69,4 +69,3 @@ Unauthorized use or imitation, in whole or in part, will be treated as intellect
 If you're interested in collaboration or licensing, please contact me directly.
 
 **© 2025 Steven Theuerl. All rights reserved.**
-```
