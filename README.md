@@ -24,7 +24,7 @@ This site was my first project built entirely from scratch, outside of any cours
 - Custom sliding mobile menu using `useState()`  
 - Interactive carousel using native scroll logic  
 - Serverless contact form powered by EmailJS  
-- Original animation & design created in Figma by my wife  
+- Original animation & design created in Figma by my beautiful and talented wife  
 - Semantic routing using `react-router-dom`  
 - Brand-anchored user experience with custom character and styling  
 
