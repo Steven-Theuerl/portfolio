@@ -35,7 +35,7 @@ This site was my first project built entirely from scratch, outside of any cours
 git clone https://github.com/Steven-Theuerl/portfolio.git
 cd portfolio
 npm install
-npm run dev
+npm start
 ```
 
 > Open `http://localhost:3000` to view the site locally.
