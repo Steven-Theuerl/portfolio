@@ -1,0 +1,16 @@
+Copyright © 2025 Steven Theuerl. All rights reserved.
+
+This project, including all source code, content, visuals, writing, and design concepts, is the original work of Steven Theuerl, and is protected by copyright and intellectual property law.
+
+The content in this repository is provided *for informational and portfolio purposes only.*
+
+You are NOT permitted to:
+- Copy, clone, modify, or redistribute any part of this work.
+- Use this work as the basis for your own project or product.
+- Claim ownership or authorship of any part of this project.
+
+Any unauthorized use will be treated as intellectual property infringement and may result in legal action.
+
+If you wish to collaborate, contribute, or license this work, contact me directly.
+
+No reuse is granted by default. NONE.
